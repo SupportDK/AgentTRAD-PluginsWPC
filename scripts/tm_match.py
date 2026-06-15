@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 """
-tm_match.py — Fase determinista del traductor de plugins.
+tm_match.py — Deterministic phase of the plugin translator.
 
-Dado un archivo de origen (.pot o .po con msgstr vacíos) y un idioma destino:
-  1. Construye una memoria de traducción (registro) con TODOS los .po del
-     mismo idioma que ya existen en el proyecto.
-  2. Para cada cadena del origen, si existe una coincidencia EXACTA en el
-     registro, copia esa traducción tal cual (reutilización).
-  3. Las cadenas que no estén en el registro quedan vacías y se listan en un
-     archivo "<salida>.pending.json" para que el agente las traduzca.
+Given a source file (.pot or .po with empty msgstr) and a target language:
+  1. Builds a translation memory (registry) from ALL the .po files of the same
+     language that already exist in the project.
+  2. For each source string, if there is an EXACT match in the registry, it
+     copies that translation as-is (reuse).
+  3. Strings that are not in the registry are left empty and listed in a file
+     "<output>.pending.json" for the agent to translate.
 
-Uso:
-  python3 scripts/tm_match.py <origen|slug> <idioma> [--out RUTA] [--registry-dir DIR]
+Usage:
+  python3 scripts/tm_match.py <source|slug> <language> [--out PATH] [--registry-dir DIR]
 
-Ejemplos:
+Examples:
   python3 scripts/tm_match.py pot/wp-connect-foo.pot fr
-  python3 scripts/tm_match.py wp-connect-foo es        # busca el .pot por slug
+  python3 scripts/tm_match.py wp-connect-foo es        # find the .pot by slug
 """
 import argparse
 import json
@@ -25,23 +25,23 @@ import sys
 try:
     import polib
 except ImportError:
-    sys.exit("ERROR: falta 'polib'. Instálalo con: pip install polib")
+    sys.exit("ERROR: 'polib' is missing. Install it with: pip install polib")
 
 
 def norm_lang(value):
-    """Normaliza un código de idioma: 'es_ES' -> 'es', 'pt-BR' -> 'pt'."""
+    """Normalize a language code: 'es_ES' -> 'es', 'pt-BR' -> 'pt'."""
     if not value:
         return ""
     return value.replace("-", "_").split("_")[0].strip().lower()
 
 
 def key_of(entry):
-    """Clave única de una cadena: (contexto, msgid)."""
+    """Unique key for a string: (context, msgid)."""
     return (entry.msgctxt or "", entry.msgid)
 
 
 def resolve_input(arg):
-    """Si 'arg' es un archivo, lo devuelve. Si es un slug, lo busca."""
+    """If 'arg' is a file, return it. If it is a slug, look it up."""
     if os.path.isfile(arg):
         return arg
     base = arg
@@ -55,11 +55,11 @@ def resolve_input(arg):
     for c in candidates:
         if os.path.isfile(c):
             return c
-    sys.exit(f"ERROR: no encuentro el origen para '{arg}'. Probé: {candidates}")
+    sys.exit(f"ERROR: cannot find the source for '{arg}'. Tried: {candidates}")
 
 
 def base_slug(path, lang):
-    """Deriva el slug base quitando extensión y sufijo de idioma previo."""
+    """Derive the base slug by stripping the extension and any previous language suffix."""
     name = os.path.splitext(os.path.basename(path))[0]
     for suffix in (f"-{lang}", f"_{lang}", f"-{norm_lang(lang)}", f"_{norm_lang(lang)}"):
         if name.endswith(suffix):
@@ -69,13 +69,13 @@ def base_slug(path, lang):
 
 
 def build_registry(registry_dir, lang, exclude_paths):
-    """Lee todos los .po del idioma destino y devuelve {clave: entrada}."""
+    """Read every .po of the target language and return {key: entry}."""
     target = norm_lang(lang)
     tm = {}
     files_used = []
     exclude = {os.path.abspath(p) for p in exclude_paths}
     for root, _dirs, files in os.walk(registry_dir):
-        # Ignorar carpetas internas
+        # Skip internal folders
         if any(part in root for part in (".claude", "scripts", "__pycache__")):
             continue
         for fn in files:
@@ -100,7 +100,7 @@ def build_registry(registry_dir, lang, exclude_paths):
                 if not has_tr:
                     continue
                 k = key_of(e)
-                # No sobrescribir: el primero que aparezca manda (estable).
+                # Do not overwrite: the first occurrence wins (stable).
                 if k not in tm:
                     tm[k] = e
                     used = True
@@ -112,11 +112,11 @@ def build_registry(registry_dir, lang, exclude_paths):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Reutiliza traducciones del registro y lista pendientes.")
-    ap.add_argument("origen", help="archivo .pot/.po de origen o slug del plugin")
-    ap.add_argument("idioma", help="código de idioma destino (es, fr, de, it, pt...)")
-    ap.add_argument("--out", help="ruta del .po de salida")
-    ap.add_argument("--registry-dir", default=".", help="carpeta raíz del registro (def: .)")
+    ap = argparse.ArgumentParser(description="Reuse translations from the registry and list pending strings.")
+    ap.add_argument("origen", help="source .pot/.po file or plugin slug")
+    ap.add_argument("idioma", help="target language code (es, fr, de, it, pt...)")
+    ap.add_argument("--out", help="output .po path")
+    ap.add_argument("--registry-dir", default=".", help="registry root folder (default: .)")
     args = ap.parse_args()
 
     src_path = resolve_input(args.origen)
@@ -171,17 +171,17 @@ def main():
         json.dump(pending, f, ensure_ascii=False, indent=2)
 
     total = reused + len(pending)
-    print(f"Origen      : {src_path}")
-    print(f"Idioma      : {lang}  (normalizado: {norm_lang(lang)})")
-    print(f"Registro    : {len(files_used)} archivo(s), {len(tm)} cadenas en memoria")
-    print(f"Salida      : {out_path}")
-    print(f"Pendientes  : {pending_path}")
+    print(f"Source      : {src_path}")
+    print(f"Language    : {lang}  (normalized: {norm_lang(lang)})")
+    print(f"Registry    : {len(files_used)} file(s), {len(tm)} strings in memory")
+    print(f"Output      : {out_path}")
+    print(f"Pending     : {pending_path}")
     print("-" * 48)
-    print(f"Total cadenas : {total}")
-    print(f"Reutilizadas  : {reused}")
-    print(f"A traducir    : {len(pending)}")
+    print(f"Total strings : {total}")
+    print(f"Reused        : {reused}")
+    print(f"To translate  : {len(pending)}")
     if total:
-        print(f"Cobertura     : {reused * 100 // total}% desde el registro")
+        print(f"Coverage      : {reused * 100 // total}% from the registry")
 
 
 if __name__ == "__main__":

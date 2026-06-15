@@ -1,49 +1,49 @@
-# AgentTRAD — Traductor de plugins WP Connect
+# AgentTRAD — WP connect plugin translator
 
-Agente de Claude Code para traducir las cadenas (`.po`/`.pot`) de los plugins de
-**WP Connect** a cualquier idioma, **reutilizando primero** las traducciones que
-ya existen en el proyecto (memoria de traducción) y traduciendo solo las cadenas
-nuevas.
+Claude Code agent that translates the strings (`.po`/`.pot`) of the **WP connect**
+plugins into any language, **reusing first** the translations that already exist
+in the project (translation memory) and translating only the new strings.
 
-## Uso
+## Usage
 
-1. Deja el archivo de origen del plugin en [`pot/`](pot/) con el slug como nombre:
-   `pot/<slug>.pot` (plantilla en inglés) o `pot/<slug>.po` (con `msgstr` vacíos).
-2. Ejecuta el comando:
+1. Drop the plugin source file into [`pot/`](pot/), named with the plugin slug:
+   `pot/<slug>.pot` (English template) or `pot/<slug>.po` (with empty `msgstr`).
+2. Run the command:
 
    ```
-   /traducir <slug> <idioma>
+   /traducir <slug> <language>
    ```
 
-   Ejemplo: `/traducir wp-connect-foo fr`
-3. El resultado se genera en la raíz como `<slug>-<idioma>.po`.
+   Example: `/traducir wp-connect-foo fr`
+3. The result is written to the project root as `<slug>-<language>.po`.
 
-## Cómo funciona
+## How it works
 
-1. **Mira primero el registro**: construye una memoria con todos los `.po` del
-   mismo idioma destino y reutiliza las **coincidencias exactas** tal cual
-   (consistencia entre plugins).
-2. **Solo traduce lo que no conoce**: las cadenas ausentes del registro se
-   traducen respetando marcadores (`%s`, `%1$s`), HTML, plurales, espacios y sin
-   tocar nombres de marca (`WP connect`, `Notion`, `Airtable`...).
-3. **Verifica** que no quede ninguna cadena vacía.
+1. **Look at the registry first**: it builds a memory from every `.po` of the
+   target language and reuses the **exact matches** as-is (consistency across
+   plugins).
+2. **Only translate what it doesn't know**: strings missing from the registry are
+   translated while preserving placeholders (`%s`, `%1$s`), HTML, plurals and
+   whitespace, and without touching brand names (`WP connect`, `Notion`,
+   `Airtable`...).
+3. **Verify** that no string is left empty.
 
-Cada `.po` generado pasa a formar parte del registro para las siguientes
-traducciones del mismo idioma.
+Every generated `.po` becomes part of the registry for the next translations of
+the same language.
 
-## Estructura
+## Structure
 
 ```
 .claude/
-├── agents/traductor-plugins.md   Subagente con la metodología
-└── commands/traducir.md          Comando /traducir
+├── agents/traductor-plugins.md   Subagent with the methodology
+└── commands/traducir.md          /traducir command
 scripts/
-├── tm_match.py                   Reutiliza del registro + lista pendientes
-└── tm_apply.py                   Vuelca las traducciones nuevas al .po
-pot/                              Archivos de origen a traducir
-*.po                              Registro de traducciones (memoria)
+├── tm_match.py                   Reuses from the registry + lists pending
+└── tm_apply.py                   Applies the new translations to the .po
+pot/                              Source files to translate
+*.po                              Translation registry (memory)
 ```
 
-## Requisitos
+## Requirements
 
-- Python 3 con [`polib`](https://pypi.org/project/polib/): `pip install polib`
+- Python 3 with [`polib`](https://pypi.org/project/polib/): `pip install polib`
