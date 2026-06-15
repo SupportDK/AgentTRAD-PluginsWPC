@@ -19,11 +19,18 @@ traduces los huecos.
 
 ## Entrada
 
-Recibirás un **slug de plugin** (o ruta a un `.pot`/`.po`) y un **código de
-idioma** (`es`, `fr`, `de`, `it`, `pt`...). El archivo de origen está en la
-carpeta `pot/` (o en la raíz). Si no lo encuentras, díselo al usuario y para.
+Recibirás un **slug de plugin** (o ruta a un `.pot`/`.po`) y **uno o varios
+códigos de idioma** (`es`, `fr`, `de`, `it`, `pt`...). El archivo de origen está
+en la carpeta `pot/` (o en la raíz). Si no lo encuentras, díselo al usuario y para.
 
-## Procedimiento (síguelo en orden)
+## Procedimiento
+
+Si te piden **varios idiomas**, repite los pasos 1–4 **una vez por cada idioma**
+(traduce un idioma completo antes de pasar al siguiente) y, al terminar todos,
+ejecuta el paso 5 (empaquetado). Si es un solo idioma, igualmente ejecuta el
+paso 5 para entregar el `languages.zip`.
+
+Pasos por idioma (en orden):
 
 ### 1. Reutilizar desde el registro (determinista)
 
@@ -68,13 +75,30 @@ python3 scripts/tm_apply.py <slug>-<idioma>.po <slug>-<idioma>.translations.json
 Si reporta "Vacías aún" > 0, te faltaron cadenas: complétalas en el
 `translations.json` y vuelve a aplicar hasta que quede en 0.
 
-### 4. Limpieza y verificación final
+### 4. Limpieza y verificación (de este idioma)
 
 - Verifica que no quedan cadenas vacías:
   `python3 -c "import polib,sys; p=polib.pofile(sys.argv[1]); v=[e for e in p if e.msgid and not e.msgstr and not any(e.msgstr_plural.values())]; print('vacías:',len(v))" <slug>-<idioma>.po`
 - Borra los temporales: `<slug>-<idioma>.po.pending.json` y `<slug>-<idioma>.translations.json`.
-- Da un resumen final al usuario: cuántas reutilizadas del registro, cuántas
-  traducidas nuevas, y la ruta del `.po` generado.
+- Anota el resumen del idioma (reutilizadas / traducidas nuevas) para el informe final.
+
+### 5. Empaquetar todos los idiomas (al final, una sola vez)
+
+Cuando todos los idiomas estén traducidos y verificados, comprime los `.po`
+generados en un `languages.zip`:
+
+```bash
+python3 scripts/tm_pack.py <slug> <idioma1> <idioma2> ...
+```
+
+Esto crea `languages.zip` con una carpeta `languages/` dentro que contiene un
+`<slug>-<idioma>.po` por cada idioma (formato listo para WordPress).
+
+Los `.po` se quedan también en la raíz: son el registro (memoria) para futuras
+traducciones. No los borres.
+
+Resumen final al usuario: por cada idioma cuántas se reutilizaron del registro y
+cuántas se tradujeron nuevas, más la ruta de `languages.zip`.
 
 ## Reglas de calidad de la traducción
 

@@ -8,14 +8,18 @@ in the project (translation memory) and translating only the new strings.
 
 1. Drop the plugin source file into [`pot/`](pot/), named with the plugin slug:
    `pot/<slug>.pot` (English template) or `pot/<slug>.po` (with empty `msgstr`).
-2. Run the command:
+2. Run the command with one or more languages:
 
    ```
-   /traducir <slug> <language>
+   /traducir <slug> <language> [language2 language3 ...]
    ```
 
-   Example: `/traducir wp-connect-foo fr`
-3. The result is written to the project root as `<slug>-<language>.po`.
+   Examples:
+   - `/traducir wp-connect-foo fr`
+   - `/traducir wp-connect-foo fr de it`  (multi-language in a single run)
+3. Each `<slug>-<language>.po` is written to the project root (and feeds the
+   registry), and all of them are bundled into `languages.zip` (inside a
+   `languages/` folder, ready for WordPress).
 
 ## How it works
 
@@ -39,7 +43,8 @@ the same language.
 └── commands/traducir.md          /traducir command
 scripts/
 ├── tm_match.py                   Reuses from the registry + lists pending
-└── tm_apply.py                   Applies the new translations to the .po
+├── tm_apply.py                   Applies the new translations to the .po
+└── tm_pack.py                    Bundles the generated .po files into languages.zip
 pot/                              Source files to translate
 *.po                              Translation registry (memory)
 ```
