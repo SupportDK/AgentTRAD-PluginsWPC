@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+"""
+tm_apply.py — Vuelca las traducciones nuevas (las que NO estaban en el
+registro) al .po de salida generado por tm_match.py.
+
+El archivo de traducciones es un JSON con esta forma:
+  [
+    {"msgctxt": null, "msgid": "Hello", "msgstr": "Hola"},
+    {"msgctxt": null, "msgid": "%s item", "msgid_plural": "%s items",
+     "msgstr_plural": {"0": "%s elemento", "1": "%s elementos"}}
+  ]
+
+Uso:
+  python3 scripts/tm_apply.py <salida.po> <traducciones.json>
+"""
+import json
+import sys
+
+try:
+    import polib
+except ImportError:
+    sys.exit("ERROR: falta 'polib'. Instálalo con: pip install polib")
+
+
+def key_of(msgctxt, msgid):
+    return (msgctxt or "", msgid)
+
+
+def main():
+    if len(sys.argv) != 3:
+        sys.exit("Uso: python3 scripts/tm_apply.py <salida.po> <traducciones.json>")
+    po_path, json_path = sys.argv[1], sys.argv[2]
+
+    po = polib.pofile(po_path)
+    with open(json_path, encoding="utf-8") as f:
+        items = json.load(f)
+
+    index = {key_of(e.msgctxt, e.msgid): e for e in po if not e.obsolete}
+
+    applied = 0
+    missing = []
+    for it in items:
+        k = key_of(it.get("msgctxt"), it["msgid"])
+        e = index.get(k)
+        if e is None:
+            missing.append(it["msgid"])
+            continue
+        if e.msgid_plural:
+            plural = it.get("msgstr_plural") or {}
+            e.msgstr_plural = {int(i): v for i, v in plural.items()}
+        else:
+            e.msgstr = it.get("msgstr", "")
+        applied += 1
+
+    po.save(po_path)
+
+    empty = [e for e in po if not e.obsolete and e.msgid
+             and not e.msgstr and not any(e.msgstr_plural.values())]
+    print(f"Aplicadas     : {applied}")
+    if missing:
+        print(f"No encontradas: {len(missing)} (msgid no presente en el .po)")
+        for m in missing[:10]:
+            print(f"  - {m!r}")
+    print(f"Vacías aún    : {len(empty)}")
+    for e in empty[:10]:
+        print(f"  - {e.msgid!r}")
+    if empty:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

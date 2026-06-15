@@ -1,0 +1,406 @@
+# Translation of WP connect - addon_gf-sendgrid in Spanish (Spain)
+# This file is distributed under the same license as the WP connect - addon_gf-sendgrid package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-03 18:35:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: es\n"
+"Project-Id-Version: WP connect - addon_gf-sendgrid\n"
+
+#: includes/hooks.php:206
+msgid "Retry"
+msgstr ""
+
+#: includes/hooks.php:196
+msgid "Record has been resubmitted to SendGrid."
+msgstr ""
+
+#: includes/classes/class-api-licensing.php:360
+msgid "Automatic updates are unavailable because the license is missing or inactive. Enter your license on the %1$sSettings%2$s page or check your %3$sWP connect account%4$s."
+msgstr ""
+
+#: includes/classes/class-api-licensing.php:349
+msgid "License Not Activated. The plugin license is not activated. To enable updates and support, please enter your licence key on the %1$sSettings%2$s page. You can find your license in your %3$sWP connect account%4$s. If you don’t have a licence key, please see %5$sdetails & pricing%6$s."
+msgstr "Licencia no activada. Tu licencia no se encuentra activada. Para habilitar actualizaciones y soporte, introduce tu licencia en la página de %1$sAjustes%2$s. Puedes encontrar tu licencia en tu %3$scuenta de WP connect%4$s. Si no dispones de una licencia, consulta %5$sdetalles y precios%6$s."
+
+#: includes/classes/class-api-licensing.php:341
+msgid "License Activated but Disabled. Your license is currently disabled. Please %1$srenew or manage it in your WP connect account%2$s to restore access to updates and support. If you don’t have a licence key, please see %3$sdetails & pricing%4$s."
+msgstr "Licencia activada pero deshabilitada. Tu licencia ha sido deshabilitada. %1$sRenuévala en tu cuenta de WP connect%2$s para recuperar el acceso a actualizaciones y soporte. Si no dispones de una licencia, consulta %3$sdetalles y precios%4$s."
+
+#: includes/classes/class-api-licensing.php:333
+msgid "License Activated but Expired. Your license has expired. Please %1$srenew it on your WP connect account%2$s to continue receiving updates and support. If you don’t have a licence key, please see %3$sdetails & pricing%4$s."
+msgstr "Licencia activada pero caducada. Tu licencia ha caducado. Por favor, %1$srenuévala en tu cuenta de WP connect%2$s para seguir recibiendo actualizaciones y soporte. Si no tiens una licencia, consulta %3$sdetalles y precios%4$s."
+
+#: wpconnect-gf-sendgrid.php:137
+msgid "The \"Gravity Forms to SendGrid Add-On\" plugin is <strong>inactive</strong> because the <strong>minimal</strong> requirements are not met."
+msgstr "El complemento \"Gravity Forms to SendGrid Add-On\" está <strong>inactivo</strong> porque no se cumplen los requisitos <strong>mínimos</strong> ."
+
+#: wpconnect-gf-sendgrid.php:126
+msgid "Gravity Forms is required"
+msgstr "Se requiere Gravity Forms"
+
+#: wpconnect-gf-sendgrid.php:122
+msgid "WordPress minimum supported version is 5.5"
+msgstr "La versión mínima compatible de WordPress es 5.5"
+
+#: wpconnect-gf-sendgrid.php:121
+msgid "PHP minimum supported version is 7.0"
+msgstr "La versión mínima compatible de PHP es 7.0"
+
+#: includes/hooks.php:182
+msgid "Existing contact updated."
+msgstr "Contacto existente actualizado."
+
+#: includes/hooks.php:176
+msgid "New contact created."
+msgstr "Nuevo contacto creado."
+
+#: includes/hooks.php:163
+msgid "Error:"
+msgstr "Error:"
+
+#: includes/hooks.php:156
+msgid "Error message: "
+msgstr "Mensaje de error: "
+
+#: includes/hooks.php:151
+msgid "Error code: "
+msgstr "Código de error: "
+
+#. translators: #%1$d Feed id.
+#: includes/hooks.php:139
+msgid "Feed #%1$d"
+msgstr "Alimentación n.° %1$d"
+
+#: includes/hooks.php:130 includes/hooks.php:188
+msgid "No data."
+msgstr "No hay datos."
+
+#: includes/hooks.php:95
+msgid "SendGrid"
+msgstr "SendGrid"
+
+#: includes/hooks.php:72
+msgid "No e-mail address found in form values."
+msgstr "No se encontró ninguna dirección de correo electrónico en los valores del formulario."
+
+#: includes/classes/class-plugin-updater.php:590
+msgid "Error"
+msgstr "Error"
+
+#: includes/classes/class-plugin-updater.php:590
+msgid "You do not have permission to install plugin updates"
+msgstr "No tienes permiso para instalar actualizaciones del plugin"
+
+#: includes/classes/class-plugin-updater.php:362
+msgid "Update now."
+msgstr "Actualizar ahora."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate. 4. opening anchor tag, do
+#. not translate 5. closing anchor tag, do not translate.
+#: includes/classes/class-plugin-updater.php:351
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sVer versión %2$s detalles%3$s o %4$sactualizar ahora%5$s."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate.
+#: includes/classes/class-plugin-updater.php:342
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$s Ver versión %2$s detalles %3$s."
+
+#: includes/classes/class-plugin-updater.php:337
+msgid "Contact your network administrator to install the update."
+msgstr "Pónte en contacto con tu administrador de red para instalar la actualización."
+
+#. translators: the plugin name.
+#: includes/classes/class-plugin-updater.php:331
+msgid "There is a new version of %1$s available."
+msgstr "Hay una nueva versión de %1$s disponible."
+
+#: includes/classes/class-plugin-updater.php:183
+msgid "the add-on page on WPconnect.co"
+msgstr ""
+
+#: includes/classes/class-plugin-updater.php:177
+msgid "add-On Settings page"
+msgstr ""
+
+#. translators: 1: Add-on settings page link, 2: Add-on page link on
+#. wpconnect.co
+#: includes/classes/class-plugin-updater.php:172
+msgid "To enable updates, please enter your license key on the %$1s. If you don't have a licence key, please visit %$2s."
+msgstr "Para habilitar las actualizaciones, ingresa tu licencia en %$1s. Si no tienes licencia, visita %$2s."
+
+#. translators: %1$s: the feed name
+#: includes/classes/class-gf-double-opt-in.php:371
+msgid "Double opt-in confirmation link (feed: \"%1$s\")"
+msgstr "Enlace de confirmación de doble opt-in (feed: \"%1$s\")"
+
+#: includes/classes/class-gf-double-opt-in.php:321
+msgid "Please click on the link below to confirm your subscription"
+msgstr "Por favor haz clic en el enlace de abajo para confirmar tu suscripción"
+
+#: includes/classes/class-gf-double-opt-in.php:308
+msgid "Subscription confirmation"
+msgstr "Confirmación de suscripción"
+
+#: includes/classes/class-gf-double-opt-in.php:301
+msgid "Double opt-in email confirmation"
+msgstr "Confirmación por correo electrónico de doble opt-in"
+
+#: includes/classes/class-gf-double-opt-in.php:207
+msgid "No opt-in field detected. At least one \"Consent\" field is required in your form to enable the double opt-in feature."
+msgstr "No se ha detectado ningún campo opt-in. Se requiere al menos un campo de \"Consentimiento\" en tu formulario para activar la función de doble opt-in."
+
+#: includes/classes/class-gf-double-opt-in.php:199
+msgid "A preconfigured form notification will be automatically created."
+msgstr "Se creará automáticamente una notificación de formulario preconfigurada."
+
+#: includes/classes/class-gf-double-opt-in.php:197
+msgid "Edit the notification"
+msgstr "Editar la notificación"
+
+#: includes/classes/class-gf-double-opt-in.php:190
+msgid "Confirmation email"
+msgstr "Email de confirmación"
+
+#: includes/classes/class-gf-double-opt-in.php:175
+msgid "Please enter a valid URL."
+msgstr "Por favor, introduce una URL válido."
+
+#: includes/classes/class-gf-double-opt-in.php:172
+msgid "This is the URL of the web page that the user will be redirected to after clicking on the double opt-in confirmation link."
+msgstr "Esta es la URL de la página web a la que será redirigido el usuario después de hacer clic en el enlace de confirmación de doble opt-in."
+
+#: includes/classes/class-gf-double-opt-in.php:167
+msgid "Redirection URL"
+msgstr "URL de redireccionamiento"
+
+#: includes/classes/class-gf-double-opt-in.php:158
+msgid "Opt-in field"
+msgstr "Campo Opt-in"
+
+#: includes/classes/class-gf-double-opt-in.php:150
+msgid "Enable double opt-in."
+msgstr "Habilitar doble opt-in."
+
+#: includes/classes/class-gf-double-opt-in.php:147
+msgid "By enabling this, Gravity Forms will send a confirmation email to the user before adding them to your list(s)."
+msgstr "Al habilitar esto, Gravity Forms enviará un correo electrónico de confirmación al usuario antes de agregarlo a tu(s) lista(s)."
+
+#: includes/classes/class-gf-double-opt-in.php:81
+#: includes/classes/class-gf-double-opt-in.php:145
+#: includes/classes/class-gf-double-opt-in.php:205
+#: includes/classes/class-gf-double-opt-in.php:475
+msgid "Double opt-in"
+msgstr "Doble opt-in"
+
+#: includes/classes/class-gf-api-licensing.php:179
+msgid "Your license is inactive or invalid."
+msgstr "Tu licencia está inactiva o no es válida."
+
+#: includes/classes/class-gf-api-licensing.php:151
+msgid "License successfully de-activated."
+msgstr "Licencia desactivada exitosamente."
+
+#: includes/classes/class-gf-api-licensing.php:146
+msgid "License successfully activated."
+msgstr "Licencia exitosamente activada."
+
+#: includes/classes/class-gf-api-licensing.php:132
+msgid "De-activate"
+msgstr "Desactivar"
+
+#: includes/classes/class-gf-api-licensing.php:126
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/classes/class-gf-api-licensing.php:118
+msgid "License Key"
+msgstr "Licencia"
+
+#: includes/classes/class-gf-api-licensing.php:71
+msgid "License Activation"
+msgstr "Activación de licencia"
+
+#: includes/classes/class-gf-addon.php:441
+msgid "Create a contact in SendGrid only if"
+msgstr "Crea un contacto en SendGrid solo si"
+
+#: includes/classes/class-gf-addon.php:440
+msgid "Enable conditional processing"
+msgstr "Habilitar el procesamiento condicional"
+
+#: includes/classes/class-gf-addon.php:439
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: includes/classes/class-gf-addon.php:432
+msgid "Conditional logic"
+msgstr "Lógica condicional"
+
+#: includes/classes/class-gf-addon.php:426
+msgid "Integration with SendGrid"
+msgstr "Integración con SendGrid"
+
+#: includes/classes/class-gf-addon.php:410
+msgid "No SendGrid list has been detected yet. Create one and refresh this page after 1 minute."
+msgstr "No se ha detectado ninguna lista de SendGrid todavía. Crea una y actualiza esta página después de 1 minuto."
+
+#: includes/classes/class-gf-addon.php:408
+msgid "No list detected. The contact will be added to the \"All Contacts\" default list."
+msgstr "No se detectó ninguna lista. El contacto se agregará a la lista predeterminada \"Todos los contactos\"."
+
+#: includes/classes/class-gf-addon.php:391
+msgid "All your SendGrid lists are displayed below. You can choose which one(s) to save each new contact to."
+msgstr "Todas tus listas de SendGrid se muestran a continuación. Puedes elegir en cuál(es) guardar cada nuevo contacto."
+
+#: includes/classes/class-gf-addon.php:390
+msgid "Add to list(s)"
+msgstr "Añadir a la(s) lista(s)"
+
+#: includes/classes/class-gf-addon.php:380
+msgid "Please add a mapping for the SendGrid email field."
+msgstr "Agrega una asignación para el correo electrónico de SendGrid."
+
+#: includes/classes/class-gf-addon.php:375
+msgid "SendGrid fields"
+msgstr "Campos de SendGrid"
+
+#: includes/classes/class-gf-addon.php:373
+msgid "Form fields"
+msgstr "Campos del Formulario"
+
+#: includes/classes/class-gf-addon.php:369
+msgid "Add and select the SendGrid fields for which to send data, then choose the form fields that match."
+msgstr "Agrega y selecciona los campos de SendGrid para los cuales deseas enviar datos, luego elige los campos del formulario que coincidan."
+
+#: includes/classes/class-gf-addon.php:368
+msgid "Fields mapping"
+msgstr "Asignación de campos"
+
+#: includes/classes/class-gf-addon.php:362
+msgid "Enter a feed name to uniquely identify it."
+msgstr "Introduce un nombre de fuente para identificarla de forma única."
+
+#: includes/classes/class-gf-addon.php:358
+msgid "Feed name"
+msgstr "Nombre de la fuente"
+
+#: includes/classes/class-gf-addon.php:343
+msgid "Custom Fields"
+msgstr "Campos personalizados"
+
+#: includes/classes/class-gf-addon.php:326
+msgid "SendGrid Fields"
+msgstr "Campos de SendGrid"
+
+#: includes/classes/class-gf-addon.php:314
+msgid "API key missing or invalid"
+msgstr "Clave API faltante o no válida"
+
+#: includes/classes/class-gf-addon.php:307
+msgid "plugin settings page"
+msgstr ""
+
+#. translators: 1: plugin settings page link
+#: includes/classes/class-gf-addon.php:303
+msgid "Please visit the %$1s and enter a valid SendGrid API key."
+msgstr "Visita %$1s e ingresa una clave API de SendGrid válida."
+
+#: includes/classes/class-gf-addon.php:202
+msgid "Condition(s)"
+msgstr "Condición (es)"
+
+#: includes/classes/class-gf-addon.php:197
+msgid "List(s)"
+msgstr "Lista(s)"
+
+#: includes/classes/class-gf-addon.php:196
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/classes/class-gf-addon.php:142
+msgid "SendGrid API Key"
+msgstr "Clave API de SendGrid"
+
+#. translators: SendGrid API setting page link text
+#: includes/classes/class-gf-addon.php:139
+msgid "\"Settings > API Keys\""
+msgstr "“Ajustes > Claves API\""
+
+#. translators: 1: SendGrid API setting page link
+#: includes/classes/class-gf-addon.php:134
+msgid "Visit the %1$s page in your SendGrid account to generate an API key."
+msgstr "Visita la página %1$s en tu cuenta de SendGrid para generar una clave API."
+
+#: includes/classes/class-gf-addon.php:126
+msgid "SendGrid Add-On Settings"
+msgstr "Ajustes SendGrid Add-On"
+
+#: includes/classes/class-api-sendgrid.php:92
+msgid "The SendGrid API returned an error."
+msgstr "La API SendGrid devolvió un error."
+
+#: includes/classes/class-api-licensing.php:190
+#: includes/classes/class-api-licensing.php:198
+#: includes/classes/class-api-licensing.php:253
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error, por favor inténtalo de nuevo."
+
+#: includes/classes/class-api-licensing.php:187
+msgid "Your license key has reached its activation limit."
+msgstr "Tu licencia ha alcanzado su límite de activación."
+
+#: includes/classes/class-api-licensing.php:184
+msgid "Your license is not active for this URL."
+msgstr "Tu licencia no está activa para esta URL."
+
+#: includes/classes/class-api-licensing.php:180
+msgid "Invalid license."
+msgstr "Licencia no válida."
+
+#: includes/classes/class-api-licensing.php:177
+msgid "Your license key has been disabled."
+msgstr "Tu licencia ha sido deshabilitada."
+
+#. translators: the license key expiration date
+#: includes/classes/class-api-licensing.php:170
+msgid "Your license key expired on %s."
+msgstr "Tu licencia expiró el %s."
+
+#. translators: the HTTP response code
+#: includes/classes/class-api-licensing.php:151
+#: includes/classes/class-api-licensing.php:236
+msgid "WP connect server returned an HTTP error, code: %s"
+msgstr "El servidor WP connect ha devuelto un error HTTP, código: %s"
+
+#. Author URI of the plugin
+#: wpconnect-gf-sendgrid.php
+msgid "https://wpconnect.co/"
+msgstr "https://wpconnect.co/"
+
+#. Author of the plugin
+#: wpconnect-gf-sendgrid.php
+msgid "WP connect"
+msgstr "WP connect"
+
+#. Description of the plugin
+#: wpconnect-gf-sendgrid.php
+msgid "Create SendGrid contacts directly from your Gravity Forms."
+msgstr "Crea contactos de SendGrid directamente desde tus Gravity Forms."
+
+#. Plugin URI of the plugin
+#: wpconnect-gf-sendgrid.php
+msgid "https://wpconnect.co/gravity-forms-to-sendgrid-add-on/"
+msgstr "https://wpconnect.co/gravity-forms-to-sendgrid-add-on/"
+
+#. Plugin Name of the plugin
+#: wpconnect-gf-sendgrid.php
+msgid "Gravity Forms to SendGrid Add-On"
+msgstr "Gravity Forms to SendGrid Add-On"

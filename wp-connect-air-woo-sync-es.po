@@ -1,0 +1,2652 @@
+# Translation of WP connect - air-woo-sync in Spanish (Spain)
+# This file is distributed under the same license as the WP connect - air-woo-sync package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: es\n"
+"Project-Id-Version: WP connect - air-woo-sync\n"
+
+#: assets/src/metabox-mapping/src/App.js:60
+#: assets/js/metabox-mapping/main.js:7590
+msgid "Click the <strong>+ Add Field</strong> button to create your first field."
+msgstr "Haz clic en el botón <strong>+ Añadir campo</strong> para crear tu primer campo."
+
+#: assets/src/metabox-mapping/src/App.js:43
+#: assets/src/metabox-mapping/src/MappingRow.js:133
+#: assets/js/metabox-mapping/main.js:3710
+#: assets/js/metabox-mapping/main.js:7573
+msgid "Import As"
+msgstr "Importar como"
+
+#: assets/src/metabox-mapping/src/App.js:40
+#: assets/src/metabox-mapping/src/App.js:45
+#: assets/src/metabox-mapping/src/MappingRow.js:43
+#: assets/src/metabox-mapping/src/MappingRow.js:107
+#: assets/src/metabox-mapping/src/MappingRow.js:135
+#: assets/js/metabox-mapping/main.js:3620
+#: assets/js/metabox-mapping/main.js:3684
+#: assets/js/metabox-mapping/main.js:3712
+#: assets/js/metabox-mapping/main.js:7570
+#: assets/js/metabox-mapping/main.js:7575
+msgid " (required)"
+msgstr " (requerido)"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/LicenseKeyForm.js:65
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/LicenseKeyForm.js:20
+msgid "License"
+msgstr "Licencia"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/CacheForm.js:50
+msgid "Airtable’s table structure is cached for 15 minutes for performance reasons."
+msgstr "La estructura de la tabla de Airtable se almacena en caché durante 15 minutos por razones de rendimiento."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/CacheForm.js:48
+msgid "Clear cache"
+msgstr "Limpiar caché"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/CacheForm.js:41
+msgid "Cache cleared"
+msgstr "Caché borrada"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/CacheForm.js:31
+msgid "Can’t see the column you’ve just updated or added in Airtable? <br />WordPress caches your Airtable table structure for performance reasons. <br />Click on Clear cache to refresh the data and retrieve the latest changes."
+msgstr "¿No ves la columna que acabas de actualizar o añadir en Airtable? <br />WordPress almacena en caché la estructura de tu tabla de Airtable por razones de rendimiento. <br />Haz clic en Limpiar caché para actualizar los datos y recuperar los últimos cambios."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/CacheForm.js:30
+msgid "Cache"
+msgstr "Caché"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AirWPSyncActivationForm.js:24
+msgid "Would you like to activate Air WP Sync as well?"
+msgstr "¿Te gustaría activar Air WP Sync también?"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AccessTokenForm.js:47
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AirWPSyncActivationForm.js:46
+msgid "Save"
+msgstr "Guardar"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AccessTokenForm.js:18
+msgid "Airtable"
+msgstr "Airtable"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/Welcome.js:41
+msgid "Airtable to WooCommerce"
+msgstr "Airtable a WooCommerce"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/Welcome.js:36
+msgid "Set up your plugin"
+msgstr "Configura tu plugin"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/Welcome.js:31
+msgid "Streamline your e-commerce operations by <br />creating, importing, and syncing your product catalogs."
+msgstr "Optimiza tus operaciones de comercio electrónico <br />creando, importando y sincronizando tus catálogos de productos."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/Welcome.js:24
+msgid "The easiest way to manage your <strong>WooCommerce</strong> <br />products and orders in <strong>Airtable</strong>"
+msgstr "La forma más fácil de gestionar tus <strong>WooCommerce</strong> <br />productos y pedidos en <strong>Airtable</strong>"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/Welcome.js:20
+msgid "Welcome to Air WP Sync for WooCommerce, "
+msgstr "Bienvenido a Air WP Sync for WooCommerce, "
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/LicenseKeyForm.js:31
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/LicenseKeyForm.js:31
+msgid "If you can’t find your license key, please follow <a href=\"https://wpconnect.co/airwpsync-woocommerce-documentation/#set-up-your-plugin\" target=\"_blank\" rel=\"noreferrer\">this tutorial</a>."
+msgstr "Si no puedes encontrar tu clave de licencia, sigue <a href=\"https://wpconnect.co/airwpsync-woocommerce-documentation/#set-up-your-plugin\" target=\"_blank\" rel=\"noreferrer\">este tutorial</a>."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/LicenseKeyForm.js:19
+msgid "To use our wonderful plugin, please enter your license key below:"
+msgstr "Para usar nuestro maravilloso plugin, introduce tu clave de licencia a continuación:"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/LicenseKeyForm.js:18
+msgid "First, we need your licence key"
+msgstr "Primero, necesitamos tu clave de licencia"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/Completed.js:16
+msgid "Connect to Airtable base"
+msgstr "Conectar a la base de Airtable"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/Completed.js:13
+msgid "You’ll be able to create WooCommerce connections very soon—just connect your Airtable base first."
+msgstr "Pronto podrás crear conexiones de WooCommerce, solo conecta tu base de Airtable primero."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/Completed.js:12
+msgid "Perfect! Everything is set up!"
+msgstr "¡Perfecto! ¡Todo está configurado!"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AirWPSyncActivationForm.js:46
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AirWPSyncActivationForm.js:56
+msgid "<strong>For existing Pro+ users: </strong>Your current connections will be retained."
+msgstr "<strong>Para usuarios Pro+ existentes: </strong>Tus conexiones actuales se conservarán."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AirWPSyncActivationForm.js:42
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AirWPSyncActivationForm.js:51
+msgid "<strong>For existing Pro users: </strong>You will be automatically upgraded to Pro+ at no additional cost and your current connections will be retained."
+msgstr "<strong>Para usuarios Pro existentes: </strong>Serás actualizado automáticamente a Pro+ sin coste adicional y tus conexiones actuales se conservarán."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AirWPSyncActivationForm.js:25
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AirWPSyncActivationForm.js:26
+msgid "Air WP Sync is deactivated"
+msgstr "Air WP Sync está desactivado"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AirWPSyncActivationForm.js:25
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AirWPSyncActivationForm.js:26
+msgid "Air WP Sync is activated"
+msgstr "Air WP Sync está activado"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AirWPSyncActivationForm.js:23
+msgid "Would you like to activate Air WP Sync as well? (You can activate it later if needed.)"
+msgstr "¿Te gustaría activar Air WP Sync también? (Puedes activarlo más tarde si es necesario.)"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AirWPSyncActivationForm.js:20
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AirWPSyncActivationForm.js:21
+msgid "Air WP Sync for WooCommerce includes an option to continue using Air WP Sync (Pro & Pro+) alongside it. This adds compatibility with ACF, SEO plugins (AIO SEO, Rank Math, SEOPress, Yoast SEO), and sync capabilities for Pages, Posts, CPTs, Users, and Taxonomy terms."
+msgstr "Air WP Sync for WooCommerce incluye una opción para seguir usando Air WP Sync (Pro y Pro+) junto a él. Esto añade compatibilidad con ACF, plugins SEO (AIO SEO, Rank Math, SEOPress, Yoast SEO) y capacidades de sincronización para páginas, entradas, CPTs, usuarios y términos de taxonomía."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AirWPSyncActivationForm.js:19
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AirWPSyncActivationForm.js:20
+msgid "Air WP Sync Activation"
+msgstr "Activación de Air WP Sync"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AccessTokenForm.js:42
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AccessTokenForm.js:33
+msgid "How to create an Airtable access token?"
+msgstr "¿Cómo crear un token de acceso de Airtable?"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AccessTokenForm.js:37
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/LicenseKeyForm.js:29
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AccessTokenForm.js:28
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/LicenseKeyForm.js:29
+msgid "e.g.: 2fdfd***dgtye"
+msgstr "p.ej.: 2fdfd***dgtye"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AccessTokenForm.js:31
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AccessTokenForm.js:21
+msgid "Access token"
+msgstr "Token de acceso"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AccessTokenForm.js:27
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/AccessTokenForm.js:42
+msgid "When you create an Airtable token, you need to select the following permissions: \"data.records:read\", \"data.records:write\", \"schema.bases:read\" AND \"schema.bases:write\". Additionally, select the ‘All current and future bases in all current and future workspaces’ option."
+msgstr "Cuando crees un token de Airtable, necesitas seleccionar los siguientes permisos: \"data.records:read\", \"data.records:write\", \"schema.bases:read\" Y \"schema.bases:write\". Además, selecciona la opción 'Todas las bases actuales y futuras en todos los espacios de trabajo actuales y futuros'."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AccessTokenForm.js:25
+msgid "To use our plugin, please enter your Airtable access token below."
+msgstr "Para usar nuestro plugin, introduce tu token de acceso de Airtable a continuación."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AccessTokenForm.js:23
+msgid "Now, we need your authorization to Airtable"
+msgstr "Ahora, necesitamos tu autorización en Airtable"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SyncProgress.js:169
+msgid "Cancel import"
+msgstr "Cancelar importación"
+
+#. translators: %1$d count other action scheduler pending actions, %2$s URL to
+#. Action Scheduler screen.
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SyncProgress.js:145
+msgid "There are %1$d other actions in the queue, it could slow down the synchronisation time. <a href=\"%2$s\" target=\"_blank\">View all pending actions</a>."
+msgstr "Hay %1$d otras acciones en la cola, lo que podría ralentizar el tiempo de sincronización. <a href=\"%2$s\" target=\"_blank\">Ver todas las acciones pendientes</a>."
+
+#. translators: %d remaining minutes.
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SyncProgress.js:128
+msgid "Estimated import time: approximately %d minute... Please be patient!"
+msgid_plural "Estimated import time: approximately %d minutes... Please be patient!"
+msgstr[0] "Tiempo estimado de importación: aproximadamente %d minuto... ¡Por favor, ten paciencia!"
+msgstr[1] "Tiempo estimado de importación: aproximadamente %d minutos... ¡Por favor, ten paciencia!"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SyncProgress.js:121
+msgid "Import progress"
+msgstr "Progreso de importación"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SyncProgress.js:117
+msgid "Import in progress! We are currently importing your products."
+msgstr "¡Importación en progreso! Estamos importando tus productos actualmente."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:375
+msgid "You can now add more connections or update the one you just created!"
+msgstr "¡Ahora puedes añadir más conexiones o actualizar la que acabas de crear!"
+
+#. translators: %1$s: time spent for synchronisation
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:367
+msgid "Synchronization took just <strong>%1$s</strong>! Now, let’s see how much time you’ll save moving forward!"
+msgstr "¡La sincronización tardó solo <strong>%1$s</strong>! ¡Ahora, veamos cuánto tiempo ahorrarás a partir de ahora!"
+
+#. translators: %d how many product deleted.
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:353
+msgid "%d product deleted"
+msgid_plural "%d products deleted"
+msgstr[0] "%d producto eliminado"
+msgstr[1] "%d productos eliminados"
+
+#. translators: %d how many product processed.
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:343
+msgid "%d product processed"
+msgid_plural "%d products processed"
+msgstr[0] "%d producto procesado"
+msgstr[1] "%d productos procesados"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:337
+msgid "Congratulations! Your Airtable data is now synced with WooCommerce."
+msgstr "¡Felicidades! Tus datos de Airtable están ahora sincronizados con WooCommerce."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:326
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:377
+msgid "View all your Woo Connections"
+msgstr "Ver todas tus conexiones Woo"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:325
+msgid "Restart the sync"
+msgstr "Reiniciar la sincronización"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:310
+msgid "Errors:"
+msgstr "Errores:"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:301
+msgid "Please, <strong>note that the changes made to your configuration have been saved.</strong>"
+msgstr "Por favor, <strong>ten en cuenta que los cambios realizados en tu configuración han sido guardados.</strong>"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:297
+msgid "It seems that there are some errors during your import. You can check them out below."
+msgstr "Parece que hay algunos errores durante tu importación. Puedes revisarlos a continuación."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:295
+msgid "Oh no! Import failed..."
+msgstr "¡Oh no! La importación ha fallado..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:280
+msgid "Move to trash"
+msgstr "Mover a la papelera"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:274
+msgid "Switch to draft"
+msgstr "Cambiar a borrador"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:274
+msgid "Save draft"
+msgstr "Guardar borrador"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:267
+msgid "Save modifications"
+msgstr "Guardar modificaciones"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:262
+msgid "Save modifications and sync!"
+msgstr "¡Guardar modificaciones y sincronizar!"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:255
+msgid "Save as draft"
+msgstr "Guardar como borrador"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:250
+msgid "Save and synchronize!"
+msgstr "¡Guardar y sincronizar!"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:153
+msgid "Choose your sync frequency"
+msgstr "Elige tu frecuencia de sincronización"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:134
+msgid "Choose your sync recurrence"
+msgstr "Elige la recurrencia de tu sincronización"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:128
+msgid "Sync settings"
+msgstr "Ajustes de sincronización"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:123
+msgid "Here, you can define how often the synchronization should occur."
+msgstr "Aquí puedes definir con qué frecuencia debe ocurrir la sincronización."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:120
+msgid "Set the final details"
+msgstr "Establece los detalles finales"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:178
+msgid "Activate inventory management"
+msgstr "Activar gestión de inventario"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:176
+msgid "By activating this option, you will be able to synchronize your WooCommerce inventory and your orders directly in Airtable and this update your Airtable inventory automatically."
+msgstr "Al activar esta opción, podrás sincronizar tu inventario de WooCommerce y tus pedidos directamente en Airtable, actualizando automáticamente tu inventario en Airtable."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:171
+msgid "Do you want to enable inventory management in WooCommerce and Airtable?"
+msgstr "¿Quieres habilitar la gestión de inventario en WooCommerce y Airtable?"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:170
+msgid "Inventory management"
+msgstr "Gestión de inventario"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:153
+msgid "Do you want to apply filters?"
+msgstr "¿Quieres aplicar filtros?"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:139
+msgid "Choose a catalog visibility"
+msgstr "Elige una visibilidad de catálogo"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:137
+msgid "Select a default <strong>catalog visibility</strong>"
+msgstr "Selecciona una <strong>visibilidad de catálogo</strong> por defecto"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:122
+msgid "Choose a status"
+msgstr "Elige un estado"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:120
+msgid "Which default <strong>status</strong> do you want to apply when importing these products?"
+msgstr "¿Qué <strong>estado</strong> por defecto quieres aplicar al importar estos productos?"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:115
+msgid "Set your import settings"
+msgstr "Configura tus ajustes de importación"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:105
+msgid "Scheduled (available after a first successful sync)"
+msgstr "Programado (disponible después de una primera sincronización exitosa)"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:94
+#: assets/src/filters/src/resources/texts.js:59
+msgid "text"
+msgstr "texto"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:93
+#: assets/src/filters/src/resources/texts.js:58
+msgid "image"
+msgstr "imagen"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:90
+#: assets/src/filters/src/resources/texts.js:55
+msgid "number of days from now..."
+msgstr "número de días a partir de ahora..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:89
+#: assets/src/filters/src/resources/texts.js:54
+msgid "number of days ago..."
+msgstr "número de días..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:88
+#: assets/src/filters/src/resources/texts.js:53
+msgid "one month from now"
+msgstr "dentro de un mes"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:87
+#: assets/src/filters/src/resources/texts.js:52
+msgid "one month ago"
+msgstr "hace un mes"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:86
+#: assets/src/filters/src/resources/texts.js:51
+msgid "one week from now"
+msgstr "dentro de una semana"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:85
+#: assets/src/filters/src/resources/texts.js:50
+msgid "one week ago"
+msgstr "hace una semana"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:84
+#: assets/src/filters/src/resources/texts.js:49
+msgid "yesterday"
+msgstr "ayer"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:83
+#: assets/src/filters/src/resources/texts.js:48
+msgid "tomorrow"
+msgstr "mañana"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:82
+#: assets/src/filters/src/resources/texts.js:47
+msgid "today"
+msgstr "hoy"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:81
+#: assets/src/filters/src/resources/texts.js:46
+msgid "exact date..."
+msgstr "fecha exacta..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:80
+#: assets/src/filters/src/resources/texts.js:45
+msgid "the past number of days..."
+msgstr "los últimos días..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:79
+#: assets/src/filters/src/resources/texts.js:44
+msgid "the next number of days..."
+msgstr "el próximo número de días..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:78
+#: assets/src/filters/src/resources/texts.js:43
+msgid "this calendar year"
+msgstr "este año"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:77
+#: assets/src/filters/src/resources/texts.js:42
+msgid "this calendar month"
+msgstr "este mes"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:76
+#: assets/src/filters/src/resources/texts.js:41
+msgid "this calendar week"
+msgstr "esta semana"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:75
+#: assets/src/filters/src/resources/texts.js:40
+msgid "the next year"
+msgstr "el año siguiente"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:74
+#: assets/src/filters/src/resources/texts.js:39
+msgid "the next month"
+msgstr "el mes siguiente"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:73
+#: assets/src/filters/src/resources/texts.js:38
+msgid "the next week"
+msgstr "la semana siguiente"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:72
+#: assets/src/filters/src/resources/texts.js:37
+msgid "the past year"
+msgstr "el año pasado"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:71
+#: assets/src/filters/src/resources/texts.js:36
+msgid "the past month"
+msgstr "el mes pasado"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:70
+#: assets/src/filters/src/resources/texts.js:35
+msgid "the past week"
+msgstr "la semana pasada"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:68
+#: assets/src/filters/src/resources/texts.js:33
+msgid "Set the value"
+msgstr "Fijar el valor"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:67
+#: assets/src/filters/src/resources/texts.js:32
+msgid "Choose the condition"
+msgstr "Elija la condición"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:66
+#: assets/src/filters/src/resources/texts.js:31
+msgid "Choose the field"
+msgstr "Elija el campo"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:64
+#: assets/src/filters/src/resources/texts.js:29
+msgid "has file type..."
+msgstr "tiene tipo de archivo..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:63
+#: assets/src/filters/src/resources/texts.js:28
+msgid "filenames contains..."
+msgstr "nombres de archivo contienen..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:62
+#: assets/src/filters/src/resources/texts.js:27
+msgid "has none of..."
+msgstr "no tiene nada de..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:61
+#: assets/src/filters/src/resources/texts.js:26
+msgid "is exactly..."
+msgstr "es exactamente..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:60
+#: assets/src/filters/src/resources/texts.js:25
+msgid "has all of..."
+msgstr "tiene todo..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:59
+#: assets/src/filters/src/resources/texts.js:24
+msgid "has any of..."
+msgstr "tiene alguno de..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:58
+#: assets/src/filters/src/resources/texts.js:23
+msgid "is none of..."
+msgstr "no es ninguno de..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:57
+#: assets/src/filters/src/resources/texts.js:22
+msgid "is any of..."
+msgstr "es cualquiera de..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:56
+#: assets/src/filters/src/resources/texts.js:21
+msgid "is on or after..."
+msgstr "está en o después de..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:55
+#: assets/src/filters/src/resources/texts.js:20
+msgid "is on or before..."
+msgstr "está en o antes de…"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:54
+#: assets/src/filters/src/resources/texts.js:19
+msgid "is after..."
+msgstr "está después de..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:53
+#: assets/src/filters/src/resources/texts.js:18
+msgid "is before..."
+msgstr "está antes de…"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:52
+#: assets/src/filters/src/resources/texts.js:17
+msgid "is within..."
+msgstr "está dentro..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:51
+#: assets/src/filters/src/resources/texts.js:16
+msgid "is not empty"
+msgstr "no está vacío"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:50
+#: assets/src/filters/src/resources/texts.js:15
+msgid "is empty"
+msgstr "está vacío"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:49
+#: assets/src/filters/src/resources/texts.js:14
+msgid "is not... "
+msgstr "no es..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:48
+#: assets/src/filters/src/resources/texts.js:13
+msgid "is..."
+msgstr "es..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:47
+#: assets/src/filters/src/resources/texts.js:12
+msgid "does not contain..."
+msgstr "no contiene..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:46
+#: assets/src/filters/src/resources/texts.js:11
+msgid "contains..."
+msgstr "contiene..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:44
+#: assets/src/filters/src/resources/texts.js:9
+msgid "Filter conditions can only be nested 3 levels deep"
+msgstr "Las condiciones de filtrado sólo pueden anidarse a 3 niveles de profundidad"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:43
+#: assets/src/filters/src/resources/texts.js:8
+msgid "Conjunction"
+msgstr "Conjunción"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:42
+#: assets/src/filters/src/resources/texts.js:7
+msgid "Or"
+msgstr "O"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:41
+#: assets/src/filters/src/resources/texts.js:6
+msgid "And"
+msgstr "Y"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:40
+#: assets/src/filters/src/resources/texts.js:5
+msgid "Where"
+msgstr "Donde"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:39
+#: assets/src/filters/src/resources/texts.js:4
+msgid "+ Add Filter Group"
+msgstr "+ Añadir grupo de filtros"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:38
+#: assets/src/filters/src/resources/texts.js:3
+msgid "+ Add Filter"
+msgstr "+ Añadir filtro"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:427
+#: assets/src/metabox-mapping/src/App.js:78
+#: assets/js/metabox-mapping/main.js:7608
+msgid "+ Add Field"
+msgstr "+ Añadir campo"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:383
+msgid "Added fields"
+msgstr "Campos añadidos"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:351
+msgid "Airtable fields you want to map"
+msgstr "Campos de Airtable que quieres mapear"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:324
+msgid "Please, check error messages above."
+msgstr "Por favor, comprueba los mensajes de error de arriba."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:298
+msgid "Please, check error messages below."
+msgstr "Por favor, comprueba los mensajes de error de abajo."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:272
+msgid "Both WooCommerce and Airtable fields should be selected"
+msgstr "Se deben seleccionar tanto los campos de WooCommerce como los de Airtable"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:211
+msgid "WordPress field"
+msgstr "Campo de WordPress"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:209
+#: assets/src/metabox-mapping/src/MappingRow.js:163
+#: assets/js/metabox-mapping/main.js:3740
+msgid "Remove"
+msgstr "Borrar"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:208
+#: assets/src/metabox-mapping/src/MappingRow.js:159
+#: assets/js/metabox-mapping/main.js:3736
+msgid "Sort"
+msgstr "Ordenar"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:207
+#: assets/src/metabox-mapping/src/MappingRow.js:115
+#: assets/js/metabox-mapping/main.js:3692
+msgid "Fields"
+msgstr "Campos"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:206
+#: assets/src/metabox-mapping/src/App.js:38
+#: assets/src/metabox-mapping/src/MappingRow.js:105
+#: assets/js/metabox-mapping/main.js:3682
+#: assets/js/metabox-mapping/main.js:7568
+msgid "Airtable Field"
+msgstr "Campo Airtable"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:205
+#: assets/src/metabox-mapping/src/MappingRow.js:41
+#: assets/js/metabox-mapping/main.js:3618
+msgid "Custom Field"
+msgstr "Campo personalizado"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:149
+msgid "Airtable fields mapped by default"
+msgstr "Campos de Airtable mapeados por defecto"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:145
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:347
+msgid "WooCommerce fields by default"
+msgstr "Campos de WooCommerce por defecto"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:130
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:326
+msgid "Restart the verification"
+msgstr "Reiniciar la verificación"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:101
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:306
+msgid "Verifying..."
+msgstr "Verificando..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:99
+msgid "Verify the mapping"
+msgstr "Verificar el mapeo"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:93
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:106
+msgid "🎉 <strong>Good work!</strong> All the fields are assigned"
+msgstr "🎉 <strong>¡Buen trabajo!</strong> Todos los campos están asignados"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:85
+msgid "<strong>For the first synchronization,</strong> do <strong>not modify</strong> the Airtable template. We need it as-is to generate your mapping automatically. You can modify it after the initial sync."
+msgstr "<strong>Para la primera sincronización,</strong> <strong>no modifiques</strong> la plantilla de Airtable. La necesitamos tal cual para generar tu mapeo automáticamente. Puedes modificarla después de la sincronización inicial."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:67
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:210
+msgid "Assigned to"
+msgstr "Asignado a"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ConnectionWizard.js:104
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ConnectionWizard.js:105
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/LicenseAndAirtableBase.js:60
+msgid "Back"
+msgstr "Atrás"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ConnectionWizard.js:98
+msgid "Edit a Woo Connection"
+msgstr "Editar una conexión Woo"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ConnectionWizard.js:79
+msgid "Sync your products"
+msgstr "Sincronizar tus productos"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ConnectionWizard.js:64
+msgid "Verify data"
+msgstr "Verificar datos"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ConnectionWizard.js:64
+msgid "Map columns to each other"
+msgstr "Mapear columnas entre sí"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ConnectionWizard.js:59
+msgid "Set import settings"
+msgstr "Configurar ajustes de importación"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ConnectionWizard.js:54
+msgid "Choose product type"
+msgstr "Elegir tipo de producto"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ChooseYourProductType.js:61
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:118
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:304
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/MapColumns.js:315
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/SetImportSettings.js:197
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AccessTokenForm.js:54
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/AirWPSyncActivationForm.js:57
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/LicenseKeyForm.js:50
+msgid "Next step"
+msgstr "Siguiente paso"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ChooseYourProductType.js:43
+msgid "Choose the type of product"
+msgstr "Elige el tipo de producto"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ChooseYourProductType.js:40
+msgid "Which <strong>type of product</strong> do you sell?"
+msgstr "¿Qué <strong>tipo de producto</strong> vendes?"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ChooseYourProductType.js:23
+msgid "Ex: My first connection"
+msgstr "Ej: Mi primera conexión"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ChooseYourProductType.js:21
+msgid "First, give a name to your connection"
+msgstr "Primero, da un nombre a tu conexión"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ChooseYourProductType.js:17
+msgid "What kind of products do you want to import?"
+msgstr "¿Qué tipo de productos quieres importar?"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-actions/ConnectionActions.js:152
+msgid "Download logs"
+msgstr "Descargar registros"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-actions/ConnectionActions.js:142
+msgid "Sync error, view details"
+msgstr "Error de sincronización, ver detalles"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/ExistingBaseNotFound.js:42
+msgid "Please check the permissions of your token and its validity."
+msgstr "Por favor, comprueba los permisos de tu token y su validez."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/ExistingBaseNotFound.js:40
+msgid "Ooops, it seems we can no longer find your base..."
+msgstr "Vaya, parece que ya no podemos encontrar tu base..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/ExistingBaseNotFound.js:28
+msgid "Please disconnect it and create a new one."
+msgstr "Por favor, desconéctala y crea una nueva."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseSynchronized.js:102
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/ConnectionWizard.js:99
+msgid "Create a new Woo Connection"
+msgstr "Crear una nueva conexión Woo"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseSynchronized.js:94
+msgid "Update your existing template"
+msgstr "Actualizar tu plantilla existente"
+
+#. Translators: %s latest template version.
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseSynchronized.js:84
+msgid "A new version of the template is available (%s)"
+msgstr "Hay una nueva versión de la plantilla disponible (%s)"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseSynchronized.js:66
+msgid "<strong>Please do not modify the template we provided before creating your first Woo Connection.</strong> This ensures a smooth setup and proper synchronization."
+msgstr "<strong>Por favor, no modifiques la plantilla que proporcionamos antes de crear tu primera conexión Woo.</strong> Esto garantiza una configuración correcta y una sincronización adecuada."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseSynchronized.js:52
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/ExistingBaseNotFound.js:37
+msgid "Disconnect the base"
+msgstr "Desconectar la base"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseSynchronized.js:43
+msgid "Check on airtable"
+msgstr "Comprobar en Airtable"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseSynchronized.js:19
+msgid "Your synchronized Airtable base"
+msgstr "Tu base de Airtable sincronizada"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseIdle.js:48
+msgid "Copy our Airtable template base"
+msgstr "Copiar nuestra plantilla de base de Airtable"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseIdle.js:42
+msgid "Return to the <strong>Air WP Sync for WooCommerce</strong> interface."
+msgstr "Vuelve a la interfaz de <strong>Air WP Sync for WooCommerce</strong>."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseIdle.js:39
+msgid "Select the workspace to which you have given access with your token."
+msgstr "Selecciona el espacio de trabajo al que has dado acceso con tu token."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseIdle.js:35
+msgid "Click on the “<strong>Copy base</strong>” button on Airtable."
+msgstr "Haz clic en el botón “<strong>Copiar base</strong>” en Airtable."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseIdle.js:29
+msgid "Click on “<strong>Copy our Airtable template base</strong>” button below."
+msgstr "Haz clic en el botón “<strong>Copiar nuestra plantilla de base de Airtable</strong>” a continuación."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseIdle.js:21
+msgid "Before creating a new Woo Connection, you need to copy our <strong>Airtable base template</strong> into your workspace. It only takes four steps: "
+msgstr "Antes de crear una nueva conexión Woo, necesitas copiar nuestra <strong>plantilla de base de Airtable</strong> en tu espacio de trabajo. Solo son cuatro pasos: "
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseError.js:42
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/ExistingBaseNotFound.js:50
+msgid "Check the base"
+msgstr "Comprobar la base"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseError.js:27
+msgid "Please <strong>reset our original template</strong> before to restart the verification."
+msgstr "Por favor, <strong>restaura nuestra plantilla original</strong> antes de reiniciar la verificación."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseChecking.js:27
+msgid "I checked, it’s created!"
+msgstr "¡Lo comprobé, está creada!"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseChecking.js:17
+msgid "We are checking the creation of our template in your Airtable..."
+msgstr "Estamos verificando la creación de nuestra plantilla en tu Airtable..."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseChecking.js:16
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseError.js:17
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseIdle.js:17
+msgid "Please <strong>DO NOT MODIFY the template</strong> we provide at this time. This will ensure you can create Woo Connections successfully."
+msgstr "Por favor, <strong>NO MODIFIQUES la plantilla</strong> que proporcionamos en este momento. Esto garantizará que puedas crear conexiones Woo correctamente."
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseChecking.js:15
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseError.js:16
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseIdle.js:16
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/ExistingBaseNotFound.js:16
+msgid "Hello!"
+msgstr "¡Hola!"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseChecking.js:13
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseError.js:14
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseIdle.js:14
+msgid "Getting Started"
+msgstr "Cómo empezar"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/AllProductsCheckBase.js:188
+msgid "No, keep it"
+msgstr "No, mantenerla"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/AllProductsCheckBase.js:182
+msgid "Yes, I want to disconnect my base"
+msgstr "Sí, quiero desconectar mi base"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/AllProductsCheckBase.js:174
+msgid "If you choose to disconnect your Airtable base, all WooCommerce connections associated with it will be deleted. Are you sure you want to proceed?"
+msgstr "Si eliges desconectar tu base de Airtable, se eliminarán todas las conexiones de WooCommerce asociadas a ella. ¿Estás seguro de que quieres continuar?"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/AllProductsCheckBase.js:172
+msgid "Disconnect the Airtable base"
+msgstr "Desconectar la base de Airtable"
+
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/AllProductsCheckBase.js:117
+msgid "Base disconnected"
+msgstr "Base desconectada"
+
+#: views/settings-page.php:54
+msgid "Update settings"
+msgstr "Actualizar configuración"
+
+#: views/settings-page.php:42
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/LicenseKeyForm.js:58
+msgid "Activate"
+msgstr "Activar"
+
+#: views/settings-page.php:40
+msgid "Your license is valid and activated."
+msgstr "Tu licencia es válida y está activada."
+
+#: views/settings-page.php:39
+msgid "De-activate"
+msgstr "Desactivar"
+
+#: views/settings-page.php:29
+msgid "Get your License Key from your <a href=\"https://wpconnect.co/my-account/\" target=\"_blank\">WP connect account</a>"
+msgstr "Obtén tu licencia desde tu <a href=\"https://wpconnect.co/my-account/\" target=\"_blank\">cuenta WP connect</a>"
+
+#: views/settings-page.php:28
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/license-and-airtable-base/LicenseKeyForm.js:23
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/settings/LicenseKeyForm.js:23
+msgid "License Key"
+msgstr "Clave de licencia"
+
+#: views/metabox-sync.php:114
+msgid "Webhook URL will be available once you have saved this connection."
+msgstr "La URL del Webhook estará disponible una vez que hayas guardado esta conexión."
+
+#: views/metabox-sync.php:103
+msgid "To create an automation and call a webhook, <a href=\"https://wpconnect.co/blog/create-airtable-automation\" target=\"_blank\">click here</a>"
+msgstr "Para crear una automatización y llamar a un webhook, <a href=\"https://wpconnect.co/blog/create-airtable-automation\" target=\"_blank\">haz clic aquí</a>"
+
+#: views/metabox-sync.php:98
+msgid "Webhook URL"
+msgstr "URL del Webhook"
+
+#: views/metabox-sync.php:94
+msgid "Enables instant synchronization of your content. Using an Airtable automation, you can choose your own trigger and the connection will be updated as soon as the webhook url below is called."
+msgstr "Permite la sincronización instantánea de tu contenido. Usando una automatización de Airtable, puedes elegir tu propio disparador y la conexión se actualizará tan pronto como se llame a la URL del webhook."
+
+#: views/metabox-sync.php:86
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:204
+msgid "Time"
+msgstr "Hora"
+
+#: views/metabox-sync.php:82
+msgid "Sunday"
+msgstr "Domingo"
+
+#: views/metabox-sync.php:81
+msgid "Saturday"
+msgstr "Sábado"
+
+#: views/metabox-sync.php:80
+msgid "Friday"
+msgstr "Viernes"
+
+#: views/metabox-sync.php:79
+msgid "Thursday"
+msgstr "Jueves"
+
+#: views/metabox-sync.php:78
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: views/metabox-sync.php:77
+msgid "Tuesday"
+msgstr "Martes"
+
+#: views/metabox-sync.php:76
+msgid "Monday"
+msgstr "Lunes"
+
+#: views/metabox-sync.php:73
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:179
+msgid "Day of week"
+msgstr "Día de la semana"
+
+#: views/metabox-sync.php:60
+msgid "We recommend <a href=\"https://wpconnect.co/blog/setup-cron-wordpress\" target=\"_blank\">setting up WP-Cron</a> as a cron job for better performance."
+msgstr "Recomendamos <a href=\"https://wpconnect.co/blog/setup-cron-wordpress\" target=\"_blank\">configurar WP-Cron</a> como una tarea cron para un mejor rendimiento."
+
+#: views/metabox-sync.php:51
+msgid "Frequency"
+msgstr "Frecuencia"
+
+#: views/metabox-sync.php:48
+msgid "Enables recurring synchronization of your Airtable content. Choose a frequency and it will take effect from the date and time the connection is updated."
+msgstr "Permite la sincronización recurrente de tu contenido de Airtable. Elige una frecuencia y tendrá efecto a partir de la fecha y hora en que se actualice la conexión."
+
+#: views/metabox-sync.php:42
+msgid "Disables automatic synchronization of your Airtable content. You can still do it manually by clicking on the 'Sync Now' button in the side panel."
+msgstr "Desactiva la sincronización automática de tu contenido de Airtable. Todavía puedes hacerlo manualmente haciendo clic en el botón "Sincronizar ahora" en el panel lateral."
+
+#: views/metabox-sync.php:22
+msgid "Select the method to synchronize your Airtable content with WordPress.<br><br><strong>Add:</strong> only adds new content.<br><br><strong>Add & Update:</strong> same + updates content from modified records.<br><br><strong>Add, Update & Delete:</strong> same + deletes content that is no longer in Airtable."
+msgstr "Selecciona el método para sincronizar el contenido de Airtable con WordPress.<br><br><strong>Añadir:</strong> sólo añade nuevo contenido.<br><br><strong>Añadir &amp; Actualizar:</strong> lo mismo + actualiza el contenido de los registros modificados.<br><br><strong>Añadir, Actualizar &amp; Borrar:</strong> lo mismo + elimina el contenido que ya no está en Airtable."
+
+#: views/metabox-sync.php:21
+msgid "Strategy"
+msgstr "Estrategia"
+
+#: views/metabox-side/infos.php:57
+msgid "Scheduled Next Sync"
+msgstr "Próxima sincronización programada"
+
+#: views/metabox-side/infos.php:47
+msgid "Last Sync"
+msgstr "Última sincronización"
+
+#: views/metabox-side/infos.php:27
+msgid "Canceled"
+msgstr "Cancelado"
+
+#: views/metabox-side/infos.php:23
+msgid "Successful!"
+msgstr "¡Operación exitosa!"
+
+#: views/metabox-side/infos.php:19
+msgid "Last Sync Status"
+msgstr "Estado de la última sincronización"
+
+#: views/metabox-importer-settings.php:20
+msgid "Import as"
+msgstr "Importar como"
+
+#: views/metabox-import-infos.php:33
+msgid "You will be able to sync your Airtable content once you have saved this connection."
+msgstr "Podrás sincronizar el contenido de Airtable una vez que hayas guardado esta conexión."
+
+#: views/metabox-import-infos.php:31
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: views/metabox-import-infos.php:27
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-actions/ConnectionActions.js:133
+msgid "Sync now"
+msgstr "Sincronizar ahora"
+
+#: views/metabox-airtable-settings.php:177
+msgid "I understood"
+msgstr "Comprendido"
+
+#: views/metabox-airtable-settings.php:169
+msgid "<strong>Warning:</strong> Including \"Link to another record\" field(s) may extend synchronization times.<br /> Be aware that this could <strong>significantly increase the processing time.</strong><br /> Therefore, it might generate timeouts and you may need to contact your hosting provider."
+msgstr "<strong>Advertencia:</strong> Incluir campo(s) \"Vincular a otro registro\" puede alargar los tiempos de sincronización.<br /> Ten en cuenta que esto podría <strong>aumentar significativamente el tiempo de procesamiento.</strong><br /> Por lo tanto, podría generar tiempos de espera y es posible que tengas que ponerte en contacto con tu proveedor de alojamiento."
+
+#: views/metabox-airtable-settings.php:159
+msgid "No"
+msgstr "No"
+
+#: views/metabox-airtable-settings.php:158
+msgid "Yes"
+msgstr "Sí"
+
+#: views/metabox-airtable-settings.php:143
+msgid "The <a href=\"https://www.airtable.com/guides/build/connect-data-with-linked-records\" target=\"_blank\">\"Link to another record\"</a> feature in Airtable enables creating relationships between records in different tables."
+msgstr "La función <a href=\"https://www.airtable.com/guides/build/connect-data-with-linked-records\" target=\"_blank\">\"Vincular a otro registro\"</a> de Airtable permite crear relaciones entre registros de diferentes tablas."
+
+#: views/metabox-airtable-settings.php:138
+msgid "Include \"Link to another record\" field(s)"
+msgstr "Incluir campo(s) \"Vincular a otro registro\""
+
+#: views/metabox-airtable-settings.php:124
+msgid "Use filters UI"
+msgstr "Utilizar la interfaz de filtros"
+
+#: views/metabox-airtable-settings.php:115
+msgid "Optionally enter an airtable formula used to filter records. The formula will be evaluated for each record, and if the result is not 0, false, \"\", NaN, [], or #Error! the record will be imported. We recommend testing your formula in the Formula field UI before using it."
+msgstr "Opcionalmente, introduce una fórmula de Airtable para filtrar registros. La fórmula se evaluará para cada registro y si el resultado no es 0, false, \"\", NaN, [] o #Error! se importará el registro. Te recomendamos probar la fórmula en Airtable antes de utilizarla."
+
+#: views/metabox-airtable-settings.php:114
+msgid "Filter By Formula"
+msgstr "Filtrar por fórmula"
+
+#: views/metabox-airtable-settings.php:96
+msgid "View"
+msgstr "Vista"
+
+#: views/metabox-airtable-settings.php:78
+msgid "Table"
+msgstr "Tabla"
+
+#: views/metabox-airtable-settings.php:47
+msgid "Base"
+msgstr "Base"
+
+#: views/metabox-airtable-settings.php:40
+msgid "Make sure your token has the <code>data.records:read</code> and <code>schema.bases:read</code> scopes."
+msgstr "Asegúrate de que tu token tiene los permisos <code>data.records:read</code> y <code>schema.bases:read</code>."
+
+#: views/metabox-airtable-settings.php:22
+msgid "Create your access token from <a href=\"https://airtable.com/create/tokens\" target=\"_blank\">https://airtable.com/create/tokens</a>"
+msgstr "Crea tu token de acceso desde <a href=\"https://airtable.com/create/tokens\" target=\"_blank\">https://airtable.com/create/tokens</a>"
+
+#: views/metabox-airtable-settings.php:19
+msgid "Access Token"
+msgstr "Token de acceso"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:207
+msgid "Canonical URL (Advanced)"
+msgstr "URL canónica (Avanzado)"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:201
+msgid "Breadcrumbs Title (Advanced)"
+msgstr "Título Breadcrumbs (Avanzado)"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:183
+msgid "SEO Title"
+msgstr "Título SEO"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:142
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:291
+msgid "nosnippet"
+msgstr "nosnippet"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:285
+msgid "noarchive"
+msgstr "noarchivo"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:279
+msgid "noimageindex"
+msgstr "noimagenindex"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:273
+msgid "nofollow"
+msgstr "nofollow"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:267
+msgid "noindex"
+msgstr "noindexar"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:260
+msgid "Twitter Thumbnail"
+msgstr "Miniatura de Twitter"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:254
+msgid "Facebook Thumbnail"
+msgstr "Miniatura de Facebook"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:218
+msgid "Target keywords"
+msgstr "Palabras clave de destino"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:166
+msgid "SEOPress"
+msgstr "SEOPress"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:251
+msgid "Use data from Facebook tab"
+msgstr "Utilizar datos de la ficha de Facebook"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:203
+msgid "Focus Keyword"
+msgstr "Palabra clave objetivo"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:150
+msgid "RankMath SEO"
+msgstr "RankMath SEO"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:307
+msgid "Use data from Facebook Tab"
+msgstr "Utilizar datos de la pestaña de Facebook"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:301
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:245
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:243
+msgid "Twitter Image"
+msgstr "Imagen de Twitter"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:295
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:239
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:237
+msgid "Facebook Image"
+msgstr "Imagen de Facebook"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:289
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:233
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:248
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:231
+msgid "Twitter Description"
+msgstr "Descripción de Twitter"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:283
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:227
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:242
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:225
+msgid "Twitter Title"
+msgstr "Título de Twitter"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:277
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:221
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:236
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:219
+msgid "Facebook Description"
+msgstr "Descripción de Facebook"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:271
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:215
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:230
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:213
+msgid "Facebook Title"
+msgstr "Título de Facebook"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:265
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:209
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:224
+msgid "Canonical URL"
+msgstr "URL canónica"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:259
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:195
+msgid "Focus Keyphrase"
+msgstr "Frase clave de enfoque"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:253
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:197
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:212
+#: pro-plus/includes/destinations/class-air-wp-sync-yoast-destination.php:189
+msgid "Meta Description"
+msgstr "Metadescripción"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:247
+#: pro-plus/includes/destinations/class-air-wp-sync-rankmath-destination.php:191
+#: pro-plus/includes/destinations/class-air-wp-sync-seopress-destination.php:206
+msgid "Meta Title"
+msgstr "Meta-título"
+
+#: pro-plus/includes/destinations/class-air-wp-sync-aioseo-destination.php:206
+msgid "All in One SEO"
+msgstr "All in One SEO"
+
+#: pro-plus/includes/destinations/acf/class-air-wp-sync-abstract-acf-destination.php:808
+msgid "ACF"
+msgstr "ACF"
+
+#: pro-plus/includes/destinations/acf/class-air-wp-sync-abstract-acf-destination.php:594
+msgid "Please note that we don't support nested repeater yet."
+msgstr "Ten en cuenta que aún no admitimos repetidores anidados."
+
+#: pro-plus/includes/destinations/acf/class-air-wp-sync-abstract-acf-destination.php:273
+msgid "Longitude"
+msgstr "Longitud"
+
+#: pro-plus/includes/destinations/acf/class-air-wp-sync-abstract-acf-destination.php:269
+msgid "Latitude"
+msgstr "Latitud"
+
+#: pro-plus/includes/destinations/acf/class-air-wp-sync-abstract-acf-destination.php:265
+msgid "Address"
+msgstr "Dirección"
+
+#: pro-plus/includes/destinations/acf/class-air-wp-sync-abstract-acf-destination.php:256
+msgid "URL"
+msgstr "URL"
+
+#: modules/user/views/settings.php:63
+msgid "Send the new user an email about their account."
+msgstr "Enviar al nuevo usuario un correo sobre su cuenta."
+
+#: modules/user/views/settings.php:60
+msgid "Send User Notification"
+msgstr "Enviar notificación de usuario"
+
+#: modules/user/views/settings.php:35
+msgid "Language"
+msgstr "Idioma"
+
+#: modules/user/views/settings.php:19
+msgid "Default role"
+msgstr "Rol predeterminado"
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:194
+msgid "Registered Date"
+msgstr "Fecha de registro"
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:188
+msgid "Locale"
+msgstr "Configuración regional"
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:182
+msgid "Role"
+msgstr "Rol"
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:176
+msgid "Biographical Info"
+msgstr "Información biográfica"
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:170
+msgid "Website"
+msgstr "Sitio web"
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:158
+msgid "Nickname"
+msgstr "Apodo"
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:152
+msgid "Last name"
+msgstr "Apellido"
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:146
+msgid "First name"
+msgstr "Nombre"
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:142
+msgid "Please note that usernames cannot be changed once created."
+msgstr "Ten en cuenta que los nombres de usuario no pueden modificarse una vez creados."
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:139
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:125
+msgid "User"
+msgstr "Usuario"
+
+#: modules/user/class-air-wp-sync-user-module.php:67
+msgid "It is mandatory to map the Username field."
+msgstr "Es obligatorio asignar el campo Nombre de usuario."
+
+#: modules/user/class-air-wp-sync-user-module.php:66
+msgid "It is mandatory to map the user e-mail address."
+msgstr "Es obligatorio asignar la dirección de correo electrónico del usuario."
+
+#: modules/term/views/settings.php:18
+msgid "Default taxonomy"
+msgstr "Taxonomía por defecto"
+
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:270
+msgid "Parent (by name)"
+msgstr "Padre (por nombre)"
+
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:264
+msgid "Parent (by ID)"
+msgstr "Padre (por ID)"
+
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:252
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:226
+msgid "Terms"
+msgstr "Términos"
+
+#: modules/term/class-air-wp-sync-term-module.php:66
+msgid "It is mandatory to map the term name."
+msgstr "Es obligatorio asignar el nombre del término."
+
+#: modules/term/class-air-wp-sync-term-importer.php:47
+msgid "Term name is missing"
+msgstr "Falta el nombre del término"
+
+#: modules/post/views/settings.php:100
+msgid "Default Post Author"
+msgstr "Autor por defecto de la entrada"
+
+#: modules/post/views/settings.php:88
+msgid "Default Post Status"
+msgstr "Estado de la entrada por defecto"
+
+#. translators: %s = home url
+#: modules/post/views/settings.php:73
+msgid "The prefix used in the URL structure as in <code>%s/<b>prefix/</b>post-name/</code>."
+msgstr "El prefijo utilizado en la estructura URL como en <code>%s<b>/prefix/post-name/</b></code>."
+
+#: modules/post/views/settings.php:54
+msgid "Url Prefix"
+msgstr "Prefijo URL"
+
+#: modules/post/views/settings.php:50
+msgid "The name of your Custom Post Type."
+msgstr "El nombre de tu Tipo de Contenido Personalizado."
+
+#: modules/post/views/settings.php:36 modules/post/views/settings.php:56
+#: views/metabox-airtable-settings.php:21
+#: views/metabox-airtable-settings.php:49
+#: views/metabox-airtable-settings.php:80
+msgid "(required)"
+msgstr "(requerido)"
+
+#: modules/post/views/settings.php:21
+msgid "Post Type"
+msgstr "Tipo de contenido"
+
+#: modules/post/destinations/class-air-wp-sync-taxonomy-destination.php:103
+msgid "Taxonomies"
+msgstr "Taxonomías"
+
+#: modules/post/destinations/class-air-wp-sync-post-meta-destination.php:122
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: modules/post/destinations/class-air-wp-sync-post-destination.php:222
+msgid "Post parent (ID)"
+msgstr "Padre (ID)"
+
+#: modules/post/destinations/class-air-wp-sync-post-destination.php:212
+msgid "Publication Date"
+msgstr "Fecha de publicación"
+
+#: modules/post/destinations/class-air-wp-sync-post-destination.php:200
+msgid "Author"
+msgstr "Autor"
+
+#: modules/post/destinations/class-air-wp-sync-post-destination.php:188
+msgid "Excerpt"
+msgstr "Extracto"
+
+#: modules/post/destinations/class-air-wp-sync-post-destination.php:182
+msgid "Content"
+msgstr "Contenido"
+
+#: modules/post/destinations/class-air-wp-sync-post-destination.php:176
+#: pro-plus/includes/destinations/acf/class-air-wp-sync-abstract-acf-destination.php:251
+msgid "Title"
+msgstr "Título"
+
+#: modules/post/destinations/class-air-wp-sync-post-destination.php:164
+msgid "Post"
+msgstr "Entrada"
+
+#: modules/post/class-air-wp-sync-post-module.php:97
+msgid "This slug is already in use, please choose another."
+msgstr "Este slug ya está en uso, por favor elige otro."
+
+#: modules/post/class-air-wp-sync-post-module.php:96
+msgid "Only lowercase alphanumeric characters, dashes, and underscores are allowed."
+msgstr "Sólo se permiten caracteres alfanuméricos en minúsculas, guiones y guiones bajos."
+
+#: modules/post/class-air-wp-sync-post-module.php:66
+msgid "Importing as: "
+msgstr "Importando como: "
+
+#: modules/post/class-air-wp-sync-post-helpers.php:93
+msgid "Create new post type..."
+msgstr "Crear nuevo tipo de contenido…"
+
+#. Translators: %s the field name.
+#: includes/sources/class-air-wp-sync-link-to-another-record-source.php:91
+msgid "[All records] %s"
+msgstr "[Todos los registros] %s"
+
+#: includes/sources/class-air-wp-sync-collaborator-source.php:54
+#: modules/user/destinations/class-air-wp-sync-user-destination.php:164
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/sources/class-air-wp-sync-collaborator-source.php:49
+msgid "ID"
+msgstr "ID"
+
+#: includes/sources/class-air-wp-sync-barcode-source.php:37
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-air-wp-sync.php:270
+msgid "No Connections Found in Trash"
+msgstr "No se han encontrado conexiones en la papelera"
+
+#: includes/class-air-wp-sync.php:269
+msgid "No Connections Found"
+msgstr "No se han encontrado conexiones"
+
+#: includes/class-air-wp-sync.php:268
+msgid "Search Connections"
+msgstr "Buscar conexión"
+
+#: includes/class-air-wp-sync.php:267
+msgid "View Connection"
+msgstr "Ver conexión"
+
+#: includes/class-air-wp-sync.php:266
+msgid "New Connection"
+msgstr "Nueva conexión"
+
+#: includes/class-air-wp-sync.php:265
+msgid "Edit Connection"
+msgstr "Editar conexión"
+
+#: includes/class-air-wp-sync.php:264
+msgid "Add New Connection"
+msgstr "Añadir nueva conexión"
+
+#: includes/class-air-wp-sync.php:262
+msgid "Connection"
+msgstr "Conexión"
+
+#: includes/class-air-wp-sync.php:240
+msgid "Every 30 minutes"
+msgstr "Cada 30 minutos"
+
+#: includes/class-air-wp-sync.php:236
+msgid "Every 10 minutes"
+msgstr "Cada 10 minutos"
+
+#: includes/class-air-wp-sync.php:232
+msgid "Every 5 minutes"
+msgstr "Cada 5 minutos"
+
+#: includes/class-air-wp-sync.php:141
+msgid "Air WP Sync and Air WP Sync Pro should not be active at the same time. We've automatically deactivated Air WP Sync Pro."
+msgstr "Air WP Sync y Air WP Sync Pro no deberían estar activos al mismo tiempo. Hemos desactivado automáticamente Air WP Sync Pro."
+
+#: includes/class-air-wp-sync.php:139
+msgid "Air WP Sync and Air WP Sync Pro should not be active at the same time. We've automatically deactivated Air WP Sync."
+msgstr "Air WP Sync y Air WP Sync Pro no deberían estar activos al mismo tiempo. Hemos desactivado automáticamente Air WP Sync."
+
+#: includes/class-air-wp-sync-updater.php:587 views/metabox-side/infos.php:25
+msgid "Error"
+msgstr "Error"
+
+#: includes/class-air-wp-sync-updater.php:587
+msgid "You do not have permission to install plugin updates"
+msgstr "No tienes permiso para instalar actualizaciones del plugin"
+
+#: includes/class-air-wp-sync-updater.php:348
+msgid "Update now."
+msgstr "Actualizar ahora."
+
+#. translators: %1$s = opening anchor tag, %2$s = version, %3$s = closing
+#. anchor tag, %4$s = opening anchor tag, %5$s = closing anchor tag
+#: includes/class-air-wp-sync-updater.php:337
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sVer versión %2$s detalles%3$s o %4$sactualizar ahora%5$s."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate.
+#: includes/class-air-wp-sync-updater.php:328
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$s Ver versión %2$s detalles %3$s."
+
+#: includes/class-air-wp-sync-updater.php:323
+msgid "Contact your network administrator to install the update."
+msgstr "Pónte en contacto con tu administrador de red para instalar la actualización."
+
+#. translators: the plugin name.
+#: includes/class-air-wp-sync-updater.php:317
+msgid "There is a new version of %1$s available."
+msgstr "Hay una nueva versión de %1$s disponible."
+
+#: includes/class-air-wp-sync-licensing.php:197
+msgid "Your license key has reached its activation limit."
+msgstr "Tu clave de licencia ha alcanzado su límite de activaciones."
+
+#: includes/class-air-wp-sync-licensing.php:194
+msgid "Your license is not active for this URL."
+msgstr "Tu licencia no está activa para esta URL."
+
+#: includes/class-air-wp-sync-licensing.php:190
+msgid "Your license is invalid."
+msgstr "Tu licencia no es válida."
+
+#: includes/class-air-wp-sync-licensing.php:185
+msgid "Your license key has been disabled."
+msgstr "Tu clave de licencia ha sido deshabilitada."
+
+#. translators: the license key expiration date
+#: includes/class-air-wp-sync-licensing.php:178
+msgid "Your license key expired on %s."
+msgstr "Tu clave de licencia expiró el %s."
+
+#. translators: the HTTP response code
+#: includes/class-air-wp-sync-licensing.php:67
+#: includes/class-air-wp-sync-licensing.php:109
+#: includes/class-air-wp-sync-licensing.php:148
+msgid "WP connect server returned an HTTP error, code: %s"
+msgstr "El servidor WP connect ha devuelto un error HTTP, código: %s"
+
+#: includes/class-air-wp-sync-helper.php:372
+msgid "Unauthorized"
+msgstr ""
+
+#: includes/class-air-wp-sync-filters.php:95
+#: includes/sources/class-air-wp-sync-collaborator-source.php:59
+#: modules/post/views/settings.php:34
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:240
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/class-air-wp-sync-filters.php:73
+#: includes/sources/class-air-wp-sync-barcode-source.php:42
+msgid "Value"
+msgstr "Valor"
+
+#. translators: %1$s: start link tag, %2$s end link tag.
+#: includes/class-air-wp-sync-abstract-importer.php:514
+msgid "Some tasks have been interrupted, %1$smore details%2$s"
+msgstr "Algunas tareas se han interrumpido, %1$smás detalles%2$s"
+
+#. translators: %s = error message
+#: includes/class-air-wp-sync-abstract-importer.php:433
+msgid "Could not refresh attachment URLs: %s"
+msgstr "No se han podido actualizar las URL de los archivos adjuntos: %s"
+
+#: includes/class-air-wp-sync-abstract-importer.php:234
+msgid "A sync is already running."
+msgstr "Ya se está ejecutando una sincronización."
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-sync-settings.php:55
+msgid "Add"
+msgstr "Añadir"
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-sync-settings.php:54
+msgid "Add & Update"
+msgstr "Añadir y actualizar"
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-sync-settings.php:53
+msgid "Add, Update & Delete"
+msgstr "Añadir, actualizar y borrar"
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-sync-settings.php:27
+msgid "Sync Settings"
+msgstr "Ajustes de sincronización"
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-importer-settings.php:27
+msgid "Import As..."
+msgstr "Importar como..."
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-import-infos.php:190
+msgid "Could not cancel import."
+msgstr "No se ha podido cancelar la importación."
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-import-infos.php:183
+msgid "Canceled."
+msgstr "Cancelado."
+
+#. translators: %s = progress percentage
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-import-infos.php:147
+msgid "In progress... %s"
+msgstr "En progreso… %s"
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-import-infos.php:136
+msgid "Finished!"
+msgstr "¡Completado!"
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-import-infos.php:88
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-import-infos.php:155
+msgid "Finished with errors."
+msgstr "Finalizado con errores."
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-global-settings.php:367
+msgid "No formula to check"
+msgstr "No hay fórmula para comprobar"
+
+#. translators: %1$s = access token creation URL
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-global-settings.php:85
+msgid "This looks like a user API key that is now deprecated. Please replace it with a <a href=\"%1$s\" target=\"_blank\">personal access token</a>."
+msgstr "Esto parece una clave API de usuario que ahora está obsoleta. Por favor, sustitúyela por un <a href=\"%1$s\" target=\"_blank\">token de acceso personal</a>."
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-global-settings.php:44
+msgid "Airtable Settings"
+msgstr "Ajustes de Airtable"
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-field-mapping.php:29
+msgid "Field Mapping"
+msgstr "Mapeo de campo"
+
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-field-mapping.php:26
+msgid "Add all the Airtable fields you want to synchronize and then select the corresponding data types where they will be imported into your post"
+msgstr "Añade todos los campos de Airtable que desees sincronizar y luego selecciona los tipos de datos correspondientes donde se importarán a tu entrada."
+
+#. Translators: %s Site health page URL
+#: includes/admin/class-air-wp-sync-admin.php:231
+msgid "There is a problem with your database tables charset, our plugin will not work properly if you are not using utf8mb4. Please contact your hosting provider to fix it."
+msgstr "Hay un problema con el conjunto de caracteres de las tablas de la base de datos. Nuestro plugin no funcionará correctamente si no estás usando utf8mb4. Por favor, contacta con tu proveedor de alojamiento para solucionarlo."
+
+#. Translators: %s Site health page URL
+#: includes/admin/class-air-wp-sync-admin.php:227
+msgid "WP Cron does not sound to work correctly and it‘s required by our plugin. Please check <a href=\"%s\">Site Health page</a> and <a href=\"https://wpconnect.co/blog/setup-cron-wordpress/\" target=\"_blank\">how to set up WP Cron correctly</a>."
+msgstr "WP Cron no parece funcionar correctamente y es requerido por nuestro plugin. Por favor, comprueba la <a href=\"%s\">página de Salud del Sitio</a> y <a href=\"https://wpconnect.co/blog/setup-cron-wordpress/\" target=\"_blank\">cómo configurar WP Cron correctamente</a>."
+
+#. translators: %s = list of connections using deprecated API keys
+#: includes/admin/class-air-wp-sync-admin.php:176
+msgid "<strong>Air WP Sync:</strong> The following connections use API Keys that will be deprecated. To benefit from all the features of our plugin in a more secure way, please use a personal access token instead: %s"
+msgstr "<strong>Air WP Sync:</strong> Las siguientes conexiones utilizan claves de API que serán obsoletas. Para beneficiarse de todas las características de nuestro plugin de una manera más segura, por favor utiliza un token de acceso personal en su lugar: %s"
+
+#: includes/admin/class-air-wp-sync-admin.php:92
+#: includes/class-air-wp-sync.php:261
+msgid "Connections"
+msgstr "Conexiones"
+
+#: includes/admin/class-air-wp-sync-admin-page.php:148
+msgid "Settings saved!"
+msgstr "¡Ajustes guardados!"
+
+#: includes/admin/class-air-wp-sync-admin-connections-list.php:114
+#: modules/post/class-air-wp-sync-post-module.php:95
+msgid "You have a Custom Post Type declared using this connection. Are you sure to delete it?"
+msgstr "Tienes un tipo de contenido personalizado declarado usando esta conexión. ¿Estás seguro de querer borrarlo?"
+
+#: includes/admin/class-air-wp-sync-admin-connections-list.php:80
+#: views/metabox-sync.php:93
+msgid "Instant via Webhook"
+msgstr "Instantáneo vía Webhook"
+
+#: includes/admin/class-air-wp-sync-admin-connections-list.php:69
+#: views/metabox-sync.php:47
+msgid "Recurring"
+msgstr "Recurrente"
+
+#: includes/admin/class-air-wp-sync-admin-connections-list.php:66
+#: views/metabox-sync.php:41
+msgid "Manual only"
+msgstr "Solo manual"
+
+#. Translators: %s Importer's module name (like "Post", "User")
+#: includes/admin/class-air-wp-sync-admin-connections-list.php:56
+msgid "%s Importer"
+msgstr "%s Importador"
+
+#: includes/admin/class-air-wp-sync-admin-connections-list.php:35
+#: views/metabox-sync.php:35
+msgid "Trigger"
+msgstr "Activador"
+
+#: includes/admin/class-air-wp-sync-admin-connections-list.php:34
+msgid "Last Synced On"
+msgstr "Última sincronización"
+
+#: includes/admin/class-air-wp-sync-admin-connections-list.php:33
+msgid "Importer Type"
+msgstr "Tipo de importador"
+
+#: includes/admin/class-air-wp-sync-admin-connections-list.php:32
+msgid "Last Modified On"
+msgstr "Última modificación"
+
+#: includes/admin/class-air-wp-sync-admin-connection.php:238
+msgid "Canceling..."
+msgstr "Cancelando..."
+
+#: includes/admin/class-air-wp-sync-admin-connection.php:237
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-import-infos.php:81
+msgid "In progress..."
+msgstr "En progreso..."
+
+#. translators: %s: Number of connections.
+#: includes/admin/class-air-wp-sync-admin-connection.php:194
+msgid "%s connection restored from the Trash."
+msgid_plural "%s connections restored from the Trash."
+msgstr[0] "%s conexión restaurada de la papelera."
+msgstr[1] "%s conexiones restauradas de la papelera."
+
+#. translators: %s: Number of connections.
+#: includes/admin/class-air-wp-sync-admin-connection.php:192
+msgid "%s connection moved to the Trash."
+msgid_plural "%s connections moved to the Trash."
+msgstr[0] "%s conexión movida a la papelera."
+msgstr[1] "%s conexiones movidas a la papelera."
+
+#. translators: %s: Number of connections.
+#: includes/admin/class-air-wp-sync-admin-connection.php:190
+msgid "%s connection permanently deleted."
+msgid_plural "%s connections permanently deleted."
+msgstr[0] "%s conexión eliminada permanentemente."
+msgstr[1] "%s conexiones eliminadas permanentemente."
+
+#. translators: %s: Number of connections.
+#: includes/admin/class-air-wp-sync-admin-connection.php:188
+msgid "%s connection not updated, somebody is editing it."
+msgid_plural "%s connections not updated, somebody is editing them."
+msgstr[0] "%s conexión no actualizada, alguien la está editando."
+msgstr[1] "%s conexiones no actualizadas, alguien las está editando."
+
+#: includes/admin/class-air-wp-sync-admin-connection.php:186
+msgid "1 connection not updated, somebody is editing it."
+msgstr "1 conexión no actualizada, alguien la está editando."
+
+#. translators: %s: Number of connections.
+#: includes/admin/class-air-wp-sync-admin-connection.php:185
+msgid "%s connection updated."
+msgid_plural "%s connections updated."
+msgstr[0] "%s conexión actualizada."
+msgstr[1] "%s conexiones actualizadas."
+
+#: includes/admin/class-air-wp-sync-admin-connection.php:166
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:88
+msgid "Connection draft updated."
+msgstr "Borrador de conexión actualizado."
+
+#: includes/admin/class-air-wp-sync-admin-connection.php:165
+msgid "Connection saved."
+msgstr "Conexión guardada."
+
+#: includes/admin/class-air-wp-sync-admin-connection.php:164
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/connection-wizard/Sync.js:74
+msgid "Connection published."
+msgstr "Conexión publicada."
+
+#: includes/admin/class-air-wp-sync-admin-connection.php:162
+#: includes/admin/class-air-wp-sync-admin-connection.php:163
+msgid "Connection updated."
+msgstr "Conexión actualizada."
+
+#: includes/admin/class-air-wp-sync-admin-connection.php:155
+msgid "Back to list"
+msgstr "Volver al listado"
+
+#: includes/admin/class-air-wp-sync-admin-connection.php:36
+msgid "One or more fields have an error. Please check and try again."
+msgstr "Uno o más campos tienen errores. Revísalo y vuelve a intentarlo."
+
+#: includes/admin/class-air-wp-sync-admin-connection.php:36
+msgid "Error:"
+msgstr "Error:"
+
+#: includes/admin/class-air-wp-sync-admin-connection-api.php:520
+msgid "These filters will return no result."
+msgstr "Estos filtros no devolverán ningún resultado."
+
+#. Translators: %d how many results will be returned from Airtable
+#: includes/admin/class-air-wp-sync-admin-connection-api.php:508
+msgid "These filters will return %d result."
+msgid_plural "These filters will return %d results."
+msgstr[0] "Estos filtros devolverán %d resultado."
+msgstr[1] "Estos filtros devolverán %d resultados."
+
+#. Translators: %d how many results will be returned from Airtable
+#: includes/admin/class-air-wp-sync-admin-connection-api.php:497
+msgid "These filters will return more than %d results."
+msgstr "Estos filtros devolverán más de %d resultados."
+
+#: includes/admin/class-air-wp-sync-admin-connection-api.php:465
+#: includes/admin/class-air-wp-sync-admin-connection-api.php:525
+#: includes/class-air-wp-sync-licensing.php:200
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error, por favor inténtalo de nuevo."
+
+#: air-wp-sync.php:43
+msgid "Air WP Sync Pro+ or Air WP Sync Pro is already active. Please deactivate both plugin before activating Air WP Sync for WooCommerce. You will be able to continue using your existing connections after deactivation."
+msgstr "Air WP Sync Pro+ o Air WP Sync Pro ya está activo. Por favor, desactiva ambos plugins antes de activar Air WP Sync for WooCommerce. Podrás seguir usando tus conexiones existentes después de la desactivación."
+
+#: air-wp-sync-for-woo/modules/product/views/settings.php:45
+msgid "Default Catalog Visibility"
+msgstr "Visibilidad de catálogo por defecto"
+
+#: air-wp-sync-for-woo/modules/product/views/settings.php:33
+msgid "Default Product Status"
+msgstr "Estado de producto por defecto"
+
+#. translators: %1$s created terms ids, %2$s received terms name.
+#: air-wp-sync-for-woo/modules/product/formatters-strategies/class-air-wp-sync-for-woo-format-product-attribute-data-to-wc-product-attribute-strategy.php:129
+msgid "Air_WP_Sync_For_Woo_Format_To_WC_Product_Attribute_Strategy->format: Some terms can’t be created ; created %1$s, received %2$s"
+msgstr "Air_WP_Sync_For_Woo_Format_To_WC_Product_Attribute_Strategy->format: Algunos términos no pueden crearse; creados %1$s, recibidos %2$s"
+
+#. translators: %1$s taxonomy name, %2$s error message.
+#: air-wp-sync-for-woo/modules/product/formatters-strategies/class-air-wp-sync-for-woo-format-product-attribute-data-to-wc-product-attribute-strategy.php:111
+msgid "Air_WP_Sync_For_Woo_Format_To_WC_Product_Attribute_Strategy->format: The taxonomy %1$s can’t be created ; error: %2$s"
+msgstr "Air_WP_Sync_For_Woo_Format_To_WC_Product_Attribute_Strategy->format: La taxonomía %1$s no puede crearse; error: %2$s"
+
+#. translators: %1$s attribute name, %2$s error message.
+#: air-wp-sync-for-woo/modules/product/formatters-strategies/class-air-wp-sync-for-woo-format-product-attribute-data-to-wc-product-attribute-strategy.php:83
+msgid "Air_WP_Sync_For_Woo_Format_To_WC_Product_Attribute_Strategy->format: The product attribute %1$s can’t be created ; error: %2$s"
+msgstr "Air_WP_Sync_For_Woo_Format_To_WC_Product_Attribute_Strategy->format: El atributo de producto %1$s no puede crearse; error: %2$s"
+
+#. translators: %s Airtable record id.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:511
+msgid "Variation with Airtable ID \"%s\" can’t be saved"
+msgstr "La variación con ID de Airtable \"%s\" no se puede guardar"
+
+#. translators: %s variation status.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:440
+msgid "Wrong variation status, expected \"private\" or \"publish\", received \"%s\""
+msgstr "Estado de variación incorrecto, se esperaba \"private\" o \"publish\", se recibió \"%s\""
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:332
+msgid "Variation (Download expiry)"
+msgstr "Variación (Caducidad de descarga)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:326
+msgid "Variation (Download limit)"
+msgstr "Variación (Límite de descarga)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:320
+msgid "Variation (Downloads)"
+msgstr "Variación (Descargas)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:313
+msgid "Variation (Sold individually?)"
+msgstr "Variación (¿Vendido individualmente?)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:307
+msgid "Variation (Low stock threshold)"
+msgstr "Variación (Umbral de stock bajo)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:301
+msgid "Variation (Allow backorders?)"
+msgstr "Variación (¿Permitir pedidos pendientes?)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:295
+msgid "Variation (Stock status)"
+msgstr "Variación (Estado de stock)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:289
+msgid "Variation (Stock quantity)"
+msgstr "Variación (Cantidad de stock)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:283
+msgid "Variation (Track stock quantity for this product)"
+msgstr "Variación (Seguimiento de cantidad de stock para este producto)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:277
+msgid "Variation (SKU)"
+msgstr "Variación (SKU)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:270
+msgid "Variation (Shipping class (from slug))"
+msgstr "Variación (Clase de envío (desde slug))"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:264
+msgid "Variation (Shipping class)"
+msgstr "Variación (Clase de envío)"
+
+#. translators: %s height unit.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:258
+msgid "Variation (Height (%s))"
+msgstr "Variación (Altura (%s))"
+
+#. translators: %s width unit.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:251
+msgid "Variation (Width (%s))"
+msgstr "Variación (Ancho (%s))"
+
+#. translators: %s length unit.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:244
+msgid "Variation (Length (%s))"
+msgstr "Variación (Longitud (%s))"
+
+#. translators: %s weight unit.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:237
+msgid "Variation (Weight (%s))"
+msgstr "Variación (Peso (%s))"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:229
+msgid "Variation (attributes)"
+msgstr "Variación (atributos)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:223
+msgid "Variation (image)"
+msgstr "Variación (imagen)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:217
+msgid "Variation (Downloadable)"
+msgstr "Variación (Descargable)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:211
+msgid "Variation (Virtual)"
+msgstr "Variación (Virtual)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:205
+msgid "Variation (Description)"
+msgstr "Variación (Descripción)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:199
+msgid "Variation (Tax class)"
+msgstr "Variación (Clase de impuestos)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:193
+msgid "Variation (Sale price to)"
+msgstr "Variación (Precio de oferta hasta)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:187
+msgid "Variation (Sale price from)"
+msgstr "Variación (Precio de oferta desde)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:181
+msgid "Variation (Sale price)"
+msgstr "Variación (Precio de oferta)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:175
+msgid "Variation (Regular price)"
+msgstr "Variación (Precio regular)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:169
+msgid "Variation (Status)"
+msgstr "Variación (Estado)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:163
+msgid "Variation (Airtable ID)"
+msgstr "Variación (ID de Airtable)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-variations-destination.php:73
+msgid "Product variations"
+msgstr "Variaciones de producto"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-taxonomy-destination.php:112
+#: modules/post/destinations/class-air-wp-sync-taxonomy-destination.php:131
+msgid "Split comma-separated string into terms"
+msgstr "Dividir cadena separada por comas en términos"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-taxonomy-destination.php:65
+msgid "Product | Taxonomy"
+msgstr "Producto | Taxonomía"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-shipping-destination.php:143
+msgid "Shipping class (from slug)"
+msgstr "Clase de envío (desde slug)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-shipping-destination.php:137
+msgid "Shipping class"
+msgstr "Clase de envío"
+
+#. translators: %s height unit.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-shipping-destination.php:131
+msgid "Height (%s)"
+msgstr "Altura (%s)"
+
+#. translators: %s width unit.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-shipping-destination.php:124
+msgid "Width (%s)"
+msgstr "Ancho (%s)"
+
+#. translators: %s length unit.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-shipping-destination.php:117
+msgid "Length (%s)"
+msgstr "Longitud (%s)"
+
+#. translators: %s weight unit.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-shipping-destination.php:110
+msgid "Weight (%s)"
+msgstr "Peso (%s)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-shipping-destination.php:64
+msgid "Product | Shipping"
+msgstr "Producto | Envío"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-linked-products-destination.php:139
+msgid "Cross-sells (from Airtable Records ids)"
+msgstr "Ventas cruzadas (desde IDs de registros de Airtable)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-linked-products-destination.php:133
+msgid "Cross-sells (post IDs)"
+msgstr "Ventas cruzadas (IDs de entradas)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-linked-products-destination.php:127
+msgid "Upsells (from Airtable Records ids)"
+msgstr "Ventas adicionales (desde IDs de registros de Airtable)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-linked-products-destination.php:121
+msgid "Upsells (post IDs)"
+msgstr "Ventas adicionales (IDs de entradas)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-linked-products-destination.php:115
+msgid "Grouped products (from Airtable Records ids)"
+msgstr "Productos agrupados (desde IDs de registros de Airtable)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-linked-products-destination.php:109
+msgid "Grouped products (post IDs)"
+msgstr "Productos agrupados (IDs de entradas)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-linked-products-destination.php:69
+msgid "Product | Linked Products"
+msgstr "Producto | Productos vinculados"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-inventory-destination.php:236
+msgid "Please note that a connection can’t update products created manually or by another connection."
+msgstr "Ten en cuenta que una conexión no puede actualizar productos creados manualmente o por otra conexión."
+
+#. Translators: %1$s the SKU, %2$s the duplicated product title, %3$d the
+#. duplicated product ID.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-inventory-destination.php:233
+msgid "The SKU “%1$s” is already being used by the product “%2$s” (%3$d)."
+msgstr "El SKU “%1$s” ya está siendo utilizado por el producto “%2$s” (%3$d)."
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-inventory-destination.php:149
+msgid "Sold individually?"
+msgstr "¿Vendido individualmente?"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-inventory-destination.php:143
+msgid "Low stock threshold"
+msgstr "Umbral de stock bajo"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-inventory-destination.php:137
+msgid "Allow backorders?"
+msgstr "¿Permitir pedidos pendientes?"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-inventory-destination.php:131
+msgid "Stock status"
+msgstr "Estado de stock"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-inventory-destination.php:125
+msgid "Stock quantity"
+msgstr "Cantidad de stock"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-inventory-destination.php:119
+msgid "Track stock quantity for this product"
+msgstr "Seguimiento de cantidad de stock para este producto"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-inventory-destination.php:113
+msgid "SKU"
+msgstr "SKU"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-inventory-destination.php:63
+msgid "Product | Inventory"
+msgstr "Producto | Inventario"
+
+#. translators: %1$s product property name, %2$s product class.
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:210
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:218
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-linked-products-destination.php:167
+msgid "The property \"%1$s\" is meant to be set on %2$s"
+msgstr "La propiedad \"%1$s\" está destinada a establecerse en %2$s"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:185
+msgid "Download expiry"
+msgstr "Caducidad de descarga"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:179
+msgid "Download limit"
+msgstr "Límite de descarga"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:173
+msgid "Downloads"
+msgstr "Descargas"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:166
+msgid "Tax class"
+msgstr "Clase de impuestos"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:160
+msgid "Tax status"
+msgstr "Estado fiscal"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:154
+msgid "Sale price to"
+msgstr "Precio de oferta hasta"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:148
+msgid "Sale price from"
+msgstr "Precio de oferta desde"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:142
+msgid "Sale price"
+msgstr "Precio de oferta"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:136
+msgid "Regular price"
+msgstr "Precio regular"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:130
+msgid "Button text"
+msgstr "Texto del botón"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:124
+msgid "Product URL"
+msgstr "URL del producto"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-general-destination.php:65
+msgid "Product | General"
+msgstr "Producto | General"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:216
+#: modules/post/destinations/class-air-wp-sync-post-meta-destination.php:130
+#: modules/term/destinations/class-air-wp-sync-term-meta-destination.php:104
+#: modules/user/destinations/class-air-wp-sync-user-meta-destination.php:105
+msgid "Custom Field..."
+msgstr "Campo personalizado..."
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:210
+msgid "Product gallery"
+msgstr "Galería del producto"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:204
+msgid "Product image"
+msgstr "Imagen del producto"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:198
+msgid "Tags (from names)"
+msgstr "Etiquetas (desde nombres)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:192
+msgid "Tags (term IDs)"
+msgstr "Etiquetas (IDs de términos)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:186
+msgid "Categories (from names)"
+msgstr "Categorías (desde nombres)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:180
+msgid "Categories (category IDs)"
+msgstr "Categorías (IDs de categorías)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:174
+msgid "Downloadable"
+msgstr "Descargable"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:168
+msgid "Virtual"
+msgstr "Virtual"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:162
+msgid "Short description"
+msgstr "Descripción corta"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:156
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:258
+msgid "Description"
+msgstr "Descripción"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:150
+msgid "Catalog visibility"
+msgstr "Visibilidad de catálogo"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:144
+msgid "Featured"
+msgstr "Destacado"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:138
+msgid "Modified date"
+msgstr "Fecha de modificación"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:132
+msgid "Published on"
+msgstr "Publicado el"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:126
+#: modules/post/destinations/class-air-wp-sync-post-destination.php:206
+msgid "Status"
+msgstr "Estado"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:120
+#: modules/post/destinations/class-air-wp-sync-post-destination.php:194
+#: modules/term/destinations/class-air-wp-sync-term-destination.php:246
+msgid "Slug"
+msgstr "Slug"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:114
+msgid "Product name"
+msgstr "Nombre del producto"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-destination.php:64
+msgid "Product"
+msgstr "Producto"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-attributes-destination.php:108
+msgid "Attributes (Visible on the product page)"
+msgstr "Atributos (Visible en la página del producto)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-attributes-destination.php:102
+msgid "Attributes (Term name)"
+msgstr "Atributos (Nombre del término)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-attributes-destination.php:96
+msgid "Attributes (Attribute name)"
+msgstr "Atributos (Nombre del atributo)"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-attributes-destination.php:64
+msgid "Product attributes"
+msgstr "Atributos del producto"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-advanced-destination.php:114
+msgid "Menu order"
+msgstr "Orden del menú"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-advanced-destination.php:108
+msgid "Purchase note"
+msgstr "Nota de compra"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-advanced-destination.php:102
+msgid "Enable reviews"
+msgstr "Habilitar reseñas"
+
+#: air-wp-sync-for-woo/modules/product/destinations/class-air-wp-sync-for-woo-product-advanced-destination.php:63
+msgid "Product Advanced"
+msgstr "Producto avanzado"
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-importer.php:267
+msgid "Unknown product type"
+msgstr "Tipo de producto desconocido"
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-importer.php:148
+msgid "Product save failed"
+msgstr "Error al guardar el producto"
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:122
+msgctxt "Tax status"
+msgid "None"
+msgstr "Ninguno"
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:121
+msgid "Shipping only"
+msgstr "Solo envío"
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:120
+msgid "Taxable"
+msgstr "Imponible"
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:98
+msgid "Only visible on the single product page, and nowhere else."
+msgstr "Solo visible en la página individual del producto, y en ningún otro lugar."
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:97
+msgid "Visible in search results, but not in the shop page or category pages."
+msgstr "Visible en los resultados de búsqueda, pero no en la página de la tienda ni en las páginas de categorías."
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:96
+msgid "Visible in shop pages and category pages, but not search results."
+msgstr "Visible en las páginas de la tienda y en las páginas de categorías, pero no en los resultados de búsqueda."
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:95
+msgid "The default, visible everywhere, shop pages, category pages and search results"
+msgstr "Por defecto, visible en todas partes: páginas de la tienda, páginas de categorías y resultados de búsqueda"
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:59
+msgid "Products that you list and describe on your website but are sold elsewhere."
+msgstr "Productos que publicas y describes en tu sitio web pero que se venden en otros lugares."
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:58
+msgid "This option activates additional fields that allow you to add one or more downloadable files. After the order validation step, customers receive a link in the order notification email that allows them to download the file."
+msgstr "Esta opción activa campos adicionales que te permiten añadir uno o más archivos descargables. Tras el paso de validación del pedido, los clientes reciben un enlace en el correo de notificación del pedido que les permite descargar el archivo."
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:57
+msgid "Products that have multiple variations, each of which may have a different price option, stock, SKU, etc. For example, a t-shirt available in different colors and/or sizes."
+msgstr "Productos que tienen múltiples variaciones, cada una de las cuales puede tener diferentes opciones de precio, stock, SKU, etc. Por ejemplo, una camiseta disponible en diferentes colores y/o tallas."
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:56
+msgid "A collection of related products that can be purchased individually and only consist of simple products. For example, a set of six drinking glasses."
+msgstr "Una colección de productos relacionados que pueden adquirirse individualmente y que solo consisten en productos simples. Por ejemplo, un juego de seis copas."
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:55
+msgid "This type of product covers the vast majority of products sold on a store. Simple products are shipped and have no special options. For example, a book."
+msgstr "Este tipo de producto cubre la gran mayoría de los productos vendidos en una tienda. Los productos simples se envían y no tienen opciones especiales. Por ejemplo, un libro."
+
+#: air-wp-sync-for-woo/modules/product/class-air-wp-sync-for-woo-product-helpers.php:49
+msgid "Downloadable product"
+msgstr "Producto descargable"
+
+#. translators: %1$d count missing tables, %2$s missing table name list.
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-structure.php:174
+msgid "%1$d missing table(s): %2$s."
+msgstr "%1$d tabla(s) faltante(s): %2$s."
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-structure.php:154
+msgid "A field is missing in the template."
+msgstr "Falta un campo en la plantilla."
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-structure.php:152
+msgid "Some fields are missing in the template."
+msgstr "Faltan algunos campos en la plantilla."
+
+#. translators: %1$s field name, %2$s table name.
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-structure.php:150
+msgid "The field \"%1$s\" could not be found in the table \"%2$s\"."
+msgstr "El campo \"%1$s\" no pudo encontrarse en la tabla \"%2$s\"."
+
+#. translators: %s table key.
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-structure.php:64
+msgid "Table key %s not found."
+msgstr "Clave de tabla %s no encontrada."
+
+#. translators: %s template version.
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-structure.php:45
+msgid "Template version %s could not be loaded."
+msgstr "La versión de plantilla %s no pudo cargarse."
+
+#. translators: %s template version.
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-structure.php:38
+msgid "Template version %s not found."
+msgstr "La versión de plantilla %s no fue encontrada."
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-checker.php:215
+msgid "Shipping"
+msgstr "Envío"
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-checker.php:212
+msgid "Linked Products"
+msgstr "Productos vinculados"
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-checker.php:209
+msgid "Variations"
+msgstr "Variaciones"
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-checker.php:206
+msgid "Inventory"
+msgstr "Inventario"
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-checker.php:203
+msgid "General"
+msgstr "General"
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-checker.php:200
+msgid "Main"
+msgstr "Principal"
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-checker.php:197
+msgid "Other"
+msgstr "Otro"
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-checker.php:139
+msgid "This base does not sound to be an Air WP Sync for WooCommerce template."
+msgstr "Esta base no parece ser una plantilla de Air WP Sync for WooCommerce."
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-checker.php:128
+msgid "There is no table in this base."
+msgstr "No hay ninguna tabla en esta base."
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-template-checker.php:75
+msgid "Invalid Airtable access token"
+msgstr "Token de acceso de Airtable no válido"
+
+#. translators: %1$s home url.
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-orders.php:798
+msgid "Updated by %1$s: clean-up stock transactions"
+msgstr "Actualizado por %1$s: limpieza de transacciones de stock"
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-orders.php:729
+msgid "Clean up stock table: can’t find product."
+msgstr "Limpieza de tabla de stock: no se puede encontrar el producto."
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-orders.php:723
+msgid "Clean up stock table skipped."
+msgstr "Limpieza de tabla de stock omitida."
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-orders.php:424
+msgid "The order does not exist, it may have been deleted?"
+msgstr "El pedido no existe, ¿puede que haya sido eliminado?"
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-orders.php:384
+msgid "Stock transactions updated."
+msgstr "Transacciones de stock actualizadas."
+
+#. translators: %1$s order number, %2$s order status.
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-orders.php:374
+msgid "Updated by order %1$s (%2$s)"
+msgstr "Actualizado por el pedido %1$s (%2$s)"
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-orders.php:345
+msgid "Stock transactions update skipped, no new stock transactions."
+msgstr "Actualización de transacciones de stock omitida, no hay nuevas transacciones de stock."
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-orders.php:323
+msgid "Order created on Airtable."
+msgstr "Pedido creado en Airtable."
+
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-orders.php:321
+msgid "Order updated on Airtable."
+msgstr "Pedido actualizado en Airtable."
+
+#. Translators: %s order status.
+#: air-wp-sync-for-woo/includes/class-air-wp-sync-for-woo-orders.php:190
+msgid "Start order export to Airtable (order status: %s)."
+msgstr "Inicio de exportación de pedido a Airtable (estado del pedido: %s)."
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-product-connection-list-table.php:21
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/BaseSynchronized.js:17
+#: air-wp-sync-for-woo/assets/src/air-wp-sync-for-woocommerce/src/modules/all-products-check-base/ExistingBaseNotFound.js:14
+msgid "My Woo Connections"
+msgstr "Mis conexiones Woo"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:189
+#: includes/admin/class-air-wp-sync-admin.php:74
+#: includes/admin/class-air-wp-sync-admin.php:75
+msgid "All Connections"
+msgstr "Todas las conexiones"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:174
+msgid "Air WP Sync <br /><span style=\"font-size: 80%;\">for WooCommerce</span>"
+msgstr "Air WP Sync <br /><span style=\"font-size: 80%;\">for WooCommerce</span>"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:172
+#: includes/admin/class-air-wp-sync-admin.php:65
+#: includes/admin/class-air-wp-sync-admin.php:66 views/header.php:15
+msgid "Air WP Sync"
+msgstr "Air WP Sync"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:112
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:113
+msgid "Documentation"
+msgstr "Documentación"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:103
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:104
+msgid "Support"
+msgstr "Soporte"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:87
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:88
+msgid "Woo Connections"
+msgstr "Conexiones Woo"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:176
+msgid "The access token is valid but the available base is not the one you have previously connected. Please verify the access token or disconnect the base first."
+msgstr "El token de acceso es válido pero la base disponible no es la que has conectado anteriormente. Por favor, verifica el token de acceso o desconecta la base primero."
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:173
+msgid "The access token is valid but the base can’t be found."
+msgstr "El token de acceso es válido pero no se puede encontrar la base."
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:149
+#: includes/admin/class-air-wp-sync-admin-page.php:126
+msgid "License successfully deactivated."
+msgstr "Licencia desactivada con éxito."
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:148
+#: includes/admin/class-air-wp-sync-admin-page.php:106
+msgid "License successfully activated!"
+msgstr "¡Licencia activada exitosamente!"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:107
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:108
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:356
+#: air-wp-sync-for-woo/views/settings-page.php:11
+#: includes/admin/class-air-wp-sync-admin-page.php:55
+#: includes/admin/class-air-wp-sync-admin-page.php:56
+#: includes/admin/class-air-wp-sync-admin.php:150 views/settings-page.php:18
+msgid "Settings"
+msgstr "Ajustes"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:98
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:99
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:217
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:278
+msgid "Search Woo Connections"
+msgstr "Buscar conexiones Woo"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:221
+#: includes/admin/metaboxes/class-air-wp-sync-metabox-import-infos.php:33
+msgid "Actions"
+msgstr "Acciones"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:213
+#: air-wp-sync-for-woo/modules/product/views/settings.php:21
+msgid "Product Type"
+msgstr "Tipo de producto"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:54
+msgid "No Regular Connections found in Trash"
+msgstr "No se han encontrado conexiones regulares en la papelera"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:53
+msgid "No Regular Connections found"
+msgstr "No se han encontrado conexiones regulares"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:52
+msgid "Search Regular Connections"
+msgstr "Buscar conexiones regulares"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:51
+msgid "View Regular Connection"
+msgstr "Ver conexión regular"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:50
+msgid "New Regular Connection"
+msgstr "Nueva conexión regular"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:49
+msgid "Edit Regular Connection"
+msgstr "Editar conexión regular"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:48
+msgid "Add New Regular Connection"
+msgstr "Añadir nueva conexión regular"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:47
+msgid "Regular Connection"
+msgstr "Conexión regular"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-product-module-modifier.php:46
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:190
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:204
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:205
+msgid "Regular Connections"
+msgstr "Conexiones regulares"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection.php:178
+msgid "Instant via Webhook (coming soon)"
+msgstr "Instantáneo vía Webhook (próximamente)"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection.php:65
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection.php:66
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin.php:191
+#: includes/admin/class-air-wp-sync-admin.php:81
+#: includes/admin/class-air-wp-sync-admin.php:82
+#: includes/class-air-wp-sync.php:263
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection-list.php:133
+msgid "Your new Airtable base has been successfully created!"
+msgstr "¡Tu nueva base de Airtable ha sido creada exitosamente!"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection-list.php:133
+msgid "Your base on Airtable has been found!"
+msgstr "¡Tu base en Airtable ha sido encontrada!"
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection-list.php:110
+msgid "A new base is available but it‘s not the one you have previously connected."
+msgstr "Hay una nueva base disponible pero no es la que has conectado anteriormente."
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection-list.php:101
+msgid "The base can’t be found."
+msgstr "No se puede encontrar la base."
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection-list.php:101
+msgid "We’ve not find the base you’ve previously connected."
+msgstr "No hemos podido encontrar la base que has conectado anteriormente."
+
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection-list.php:68
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection-list.php:94
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-connection.php:82
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:123
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:160
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:188
+#: air-wp-sync-for-woo/includes/admin/class-air-wp-sync-for-woo-admin-welcome-and-settings.php:203
+msgid "An error has occurred, please retry later."
+msgstr "Ha ocurrido un error, por favor inténtalo de nuevo más tarde."
+
+#: air-wp-sync-for-woo/class-air-wp-sync-for-woo.php:107
+msgid "Air WP Sync for WooCommerce is inactive because WooCommerce is required and is not installed."
+msgstr "Air WP Sync for WooCommerce está inactivo porque WooCommerce es necesario y no está instalado."
+
+#. Author URI of the plugin
+#: air-wp-sync.php
+msgid "https://wpconnect.co/"
+msgstr "https://wpconnect.co/"
+
+#. Author of the plugin
+#: air-wp-sync.php
+msgid "WP connect"
+msgstr "WP connect"
+
+#. Description of the plugin
+#: air-wp-sync.php
+msgid "Swiftly connect Airtable to your WordPress and WooCommerce website!"
+msgstr "¡Conecta rápidamente Airtable con tu sitio web WordPress y WooCommerce!"
+
+#. Plugin URI of the plugin
+#: air-wp-sync.php
+msgid "https://wpconnect.co/woocommerce-airtable-integration/"
+msgstr "https://wpconnect.co/woocommerce-airtable-integration/"
+
+#. Plugin Name of the plugin
+#: air-wp-sync.php air-wp-sync-for-woo/views/header.php:15
+msgid "Air WP Sync for WooCommerce"
+msgstr "Air WP Sync for WooCommerce"

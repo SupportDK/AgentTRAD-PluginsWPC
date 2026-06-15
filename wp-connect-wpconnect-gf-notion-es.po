@@ -1,0 +1,278 @@
+# Translation of WP connect - addon_gf-notion in Spanish (Spain)
+# This file is distributed under the same license as the WP connect - addon_gf-notion package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-07 07:39:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: es\n"
+"Project-Id-Version: WP connect - addon_gf-notion\n"
+
+#: includes/classes/api-licensing.php:354
+msgid "Automatic updates are unavailable because the license is missing or inactive. Enter your license on the %1$sSettings%2$s page or check your %3$sWP connect account%4$s."
+msgstr "Las actualizaciones automáticas no están disponibles porque la licencia no está disponible o está inactiva. Ingresa tu licencia en la página %1$sConfiguración%2$s o revisa tu %3$scuenta de WP connect%4$s."
+
+#: includes/classes/api-licensing.php:343
+msgid "License Not Activated. The plugin license is not activated. To enable updates and support, please enter your licence key on the %1$sSettings%2$s page. You can find your license in your %3$sWP connect account%4$s. If you don’t have a licence key, please see %5$sdetails & pricing%6$s."
+msgstr "Licencia no activada. Tu licencia no se encuentra activada. Para habilitar actualizaciones y soporte, introduce tu licencia en la página de %1$sAjustes%2$s. Puedes encontrar tu licencia en tu %3$scuenta de WP connect%4$s. Si no dispones de una licencia, consulta %5$sdetalles y precios%6$s."
+
+#: includes/classes/api-licensing.php:335
+msgid "License Activated but Disabled. Your license is currently disabled. Please %1$srenew or manage it in your WP connect account%2$s to restore access to updates and support. If you don’t have a licence key, please see %3$sdetails & pricing%4$s."
+msgstr "Licencia activada pero deshabilitada. Tu licencia ha sido deshabilitada. %1$sRenuévala en tu cuenta de WP connect%2$s para recuperar el acceso a actualizaciones y soporte. Si no dispones de una licencia, consulta %3$sdetalles y precios%4$s."
+
+#: includes/classes/api-licensing.php:327
+msgid "License Activated but Expired. Your license has expired. Please %1$srenew it on your WP connect account%2$s to continue receiving updates and support. If you don’t have a licence key, please see %3$sdetails & pricing%4$s."
+msgstr "Licencia activada pero caducada. Tu licencia ha caducado. Por favor, %1$srenuévala en tu cuenta de WP connect%2$s para seguir recibiendo actualizaciones y soporte. Si no tiens una licencia, consulta %3$sdetalles y precios%4$s."
+
+#: wpconnect-gf-notion.php:95
+msgid "The \"Gravity Forms to Notion Add-On\" plugin is inactive because the minimal requirements are not met."
+msgstr "El plugin \"Gravity Forms to Notion Add-On\" está inactivo porque no cumple los requisitos mínimos."
+
+#: includes/hooks.php:142
+msgid "URL:"
+msgstr "URL:"
+
+#: includes/hooks.php:140
+msgid "Row ID:"
+msgstr "ID de fila:"
+
+#: includes/hooks.php:130
+msgid "Error message:"
+msgstr "Mensaje de error:"
+
+#: includes/hooks.php:127
+msgid "Error code:"
+msgstr "Código de error:"
+
+#: includes/hooks.php:111
+msgid "Feed #%1$d"
+msgstr "Feed n.° %1$d"
+
+#: includes/hooks.php:103
+msgid "No data."
+msgstr "No hay datos."
+
+#: includes/hooks.php:80
+msgid "Notion"
+msgstr "Notion"
+
+#: includes/helpers.php:49
+msgid "Your license is inactive or invalid."
+msgstr "Tu licencia está inactiva o no es válida."
+
+#: includes/classes/plugin-updater.php:507
+msgid "Error"
+msgstr "Error"
+
+#: includes/classes/plugin-updater.php:507
+msgid "You do not have permission to install plugin updates"
+msgstr "No tienes permiso para instalar actualizaciones del plugin"
+
+#: includes/classes/plugin-updater.php:275
+msgid "Update now."
+msgstr "Actualizar ahora."
+
+#: includes/classes/plugin-updater.php:264
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sVer versión %2$s detalles%3$s o %4$sactualizar ahora%5$s."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate.
+#: includes/classes/plugin-updater.php:256
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$s Ver versión %2$s detalles %3$s."
+
+#: includes/classes/plugin-updater.php:251
+msgid "Contact your network administrator to install the update."
+msgstr "Ponte en contacto con tu administrador de red para instalar la actualización."
+
+#. translators: the plugin name.
+#: includes/classes/plugin-updater.php:245
+msgid "There is a new version of %1$s available."
+msgstr "Hay una nueva versión de %1$s disponible."
+
+#: includes/classes/gf-addon.php:447
+msgid "Notion columns"
+msgstr "Columnas de Notion"
+
+#: includes/classes/gf-addon.php:445
+msgid "Form fields"
+msgstr "Campos del Formulario"
+
+#: includes/classes/gf-addon.php:441
+msgid "Add and select the Notion columns where you want to send data, then choose the form fields that match."
+msgstr "Añade y selecciona las columnas de Notion a las que deseas enviar los datos y, a continuación, elige los campos de formulario que coincidan."
+
+#: includes/classes/gf-addon.php:439
+msgid "Fields mapping"
+msgstr "Asignación de campos"
+
+#: includes/classes/gf-addon.php:434
+msgid "Please save these settings again in order to get an updated list of columns in the fields mapping list below."
+msgstr "Vuelve a guardar esta configuración para obtener una lista actualizada de columnas en la lista de asignación de campos que aparece a continuación."
+
+#: includes/classes/gf-addon.php:429
+msgid "Database selection change"
+msgstr "Cambio de selección de base de datos"
+
+#: includes/classes/gf-addon.php:416
+msgid "No Notion database is visible at the moment. Create one and refresh this page after 1 minute."
+msgstr "Ninguna base de datos Notion es visible en este momento. Crea una y actualiza esta página después de 1 minuto."
+
+#: includes/classes/gf-addon.php:399 includes/classes/gf-addon.php:414
+msgid "Select the Notion database where you want to save the answers. Make sure you have added the integration to the Notion page."
+msgstr "Selecciona la base de datos Notion en la que desea guardar las respuestas. Asegúrate de haber añadido la integración a la página Notion."
+
+#: includes/classes/gf-addon.php:388
+msgid "Enter a feed name to uniquely identify it."
+msgstr "Introduce un nombre de feed para identificarla de forma única."
+
+#: includes/classes/gf-addon.php:384
+msgid "Feed name"
+msgstr "Nombre del feed"
+
+#: includes/classes/gf-addon.php:365
+msgid "Write in Notion database only if"
+msgstr "Escribir en la base de datos Notion sólo si"
+
+#: includes/classes/gf-addon.php:364
+msgid "Enable conditional processing"
+msgstr "Habilitar el procesamiento condicional"
+
+#: includes/classes/gf-addon.php:363
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: includes/classes/gf-addon.php:356
+msgid "Conditional logic"
+msgstr "Lógica condicional"
+
+#: includes/classes/gf-addon.php:350
+msgid "Integration with Notion"
+msgstr "Integración con Notion"
+
+#: includes/classes/gf-addon.php:339
+msgid "API key missing or invalid"
+msgstr "Clave API faltante o no válida"
+
+#: includes/classes/gf-addon.php:332
+msgid "Please visit the <a href=\"%1$s\">plugin settings page</a> and enter a valid Notion API key."
+msgstr "Visita la <a href=\"%1$s\">página de ajustes del plugin</a> e introduzca una clave API de Notion válida."
+
+#: includes/classes/gf-addon.php:267
+msgid "Condition(s)"
+msgstr "Condición (es)"
+
+#: includes/classes/gf-addon.php:266 includes/classes/gf-addon.php:395
+#: includes/classes/gf-addon.php:413
+msgid "Database"
+msgstr "Base de datos"
+
+#: includes/classes/gf-addon.php:265
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/classes/gf-addon.php:224
+msgid "License successfully de-activated."
+msgstr "Licencia desactivada exitosamente."
+
+#: includes/classes/gf-addon.php:219
+msgid "License successfully activated."
+msgstr "Licencia activada exitosamente."
+
+#: includes/classes/gf-addon.php:205
+msgid "De-activate"
+msgstr "Desactivar"
+
+#: includes/classes/gf-addon.php:199
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/classes/gf-addon.php:192
+msgid "License Key"
+msgstr "Licencia"
+
+#: includes/classes/gf-addon.php:140
+msgid "Secret Token"
+msgstr "Token secreto"
+
+#: includes/classes/gf-addon.php:138
+msgid "https://www.notion.so/help/create-integrations-with-the-notion-api"
+msgstr "https://www.notion.so/help/create-integrations-with-the-notion-api"
+
+#: includes/classes/gf-addon.php:137
+msgid "To get your secret token, follow <a href=\"%1$s\" target=\"_blank\">these explanations</a>."
+msgstr "Para obtener tu token secreto, sigue <a href=\"%1$s\" target=\"_blank\">estas explicaciones</a>."
+
+#: includes/classes/gf-addon.php:131
+msgid "License Activation"
+msgstr "Activación de licencia"
+
+#: includes/classes/gf-addon.php:127
+msgid "Notion Add-On Settings"
+msgstr "Ajustes de la extensión Notion"
+
+#: includes/classes/api-notion.php:80
+msgid "The Notion API responded with an error."
+msgstr "La API de Notion respondió con un error."
+
+#: includes/classes/api-licensing.php:198
+#: includes/classes/api-licensing.php:206
+#: includes/classes/api-licensing.php:254
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error, por favor inténtalo de nuevo."
+
+#: includes/classes/api-licensing.php:195
+msgid "Your license key has reached its activation limit."
+msgstr "Tu licencia ha alcanzado su límite de activación."
+
+#: includes/classes/api-licensing.php:192
+msgid "Your license is not active for this URL."
+msgstr "Tu licencia no está activa para esta URL."
+
+#: includes/classes/api-licensing.php:188
+msgid "Invalid license."
+msgstr "Licencia no válida."
+
+#: includes/classes/api-licensing.php:185
+msgid "Your license key has been disabled."
+msgstr "Tu licencia ha sido deshabilitada."
+
+#. translators: the license key expiration date
+#: includes/classes/api-licensing.php:179
+msgid "Your license key expired on %s."
+msgstr "Tu licencia expiró el %s."
+
+#. translators: the HTTP response code
+#: includes/classes/api-licensing.php:160
+#: includes/classes/api-licensing.php:237
+msgid "WP connect server returned an HTTP error, code: %s"
+msgstr "El servidor WP connect ha devuelto un error HTTP, código: %s"
+
+#. Author URI of the plugin
+#: wpconnect-gf-notion.php
+msgid "https://wpconnect.co/"
+msgstr "https://wpconnect.co/"
+
+#. Author of the plugin
+#: wpconnect-gf-notion.php
+msgid "WP connect"
+msgstr "WP connect"
+
+#. Description of the plugin
+#: wpconnect-gf-notion.php
+msgid "Create Notion entries directly from your Gravity Forms forms."
+msgstr "Crea entradas Notion directamente desde tus formularios Gravity Forms."
+
+#. Plugin URI of the plugin
+#: wpconnect-gf-notion.php
+msgid "https://wpconnect.co/gravity-forms-notion-add-on/"
+msgstr "https://wpconnect.co/gravity-forms-notion-add-on/"
+
+#. Plugin Name of the plugin
+#: wpconnect-gf-notion.php
+msgid "Gravity Forms to Notion Add-On"
+msgstr "Gravity Forms to Notion Add-On"

@@ -1,0 +1,360 @@
+# Translation of WP connect - addon_gf-at in Spanish (Spain)
+# This file is distributed under the same license as the WP connect - addon_gf-at package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-07 07:44:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: es\n"
+"Project-Id-Version: WP connect - addon_gf-at\n"
+
+#: includes/classes/class-gf-addon.php:637
+msgid "Enable partial entries"
+msgstr "Habilitar entradas parciales"
+
+#: includes/classes/class-gf-addon.php:632
+msgid "Allows sending partial entries to Airtable. Make sure to enable partial entries for this form in %sGravity Forms settings%s."
+msgstr "Permite enviar entradas parciales a Airtable. Asegúrese de habilitar las entradas parciales para este formulario en la configuración de %sGravity Forms%s."
+
+#: includes/classes/class-gf-addon.php:629
+msgid "Use partial entries"
+msgstr "Usar entradas parciales"
+
+#: includes/classes/class-gf-addon.php:217
+msgid "Access tokens should at least be given the <code>data.records:write</code> and <code>schema.bases:read</code> scopes, and have access to the Base."
+msgstr "Los tokens de acceso deben tener al menos los permisos <code>data.records:write</code> y <code>schema.bases:read</code>, y tener acceso a la Base."
+
+#: wpconnect-gf-airtable.php:97
+msgid "The \"Gravity Forms to Airtable Add-On\" plugin is inactive because the minimal requirements are not met."
+msgstr "El plugin \"Gravity Forms to Airtable Add-On\" está inactivo porque no cumple los requisitos mínimos."
+
+#: includes/hooks.php:280
+msgid "Retry"
+msgstr "Reintentar"
+
+#: includes/hooks.php:270
+msgid "Record has been resubmitted to Airtable."
+msgstr "El registro ha sido reenviado a Airtable."
+
+#. Translators: %1$s = Record ID
+#: includes/hooks.php:250
+msgid "Record successfully created (ID %s)."
+msgstr "Registro creado con éxito (ID %s)."
+
+#: includes/hooks.php:238
+msgid "Error:"
+msgstr "Error:"
+
+#. Translators: %1$s = Feed ID
+#: includes/hooks.php:228
+msgid "Feed #%1$d"
+msgstr "Feed n.° %1$d"
+
+#: includes/hooks.php:218 includes/hooks.php:262
+msgid "No data."
+msgstr "No hay datos."
+
+#: includes/hooks.php:183
+msgid "Airtable"
+msgstr "Airtable"
+
+#: includes/helpers.php:33
+msgid "Your license is inactive or invalid."
+msgstr "Tu licencia está inactiva o no es válida."
+
+#: includes/classes/class-plugin-updater.php:508
+msgid "Error"
+msgstr "Error"
+
+#: includes/classes/class-plugin-updater.php:508
+msgid "You do not have permission to install plugin updates"
+msgstr "No tienes permiso para instalar actualizaciones del plugin"
+
+#: includes/classes/class-plugin-updater.php:276
+msgid "Update now."
+msgstr "Actualizar ahora."
+
+#. Translators: %1$s = Opening <a> tag; %2$s = Version ; %3$s = closing </a>
+#. tag ; %4$s = Opening <a> tag; %5$s = Closing </a> tag
+#: includes/classes/class-plugin-updater.php:265
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sVer versión %2$s detalles%3$s o %4$sactualizar ahora%5$s."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate.
+#: includes/classes/class-plugin-updater.php:256
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$s Ver versión %2$s detalles %3$s."
+
+#: includes/classes/class-plugin-updater.php:251
+msgid "Contact your network administrator to install the update."
+msgstr "Ponte en contacto con tu administrador de red para instalar la actualización."
+
+#. translators: the plugin name.
+#: includes/classes/class-plugin-updater.php:245
+msgid "There is a new version of %1$s available."
+msgstr "Hay una nueva versión de %1$s disponible."
+
+#: includes/classes/class-gf-addon.php:700
+#: includes/classes/class-gf-addon.php:704
+msgid "Choose a table"
+msgstr "Elige una tabla"
+
+#: includes/classes/class-gf-addon.php:700
+msgid "Choose a base"
+msgstr "Elige una base"
+
+#: includes/classes/class-gf-addon.php:657
+msgid "Enable conditional processing"
+msgstr "Habilitar el procesamiento condicional"
+
+#: includes/classes/class-gf-addon.php:656
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: includes/classes/class-gf-addon.php:651
+msgid "Conditional logic"
+msgstr "Lógica condicional"
+
+#: includes/classes/class-gf-addon.php:647
+msgid "Integration with Airtable"
+msgstr "Integración con Airtable"
+
+#: includes/classes/class-gf-addon.php:615
+msgid "Cache successfully emptied."
+msgstr "Caché vaciada con éxito."
+
+#: includes/classes/class-gf-addon.php:613
+msgid "Empty cache"
+msgstr "Caché vacío"
+
+#: includes/classes/class-gf-addon.php:609
+msgid "This plugin uses a caching system."
+msgstr "Este plugin utiliza un sistema de caché."
+
+#: includes/classes/class-gf-addon.php:605
+msgid "To troubleshoot the issue, please go the entry detail page and check the \"Airtable\" block.<br>It will display any error encountered while creating records."
+msgstr "Para solucionar el problema, ve a la página de detalles de la entrada y compruebe el bloque \"Airtable\".<br>Mostrará cualquier error encontrado al crear registros."
+
+#: includes/classes/class-gf-addon.php:603
+msgid "Airtable records are not creating?"
+msgstr "¿No se crean los registros de Airtable?"
+
+#: includes/classes/class-gf-addon.php:599
+msgid "Add and select the form fields, then choose the Airtable column where to send each piece of data to. Make sure the column names are entered identically to your database."
+msgstr "Añade y selecciona los campos del formulario, después elige la columna de Airtable a la que enviar cada dato. Asegúrate de que los nombres de las columnas se introducen de forma idéntica a tu base de datos."
+
+#: includes/classes/class-gf-addon.php:594
+msgid "Airtable Field Name"
+msgstr "Nombre del campo Airtable"
+
+#: includes/classes/class-gf-addon.php:591
+msgid "Form field"
+msgstr "Campo de formulario"
+
+#: includes/classes/class-gf-addon.php:587
+msgid "Fields Mapping"
+msgstr "Asignación de campos"
+
+#: includes/classes/class-gf-addon.php:582
+msgid "Please save these settings before mapping your fields."
+msgstr "Guarda la configuración antes de asignar los campos."
+
+#: includes/classes/class-gf-addon.php:552
+msgid "Enter a feed name to uniquely identify it."
+msgstr "Introduce un nombre de feed para identificarla de forma única."
+
+#: includes/classes/class-gf-addon.php:532
+msgid "Enter the name of the table in which the new records will be created. You can also use the part starting with ‘tbl’ located between two slashes in the URL."
+msgstr "Introduce el nombre de la tabla en la que se crearán los nuevos registros. También puedes utilizar la parte que empieza por 'tbl' situada entre dos barras en la URL."
+
+#: includes/classes/class-gf-addon.php:532
+msgid "Select the target table from the options below."
+msgstr "Selecciona la tabla de destino entre las opciones siguientes."
+
+#: includes/classes/class-gf-addon.php:531
+msgid "Table ID"
+msgstr "ID de la tabla"
+
+#: includes/classes/class-gf-addon.php:531
+msgid "Table name"
+msgstr "Nombre de la Tabla"
+
+#: includes/classes/class-gf-addon.php:528
+msgid "Open your database on Airtable and look at the URL in your browser bar. The app ID is the part starting with ‘app’ and located between two slashes."
+msgstr "Abre tu base de datos en Airtable y mira la URL en la barra de su navegador. El ID de la aplicación es la parte que empieza por 'app' y se encuentra entre dos barras."
+
+#: includes/classes/class-gf-addon.php:528
+msgid "Select the target database from the options below."
+msgstr "Selecciona la base de datos de destino entre las opciones siguientes."
+
+#: includes/classes/class-gf-addon.php:527
+msgid "App ID"
+msgstr "App ID"
+
+#: includes/classes/class-gf-addon.php:527
+msgid "Base name"
+msgstr "Nombre de la base"
+
+#: includes/classes/class-gf-addon.php:511
+msgid "Access token missing or invalid"
+msgstr "El token de acceso falta o no es válido"
+
+#. Translators: %1$s = Gravity Forms to Airtable settings page URL
+#: includes/classes/class-gf-addon.php:504
+msgid "Please visit the <a href=\"%1$s\">plugin settings page</a> and enter a valid Airtable API key."
+msgstr "Por favor, visita la <a href=\"%1$s\">página de configuración del plugin</a> e introduce una clave API de Airtable válida."
+
+#. Translators: %1$s = Opening <a> tag; %2$s = Closing <a> tag
+#: includes/classes/class-gf-addon.php:488
+msgid "You must add an Airtable API Key to your settings before creating a feed. Let's %1$sadd it%2$s!"
+msgstr "Debes añadir una Clave API de Airtable a tu configuración antes de crear un feed. ¡Vamos a %1$sañadirla%2$s!"
+
+#: includes/classes/class-gf-addon.php:385
+msgid "Condition(s)"
+msgstr "Condición (es)"
+
+#: includes/classes/class-gf-addon.php:384
+msgid "Airtable Table"
+msgstr "Tabla Airtable"
+
+#: includes/classes/class-gf-addon.php:383
+#: includes/classes/class-gf-addon.php:548
+msgid "Feed Name"
+msgstr "Nombre del feed"
+
+#. Translators: %1$s = Gravity Forms to Airtable settings page URL
+#: includes/classes/class-gf-addon.php:332
+msgid "No API key or token provided. Please enter a personal access token. You can update this in the <a href=\"%1$s\">Gravity Forms to Airtable settings</a>."
+msgstr "No se ha proporcionado una clave API ni un token. Introduzca un token de acceso personal. Puede actualizarlo en los <a href=\"%1$s\">ajustes de Gravity Forms to Airtable</a>."
+
+#. Translators: %1$s = Access token URL; %2$s = Gravity Forms to Airtable
+#. settings page URL
+#: includes/classes/class-gf-addon.php:323
+msgid "Airtable API Keys will be deprecated by the end of January. Please replace your API key with a personal access token. You can <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferer\">create an access token here</a>."
+msgstr "Las Claves API de Airtable serán obsoletas a finales de enero. Por favor, reemplaza tu clave API con un token de acceso personal. Puedes <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferer\">crear un token de acceso aquí</a>."
+
+#: includes/classes/class-gf-addon.php:305
+msgid "License deactivated."
+msgstr "Licencia desactivada."
+
+#: includes/classes/class-gf-addon.php:300
+msgid "License successfully activated."
+msgstr "Licencia activada exitosamente."
+
+#: includes/classes/class-gf-addon.php:286
+msgid "De-activate"
+msgstr "Desactivar"
+
+#: includes/classes/class-gf-addon.php:280
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/classes/class-gf-addon.php:272
+msgid "License Key"
+msgstr "Licencia"
+
+#: includes/classes/class-gf-addon.php:218
+msgid "Airtable Access token"
+msgstr "Airtable Token de acceso"
+
+#. Translators: %1$s = Airtable account URL;
+#: includes/classes/class-gf-addon.php:214
+msgid "Visit the <a href=\"%1$s\" target=\"_blank\">Account Overview</a> page in your Airtable account to generate an Access token."
+msgstr "Visita la página <a href=\"%1$s\" target=\"_blank\">Visión General de la Cuenta</a> en tu cuenta Airtable para generar un token de Acceso."
+
+#: includes/classes/class-gf-addon.php:207
+msgid "License Activation"
+msgstr "Activación de licencia"
+
+#: includes/classes/class-gf-addon.php:203
+msgid "Airtable Add-On Settings"
+msgstr "Ajustes de la extensión Airtable"
+
+#. Translators: %1$s = Gravity Forms to Airtable settings page URL
+#: includes/classes/class-gf-addon.php:125
+msgid "<strong>Gravity Forms to Airtable Add-On:</strong> No API key or token provided. Please enter a personal access token."
+msgstr "<strong>Complemento Gravity Forms to Airtable:</strong> No se ha proporcionado una clave API ni un token. Introduzca un token de acceso personal."
+
+#. Translators: %1$s = Access token URL; %2$s = Gravity Forms to Airtable
+#. settings page URL
+#: includes/classes/class-gf-addon.php:111
+msgid "<strong>Gravity Forms to Airtable Add-On:</strong> Airtable API Keys will be deprecated by the end of January. To ensure the security of your data and access all the features of our add-on, we recommend that you replace your API key with a personal access token. You can generate a new access token by <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferer\">following this link</a>, and then update your <a href=\"%2$s\">Gravity Forms to Airtable settings</a> with the new token."
+msgstr "<strong>Gravity Forms to Airtable Add-On:</strong> Las claves API de Airtable quedarán obsoletas a finales de enero. Para garantizar la seguridad de sus datos y acceder a todas las funciones de nuestra extensión, te recomendamos que sustituyas tu clave API por un token de acceso personal. Puedes generar un nuevo token de acceso <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferer\">siguiendo este enlace</a> y, a continuación, actualizar la <a href=\"%2$s\">configuración de Gravity Forms to Airtable</a> con el nuevo token."
+
+#: includes/classes/class-api-licensing.php:345
+msgid "Automatic updates are unavailable because the license is missing or inactive. Enter your license on the %1$sSettings%2$s page or check your %3$sWP connect account%4$s."
+msgstr "Las actualizaciones automáticas no están disponibles porque la licencia no está disponible o está inactiva. Ingresa tu licencia en la página %1$sConfiguración%2$s o revisa tu %3$scuenta de WP connect%4$s."
+
+#: includes/classes/class-api-licensing.php:334
+msgid "License Not Activated. The plugin license is not activated. To enable updates and support, please enter your licence key on the %1$sSettings%2$s page. You can find your license in your %3$sWP connect account%4$s. If you don’t have a licence key, please see %5$sdetails & pricing%6$s."
+msgstr "Licencia no activada. Tu licencia no se encuentra activada. Para habilitar actualizaciones y soporte, introduce tu licencia en la página de %1$sAjustes%2$s. Puedes encontrar tu licencia en tu %3$scuenta de WP connect%4$s. Si no dispones de una licencia, consulta %5$sdetalles y precios%6$s."
+
+#: includes/classes/class-api-licensing.php:326
+msgid "License Activated but Disabled. Your license is currently disabled. Please %1$srenew or manage it in your WP connect account%2$s to restore access to updates and support. If you don’t have a licence key, please see %3$sdetails & pricing%4$s."
+msgstr "Licencia activada pero deshabilitada. Tu licencia ha sido deshabilitada. %1$sRenuévala en tu cuenta de WP connect%2$s para recuperar el acceso a actualizaciones y soporte. Si no dispones de una licencia, consulta %3$sdetalles y precios%4$s."
+
+#: includes/classes/class-api-licensing.php:318
+msgid "License Activated but Expired. Your license has expired. Please %1$srenew it on your WP connect account%2$s to continue receiving updates and support. If you don’t have a licence key, please see %3$sdetails & pricing%4$s."
+msgstr "Licencia activada pero caducada. Tu licencia ha caducado. Por favor, %1$srenuévala en tu cuenta de WP connect%2$s para seguir recibiendo actualizaciones y soporte. Si no tiens una licencia, consulta %3$sdetalles y precios%4$s."
+
+#: includes/classes/class-api-licensing.php:189
+#: includes/classes/class-api-licensing.php:197
+#: includes/classes/class-api-licensing.php:245
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error, por favor inténtalo de nuevo."
+
+#: includes/classes/class-api-licensing.php:186
+msgid "Your license key has reached its activation limit."
+msgstr "Tu licencia ha alcanzado su límite de activación."
+
+#: includes/classes/class-api-licensing.php:183
+msgid "Your license is not active for this URL."
+msgstr "Tu licencia no está activa para esta URL."
+
+#: includes/classes/class-api-licensing.php:179
+msgid "Invalid license."
+msgstr "Licencia no válida."
+
+#: includes/classes/class-api-licensing.php:176
+msgid "Your license key has been disabled."
+msgstr "Tu licencia ha sido deshabilitada."
+
+#. translators: the license key expiration date
+#: includes/classes/class-api-licensing.php:170
+msgid "Your license key expired on %s."
+msgstr "Tu licencia expiró el %s."
+
+#. translators: the HTTP response code
+#: includes/classes/class-api-licensing.php:151
+#: includes/classes/class-api-licensing.php:228
+msgid "WP connect server returned an HTTP error, code: %s"
+msgstr "El servidor WP connect ha devuelto un error HTTP, código: %s"
+
+#. Author URI of the plugin
+#: wpconnect-gf-airtable.php
+msgid "https://wpconnect.co"
+msgstr "https://wpconnect.co"
+
+#. Author of the plugin
+#: wpconnect-gf-airtable.php
+msgid "WP connect"
+msgstr "WP connect"
+
+#. Description of the plugin
+#: wpconnect-gf-airtable.php
+msgid "Create Airtable entries from your Gravity Forms forms."
+msgstr "Crea entradas Airtable desde tus formularios Gravity Forms."
+
+#. Plugin URI of the plugin
+#: wpconnect-gf-airtable.php
+msgid "https://wpconnect.co/gravity-forms-airtable-add-on/"
+msgstr "https://wpconnect.co/gravity-forms-airtable-add-on/"
+
+#. Plugin Name of the plugin
+#: wpconnect-gf-airtable.php
+msgid "Gravity Forms to Airtable Add-On"
+msgstr "Gravity Forms to Airtable Add-On"

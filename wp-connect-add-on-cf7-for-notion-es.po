@@ -1,0 +1,267 @@
+# Translation of WP connect - addon_cf7-notion in Spanish (Spain)
+# This file is distributed under the same license as the WP connect - addon_cf7-notion package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-02-17 10:51:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: es\n"
+"Project-Id-Version: WP connect - addon_cf7-notion\n"
+
+#: includes/functions.php:102
+msgid "Nonce is invalid"
+msgstr "Nonce no válido"
+
+#: includes/functions.php:85
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#: includes/functions.php:84
+msgid "Discover all our products at: "
+msgstr "Descubre todos nuestros productos en: "
+
+#: includes/functions.php:83
+msgid "Please leave us a review!"
+msgstr "¡Por favor déjanos una reseña!"
+
+#: includes/functions.php:83
+msgid "Love our plugin? "
+msgstr "¿Te gusta nuestro plugin? "
+
+#: includes/functions.php:82
+msgid "Thank you for downloading CF7 to Notion Integration!"
+msgstr "¡Gracias por descargar CF7 to Notion!"
+
+#: includes/entry.php:117
+msgid "An error occurred while saving the submission to Notion."
+msgstr "Se ha producido un error al guardar el envío en Notion."
+
+#: includes/entry.php:116
+msgid "Error during Contact Form 7 submission"
+msgstr "Error durante el envío de Contact Form 7"
+
+#: includes/entry.php:111
+msgid "Due to an error, your message could not be sent. Please try again later."
+msgstr "Debido a un error, tu mensaje no se ha podido enviar. Vuelve a intentarlo más tarde."
+
+#: includes/entry.php:106
+msgid "Message: "
+msgstr "Mensaje: "
+
+#: includes/entry.php:105
+msgid "Code: "
+msgstr "Código: "
+
+#: includes/entry.php:104
+msgid "Status: "
+msgstr "Estado: "
+
+#: includes/entry.php:79
+msgid "No"
+msgstr "No"
+
+#: includes/contact-form-properties.php:393
+msgid "The Notion's column below is not mapped yet:"
+msgid_plural "The Notion's columns below are not mapped yet:"
+msgstr[0] "La siguiente columna de Notion aún no está asignada:"
+msgstr[1] "Las siguientes columnas de Notion aún no están asignadas:"
+
+#: includes/contact-form-properties.php:364
+msgid "None"
+msgstr "Nada"
+
+#. translators: %s: WPCF7 tag type
+#: includes/contact-form-properties.php:341
+msgid "The column is not supported by the tag type \"%s\""
+msgstr "La columna no es compatible con el tipo de etiqueta «%s»"
+
+#: includes/contact-form-properties.php:338
+msgid "The mapped column does not exist or its type is not supported"
+msgstr "La columna asignada no existe o no es compatible"
+
+#. translators: %s: tag name
+#: includes/contact-form-properties.php:335
+msgid "%s: error"
+msgstr "%s: error"
+
+#. translators: %s: tag name
+#: includes/contact-form-properties.php:329
+msgid "%s: mapped"
+msgstr "%s: asignado"
+
+#: includes/contact-form-properties.php:311
+msgid "Due to Notion API limitation your field file-upload won't be transfered as an image but as a link."
+msgstr "Debido a la limitación de la API de Notion, tu campo «subida de archivos» no se transferirá como una imagen, sino como un enlace."
+
+#: includes/contact-form-properties.php:278
+msgid "Notion Database column"
+msgstr "Columna de base de datos Notion"
+
+#: includes/contact-form-properties.php:277
+msgid "Contact Form 7 field"
+msgstr "Campo de Contact Form 7"
+
+#: includes/contact-form-properties.php:271
+msgid "You can only select compatible fields (e.g. a Contact Form 7 url field with a Notion url or text field)."
+msgstr "Solo puedes seleccionar campos compatibles (por ejemplo, un campo de URL del Contact Form 7 con una URL de Notion o un campo de texto)."
+
+#: includes/contact-form-properties.php:270
+msgid "Select a Notion field name for each Contact Form 7 field to map them."
+msgstr "Selecciona un campo de nombre Notion para cada campo del Contact Form 7 para asignarlos."
+
+#: includes/contact-form-properties.php:268
+msgid "Database fields"
+msgstr "Campos de la base de datos"
+
+#: includes/contact-form-properties.php:253
+msgid "added the integration to the Notion page"
+msgstr "se añadió la integración a la página de Notion"
+
+#. translators: %1$s: Notion add and manage integrations help page
+#: includes/contact-form-properties.php:250
+msgid "Make sure you have %1$s"
+msgstr "Asegúrate de tener %1$s"
+
+#: includes/contact-form-properties.php:247
+msgid "No Notion database is visible at the moment. Create one and refresh this page after 1 minute."
+msgstr "No hay ninguna base de datos Notion disponible en este momento. Crea una y actualiza esta página después de 1 minuto."
+
+#: includes/contact-form-properties.php:215
+msgid "Select the database to which form submissions are added:"
+msgstr "Selecciona la base de datos en la cual quieres guardar los registros:"
+
+#: includes/contact-form-properties.php:198
+msgid "Add form submissions to your database"
+msgstr "Añade envíos de formularios a tu base de datos"
+
+#: includes/contact-form-properties.php:189
+msgid "Databases lists"
+msgstr "Listas de bases de datos"
+
+#: includes/contact-form-properties.php:181
+msgid "Select the Notion database where you want to save the answers."
+msgstr "Selecciona la base de datos Notion donde deseas guardar las respuestas."
+
+#: includes/contact-form-properties.php:179
+msgid "Databases"
+msgstr "Bases de datos"
+
+#. translators: %s: html link
+#: includes/contact-form-properties.php:111
+msgid "You can set up the Notion integration here. For details, see %s."
+msgstr "Puedes configurar la integración Notion aquí. Para más detalles, mirar %s."
+
+#: includes/classes/class-wpcf7-notion-service.php:360
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: includes/classes/class-wpcf7-notion-service.php:355
+msgctxt "API keys"
+msgid "Remove key"
+msgstr "Eliminar la clave"
+
+#: includes/classes/class-wpcf7-notion-service.php:327
+msgid "these explanations."
+msgstr "estas explicaciones."
+
+#. translators: %1$s: Notion account link
+#: includes/classes/class-wpcf7-notion-service.php:324
+msgid "To get your Internal integration token, follow %1$s."
+msgstr "Para obtener tu token de integración interna, ve a %1$s."
+
+#: includes/classes/class-wpcf7-notion-service.php:319
+msgid "Internal integration token"
+msgstr "Token de integración interna"
+
+#: includes/classes/class-wpcf7-notion-service.php:300
+msgid "Setup integration"
+msgstr "Configurar la integración"
+
+#: includes/classes/class-wpcf7-notion-service.php:290
+msgid " Contact Forms ➜ Edit ➜ Notion tab"
+msgstr " Contact Forms ➜ Editar ➜ Notion tab"
+
+#: includes/classes/class-wpcf7-notion-service.php:289
+msgid "Creating a connection:"
+msgstr "Creando una conexión:"
+
+#: includes/classes/class-wpcf7-notion-service.php:285
+msgid "Notion is active on this site."
+msgstr "Notion está activo en este sitio."
+
+#: includes/classes/class-wpcf7-notion-service.php:276
+#: includes/contact-form-properties.php:117
+msgid "Notion integration"
+msgstr "Integración Notion"
+
+#: includes/classes/class-wpcf7-notion-service.php:275
+#: includes/contact-form-properties.php:116
+msgid "https://wordpress.org/plugins/add-on-cf7-for-notion/#installation"
+msgstr "https://wordpress.org/plugins/add-on-cf7-for-notion/#installation"
+
+#. translators: %s: html link
+#: includes/classes/class-wpcf7-notion-service.php:269
+msgid "Store form submissions in Notion database. For details, see %s."
+msgstr "Almacena las entradas del formulario en una base de datos Notion. Para más detalles, mirar %s."
+
+#: includes/classes/class-wpcf7-notion-service.php:255
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: includes/classes/class-wpcf7-notion-service.php:248
+msgid "Invalid key values."
+msgstr "Valores de clave no válidos."
+
+#: includes/classes/class-wpcf7-notion-service.php:240
+msgid "You have not been authenticated. Make sure the provided Internal integration token is correct."
+msgstr "No has sido identificado. Asegúrate de que el token de integración interna proporcionado sea correcto."
+
+#: includes/classes/class-wpcf7-notion-service.php:239
+#: includes/classes/class-wpcf7-notion-service.php:247
+msgid "Error"
+msgstr "Error"
+
+#: includes/classes/class-wpcf7-notion-service.php:66
+#: includes/contact-form-properties.php:168
+#: includes/contact-form-properties.php:407
+msgid "Notion"
+msgstr "Notion"
+
+#: includes/classes/class-api-notion.php:86
+msgid "The Notion API returned an error"
+msgstr "La API de Notion ha devuelto un error"
+
+#: add-on-cf7-for-notion.php:128
+msgid "Leave a review"
+msgstr "Deja una reseña"
+
+#: add-on-cf7-for-notion.php:127
+msgid "Setup"
+msgstr "Configuración"
+
+#: add-on-cf7-for-notion.php:82
+msgid "The \"Contact Form 7 to Notion\" plugin is inactive because the minimal requirements are not met."
+msgstr "El plugin «Contact Form 7 to Notion» está inactivo porque no se cumplen los requisitos mínimos."
+
+#. Author URI of the plugin
+#: add-on-cf7-for-notion.php
+msgid "https://wpconnect.co/"
+msgstr "https://wpconnect.co/"
+
+#. Author of the plugin
+#: add-on-cf7-for-notion.php
+msgid "WP connect"
+msgstr "WP connect"
+
+#. Description of the plugin
+#: add-on-cf7-for-notion.php
+msgid "Send the entries of your Contact Form 7 forms to your Notion databases."
+msgstr "TEST! - Envía las entradas de tus formularios Contact Form 7 a tus bases de datos Notion."
+
+#. Plugin Name of the plugin
+#: add-on-cf7-for-notion.php
+msgid "CF7 to Notion"
+msgstr "CF7 to Notion"

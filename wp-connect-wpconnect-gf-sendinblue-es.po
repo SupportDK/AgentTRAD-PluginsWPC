@@ -1,0 +1,406 @@
+# Translation of WP connect - addon_gf-sib in Spanish (Spain)
+# This file is distributed under the same license as the WP connect - addon_gf-sib package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-03 18:37:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: es\n"
+"Project-Id-Version: WP connect - addon_gf-sib\n"
+
+#: wpconnect-gf-sendinblue.php:220
+msgid "Gravity Forms to Brevo Add-On and Add-on Brevo for Gravity Forms Free should not be active at the same time. We've automatically deactivated Gravity Forms to Brevo Add-On."
+msgstr "Gravity Forms to Brevo Add-On y Add-on Brevo for Gravity Forms Free no deberían estar activos al mismo tiempo. Hemos desactivado automáticamente el Gravity Forms to Brevo Add-On."
+
+#: wpconnect-gf-sendinblue.php:218
+msgid "Add-on Brevo for Gravity Forms Free and Gravity Forms to Brevo Add-On should not be active at the same time. We've automatically deactivated Add-on Brevo for Gravity Forms Free."
+msgstr "Add-on Brevo for Gravity Forms Free y Gravity Forms to Brevo Add-On no deben estar activos al mismo tiempo. Hemos desactivado automáticamente el Add-on Brevo for Gravity Forms Free."
+
+#: wpconnect-gf-sendinblue.php:97
+msgid "The \"Gravity Forms to Brevo Add-On\" plugin is inactive because the minimal requirements are not met."
+msgstr "El plugin \"Gravity Forms to Brezo Add-On\" está inactivo porque no cumple los requisitos mínimos."
+
+#: includes/hooks.php:383
+msgid "Invalid phone number format. Please follow international format: + (plus) sign, the International Country Calling code, then your phone number. For a mobile phone number you may require to remove the leading 0."
+msgstr "Formato de número de teléfono no válido. Por favor, sigue el formato internacional: signo + (más), el código internacional de llamada del país y, a continuación, tu número de teléfono. Para un número de teléfono móvil, es posible que tengas que eliminar el 0 inicial."
+
+#: includes/hooks.php:239
+msgid "Existing contact updated."
+msgstr "Contacto existente actualizado."
+
+#: includes/hooks.php:230
+msgid "New contact created."
+msgstr "Nuevo contacto creado."
+
+#: includes/hooks.php:225
+msgid "New contact created (ID #%1$d)."
+msgstr "Nuevo contacto creado (ID #%1$d)."
+
+#: includes/hooks.php:214
+msgid "Full error response:"
+msgstr "Respuesta de error completa:"
+
+#: includes/hooks.php:208
+msgid "Error message: "
+msgstr "Mensaje de error: "
+
+#: includes/hooks.php:203
+msgid "Error code: "
+msgstr "Código de error: "
+
+#: includes/hooks.php:194
+msgid "Error:"
+msgstr "Error:"
+
+#: includes/hooks.php:184
+msgid "Feed #%1$d"
+msgstr "Alimentación n.° %1$d"
+
+#: includes/hooks.php:176 includes/hooks.php:247
+msgid "No data."
+msgstr "No hay datos."
+
+#: includes/hooks.php:152
+msgid "Brevo"
+msgstr "Brevo"
+
+#: includes/hooks.php:84
+msgid "No e-mail address found in form values."
+msgstr "No se encontró ninguna dirección de correo electrónico en los valores del formulario."
+
+#: includes/helpers.php:51
+msgid "Your license is inactive or invalid."
+msgstr "Tu licencia está inactiva o no es válida."
+
+#: includes/classes/plugin-updater.php:510
+msgid "Error"
+msgstr "Error"
+
+#: includes/classes/plugin-updater.php:510
+msgid "You do not have permission to install plugin updates"
+msgstr "No tienes permiso para instalar actualizaciones del plugin"
+
+#: includes/classes/plugin-updater.php:278
+msgid "Update now."
+msgstr "Actualizar ahora."
+
+#: includes/classes/plugin-updater.php:267
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sVer versión %2$s detalles%3$s o %4$sactualizar ahora%5$s."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate.
+#: includes/classes/plugin-updater.php:259
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$s Ver versión %2$s detalles %3$s."
+
+#: includes/classes/plugin-updater.php:254
+msgid "Contact your network administrator to install the update."
+msgstr "Pónte en contacto con tu administrador de red para instalar la actualización."
+
+#. translators: the plugin name.
+#: includes/classes/plugin-updater.php:248
+msgid "There is a new version of %1$s available."
+msgstr "Hay una nueva versión de %1$s disponible."
+
+#: includes/classes/gf-addon.php:778
+msgid "Create a contact in Brevo only if"
+msgstr "Crea un contacto en Brevo sólo si"
+
+#: includes/classes/gf-addon.php:777
+msgid "Enable conditional processing"
+msgstr "Habilitar el procesamiento condicional"
+
+#: includes/classes/gf-addon.php:776
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: includes/classes/gf-addon.php:769
+msgid "Conditional logic"
+msgstr "Lógica condicional"
+
+#: includes/classes/gf-addon.php:763
+msgid "Integration with Brevo"
+msgstr "Integración con Brevo"
+
+#: includes/classes/gf-addon.php:754
+msgid "No list detected."
+msgstr "No se ha detectado ninguna lista."
+
+#: includes/classes/gf-addon.php:748
+msgid "No Brevo list has been detected yet. Create one and refresh this page after 1 minute."
+msgstr "Todavía no se ha detectado ninguna lista Brevo. Crea una y actualiza esta página después de 1 minuto."
+
+#: includes/classes/gf-addon.php:731
+msgid "Enable sending only partial entries"
+msgstr "Habilitar el envío solo de entradas parciales"
+
+#: includes/classes/gf-addon.php:728
+msgid "If enabled, only partial entries will be transmitted to Brevo. Complete entries will be ignored."
+msgstr "Si está habilitado, solo las entradas parciales se transmitirán a Brevo. Las entradas completas serán ignoradas."
+
+#: includes/classes/gf-addon.php:726
+msgid "Send only partial entries"
+msgstr "Enviar solo entradas parciales"
+
+#: includes/classes/gf-addon.php:717
+msgid "Enable partial entries"
+msgstr "Habilitar entradas parciales"
+
+#: includes/classes/gf-addon.php:711
+msgid "Allows sending partial entries to Brevo. Make sure to enable partial entries for this form in the %sGravity Forms settings%s."
+msgstr "Permite enviar entradas parciales a Brevo. Asegúrese de habilitar las entradas parciales para este formulario en la configuración de %sGravity Forms%s."
+
+#: includes/classes/gf-addon.php:708
+msgid "Use partial entries"
+msgstr "Usar entradas parciales"
+
+#: includes/classes/gf-addon.php:697
+msgid "Note creation is not currently compatible with double opt-in."
+msgstr "Actualmente, la creación de notas no es compatible con el doble opt-in."
+
+#: includes/classes/gf-addon.php:682
+msgid "Select the form field that will be used as the content for the note in Brevo."
+msgstr "Selecciona el campo del formulario que se utilizará como contenido de la nota en Brevo."
+
+#: includes/classes/gf-addon.php:680
+msgid "Note Content Mapping"
+msgstr "Asignación del contenido de las notas"
+
+#: includes/classes/gf-addon.php:673
+msgid "Enable note creation (does not work with double opt-in)."
+msgstr "Activar la creación de notas (no funciona con el doble opt-in)."
+
+#: includes/classes/gf-addon.php:670
+msgid "By enabling this feature it will be possible to add notes to a created/updated user"
+msgstr "Activando esta función será posible añadir notas a un usuario creado/actualizado"
+
+#: includes/classes/gf-addon.php:668
+msgid "Create a note"
+msgstr "Crear una nota"
+
+#: includes/classes/gf-addon.php:652
+msgid "This is the URL of the web page that the user will be redirected to after clicking on the double opt-in confirmation link."
+msgstr "Esta es la URL de la página web a la que será redirigido el usuario después de hacer clic en el enlace de confirmación."
+
+#: includes/classes/gf-addon.php:647
+msgid "Redirection URL"
+msgstr "URL de redireccionamiento"
+
+#: includes/classes/gf-addon.php:628
+msgid "No templates detected."
+msgstr "No se han detectado plantillas."
+
+#: includes/classes/gf-addon.php:624 includes/classes/gf-addon.php:750
+msgid "The Brevo API is currently unavailable, please try again later."
+msgstr "La API de Brevo no está disponible en este momento, inténtalo más tarde."
+
+#: includes/classes/gf-addon.php:622
+msgid "No Brevo double opt-in template has been detected yet. Create one and refresh this page after 1 minute."
+msgstr "Aún no se ha detectado ninguna plantilla de doble opt-in en Brevo. Crea una y actualiza esta página después de 1 minuto."
+
+#: includes/classes/gf-addon.php:596
+msgid "<a href=\"https://help.brevo.com/hc/en-us/articles/360019540880-Create-a-custom-double-opt-in-DOI-email-template-for-a-sign-up-form-created-in-Brevo\" target=\"_blank\">Click here</a> to learn how to create a double opt-in template in Brevo."
+msgstr ""
+
+#: includes/classes/gf-addon.php:595
+msgid "Double opt-in template"
+msgstr "Plantilla de doble opt-in"
+
+#: includes/classes/gf-addon.php:580
+msgid "The contact will only be added in Brevo when the person has validated their subscription in the double opt-in email they will have received."
+msgstr "El contacto sólo se añadirá en Brevo cuando la persona haya validado su suscripción en el correo electrónico que habrá recibido."
+
+#: includes/classes/gf-addon.php:571
+msgid "Enable double opt-in."
+msgstr "Habilitar doble opt-in."
+
+#: includes/classes/gf-addon.php:568
+msgid "By enabling this, Brevo will send a confirmation email to the user before adding them to your list(s)."
+msgstr "Al activarlo, Brevo enviará un correo electrónico de confirmación al usuario antes de añadirlo a tu(s) lista(s)."
+
+#: includes/classes/gf-addon.php:557
+msgid "Please select at least one list when double opt-in is enabled."
+msgstr "Selecciona al menos una lista cuando esté activado el doble opt-in."
+
+#: includes/classes/gf-addon.php:534
+msgid "All your Brevo lists are displayed below. You can choose which one(s) to save each new contact to."
+msgstr "A continuación se muestran todas tus listas Brevo. Puedes elegir en cuál o cuáles quieres guardar cada nuevo contacto."
+
+#: includes/classes/gf-addon.php:533
+msgid "Add to list(s)"
+msgstr "Añadir a la(s) lista(s)"
+
+#: includes/classes/gf-addon.php:522
+msgid "Please add a mapping for the Brevo email field."
+msgstr "Por favor, añade una asignación para el campo de correo electrónico de Brevo."
+
+#: includes/classes/gf-addon.php:507
+msgid "E-mail address"
+msgstr "Dirección de correo electrónico"
+
+#: includes/classes/gf-addon.php:504
+msgid "Brevo attributes"
+msgstr "Atributos de Brevo"
+
+#: includes/classes/gf-addon.php:502
+msgid "Form fields"
+msgstr "Campos del Formulario"
+
+#: includes/classes/gf-addon.php:498
+msgid "Add and select the Brevo attributes for which to send data, then choose the form fields that match."
+msgstr "Añade y selecciona los atributos Brevo para los que enviar datos y, a continuación, elige los campos de formulario que coincidan."
+
+#: includes/classes/gf-addon.php:497
+msgid "Fields mapping"
+msgstr "Asignación de campos"
+
+#: includes/classes/gf-addon.php:493
+msgid "Enter a feed name to uniquely identify it."
+msgstr "Introduce un nombre de feed para identificarla de forma única."
+
+#: includes/classes/gf-addon.php:489
+msgid "Feed name"
+msgstr "Nombre del feed"
+
+#: includes/classes/gf-addon.php:476
+msgid "API key missing or invalid"
+msgstr "Clave API faltante o no válida"
+
+#: includes/classes/gf-addon.php:469
+msgid "Please visit the <a href=\"%1$s\">plugin settings page</a> and enter a valid Brevo API key."
+msgstr "Visita la <a href=\"%1$s\">página de configuración de la extension</a> e introduce una clave API de Brevo válida."
+
+#: includes/classes/gf-addon.php:377
+msgid "Condition(s)"
+msgstr "Condición (es)"
+
+#: includes/classes/gf-addon.php:376 includes/classes/gf-addon.php:566
+msgid "Double opt-in"
+msgstr "Doble opt-in"
+
+#: includes/classes/gf-addon.php:375
+msgid "List(s)"
+msgstr "Lista(s)"
+
+#: includes/classes/gf-addon.php:374
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/classes/gf-addon.php:346
+msgid "The Brevo API returned an error: %1$s (Code: %2$s)"
+msgstr "La API de Brevo ha devuelto un error: %1$s (Code: %2$s)"
+
+#: includes/classes/gf-addon.php:340
+msgid "Unknown error occurred."
+msgstr "Ocurrió un error desconocido."
+
+#: includes/classes/gf-addon.php:287
+msgid "API Key is valid."
+msgstr "La clave API es válida."
+
+#: includes/classes/gf-addon.php:281
+msgid "Please enter your Brevo API Key"
+msgstr "Por favor, introduce tu clave API de Brevo"
+
+#: includes/classes/gf-addon.php:263
+msgid "Visit the <a href=\"%1$s\" target=\"_blank\">\"Settings > SMTP & API\"</a> page in your Brevo account to generate an API key."
+msgstr "Visita la página <a href=\"%1$s\" target=\"_blank\">\"Configuración &gt; SMTP y API\"</a> de tu cuenta Brevo para generar una clave API."
+
+#: includes/classes/gf-addon.php:257 includes/classes/gf-addon.php:262
+msgid "Brevo API Key"
+msgstr "Clave API Brevo"
+
+#: includes/classes/gf-addon.php:208
+msgid "License successfully de-activated."
+msgstr "Licencia desactivada exitosamente."
+
+#: includes/classes/gf-addon.php:203
+msgid "License successfully activated."
+msgstr "Licencia activada exitosamente."
+
+#: includes/classes/gf-addon.php:189
+msgid "De-activate"
+msgstr "Desactivar"
+
+#: includes/classes/gf-addon.php:183
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/classes/gf-addon.php:175
+msgid "License Key"
+msgstr "Licencia"
+
+#: includes/classes/gf-addon.php:118
+msgid "License Activation"
+msgstr "Activación de licencia"
+
+#: includes/classes/gf-addon.php:114
+msgid "Brevo Add-On Settings"
+msgstr "Ajustes de la extensión Brevo"
+
+#: includes/classes/api-sendinblue.php:82
+msgid "The Brevo API returned an error"
+msgstr "La API de Brevo ha devuelto un error"
+
+#: includes/classes/api-licensing.php:325
+msgid "Your license key has reached its activation limit."
+msgstr "Tu licencia ha alcanzado su límite de activación."
+
+#: includes/classes/api-licensing.php:322
+msgid "Your license is not active for this URL."
+msgstr "Tu licencia no está activa para esta URL."
+
+#: includes/classes/api-licensing.php:318
+msgid "Invalid license."
+msgstr "Licencia no válida."
+
+#: includes/classes/api-licensing.php:315
+msgid "Your license key has been disabled."
+msgstr "Tu licencia ha sido deshabilitada."
+
+#. translators: the license key expiration date
+#: includes/classes/api-licensing.php:309
+msgid "Your license key expired on %s."
+msgstr "Tu licencia expiró el %s."
+
+#: includes/classes/api-licensing.php:172
+#: includes/classes/api-licensing.php:220
+#: includes/classes/api-licensing.php:328
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error, por favor inténtalo de nuevo."
+
+#. translators: the HTTP response code
+#: includes/classes/api-licensing.php:151
+#: includes/classes/api-licensing.php:203
+#: includes/classes/api-licensing.php:249
+msgid "WP connect server returned an HTTP error, code: %s"
+msgstr "El servidor WP connect ha devuelto un error HTTP, código: %s"
+
+#. Author URI of the plugin
+#: wpconnect-gf-sendinblue.php
+msgid "https://wpconnect.co/"
+msgstr "https://wpconnect.co/"
+
+#. Author of the plugin
+#: wpconnect-gf-sendinblue.php
+msgid "WP connect"
+msgstr "WP connect"
+
+#. Description of the plugin
+#: wpconnect-gf-sendinblue.php
+msgid "Create Brevo contacts directly from your Gravity Forms forms."
+msgstr "Crea contactos Brevo directamente desde tus formularios Gravity Forms."
+
+#. Plugin URI of the plugin
+#: wpconnect-gf-sendinblue.php
+msgid "https://wpconnect.co/gravity-forms-sendinblue-add-on/"
+msgstr "https://wpconnect.co/gravity-forms-sendinblue-add-on/"
+
+#. Plugin Name of the plugin
+#: wpconnect-gf-sendinblue.php
+msgid "Gravity Forms to Brevo Add-On"
+msgstr "Gravity Forms to Brevo Add-On"

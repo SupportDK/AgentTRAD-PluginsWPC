@@ -1,0 +1,347 @@
+# Translation of WP connect - addon_cf7-airtable in Spanish (Spain)
+# This file is distributed under the same license as the WP connect - addon_cf7-airtable package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-02-10 14:59:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: es\n"
+"Project-Id-Version: WP connect - addon_cf7-airtable\n"
+
+#: assets/js/admin.js:69
+msgid "Table found."
+msgstr "Tabla encontrada."
+
+#: assets/js/admin.js:58 assets/js/admin.js:64
+msgid "Invalid Airtable URL"
+msgstr "URL de Airtable no válida"
+
+#. translators: %s: HTTP error details
+#: includes/helpers.php:432
+msgid "CF7 to Airtable: Unable to access the file in the specified directory, this may prevent the CF7 \"File\" field from functioning with Airtable. %s."
+msgstr "CF7 to Airtable: no se ha podido acceder al archivo en el directorio especificado, esto puede impedir que el campo «Archivo» de CF7 funcione con Airtable. %s."
+
+#: includes/helpers.php:405
+msgid "CF7 to Airtable: Basic HTTP authentication is enabled, this may prevent the CF7 \"File\" field from working with Airtable."
+msgstr "CF7 to Airtable: La identificación HTTP básica está activada, esto puede impedir que el campo «Archivo» de CF7 funcione con Airtable."
+
+#: includes/helpers.php:398
+msgid "CF7 to Airtable: You are currently running WordPress in a local development environment, this may prevent the CF7 \"File\" field from working with Airtable."
+msgstr "CF7 to Airtable: actualmente estás ejecutando WordPress en un entorno de desarrollo local, esto puede impedir que el campo «Archivo» de CF7 funcione con Airtable."
+
+#: includes/helpers.php:247
+msgid "Select a field"
+msgstr "Selecciona un campo"
+
+#: includes/functions.php:110
+msgid "Nonce is invalid"
+msgstr "Nonce no válido"
+
+#: includes/functions.php:93
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#: includes/functions.php:92
+msgid "Discover all our products at: "
+msgstr "Conoce todos nuestros productos en: "
+
+#: includes/functions.php:91
+msgid "Please leave us a review!"
+msgstr "¡Por favor déjanos una reseña!"
+
+#: includes/functions.php:91
+msgid "Love our plugin? "
+msgstr "¿Te gusta nuestro plugin? "
+
+#: includes/functions.php:90
+msgid "Thank you for downloading CF7 to Airtable Integration!"
+msgstr "¡Gracias por descargar CF7 to Airtable Integration!"
+
+#. translators: %s: error message
+#: includes/entry.php:119
+msgid "Error message: %s"
+msgstr "Mensaje de error: %s"
+
+#: includes/entry.php:117
+msgid "An error occurred while saving the submission to Airtable."
+msgstr "Se ha producido un error al guardar el envío en Airtable."
+
+#: includes/entry.php:116
+msgid "Error during Contact Form 7 submission"
+msgstr "Error durante el envío de Contact Form 7"
+
+#. translators: %s: consent checkbox text
+#: includes/entry.php:110
+msgid "Due to an error, your message could not be sent. Please try again later or uncheck."
+msgstr "Debido a un error, no se ha podido enviar tu mensaje. Por favor, inténtalo de nuevo más tarde o desmarca la casilla."
+
+#: includes/entry.php:105
+msgid "Due to an error, your message could not be sent. Please try again later."
+msgstr "Debido a un error, tu mensaje no se ha podido enviar. Vuelve a intentarlo más tarde."
+
+#: includes/entry.php:80 includes/fields.php:320
+msgid "No"
+msgstr "No"
+
+#: includes/contact-form-properties.php:462
+msgid "The Airtable's field name below is not mapped yet:"
+msgid_plural "The Airtable's fields name below are not mapped yet:"
+msgstr[0] "El nombre del campo de Airtable a continuación aún no está asignado:"
+msgstr[1] "Los nombres de los campos de Airtable a continuación aún no están asignados:"
+
+#. translators: %s: tag name
+#: includes/contact-form-properties.php:375
+msgid "%s: mapped"
+msgstr "%s: asignado"
+
+#: includes/contact-form-properties.php:339
+msgid "Airtable field type"
+msgstr "Tipo de campo Airtable"
+
+#: includes/contact-form-properties.php:334
+msgid "Airtable field name"
+msgstr "Nombre del campo de Airtable"
+
+#: includes/contact-form-properties.php:329
+msgid "Contact Form 7 field"
+msgstr "Campo de Contact Form 7"
+
+#: includes/contact-form-properties.php:317
+msgid "Starting from the 1.1.0 version, you can now specify the Airtable field type in the mapping below, please double check all types are fine."
+msgstr "A partir de la versión 1.1.0, ahora puedes especificar el tipo de campo Airtable en la asignación a continuación; vuelve a comprobar que todos los tipos estén bien."
+
+#: includes/contact-form-properties.php:306
+msgid "Be careful, field names should be exactly the same (case sensitive) or the form won't be saved."
+msgstr "Ten cuidado, los nombres de los campos deben ser exactamente iguales (distinguen entre mayúsculas y minúsculas) o el formulario no se guardará."
+
+#: includes/contact-form-properties.php:302
+msgid "Enter an Airtable field name for each Contact Form 7 field to map them."
+msgstr "Introduce un nombre de campo de Airtable para cada campo de Contact Form 7 para asignarlos."
+
+#: includes/contact-form-properties.php:296
+msgid "Table fields"
+msgstr "Campos de tabla"
+
+#: includes/contact-form-properties.php:271
+msgid "Please save your settings before mapping your fields."
+msgstr "Por favor guarda tus ajustes antes de asignar tus campos."
+
+#: includes/contact-form-properties.php:254
+msgid "Choose a table"
+msgstr "Elige una tabla"
+
+#: includes/contact-form-properties.php:245
+msgid "Select the target table from the options below."
+msgstr "Selecciona la tabla de destino entre las opciones siguientes."
+
+#: includes/contact-form-properties.php:243
+msgid "Table name"
+msgstr "Nombre de la tabla"
+
+#: includes/contact-form-properties.php:226
+msgid "Use the Table lookup field above or visit the link below to find your Table ID"
+msgstr "Utiliza el campo de búsqueda de tabla arriba o visita el enlace a continuación para encontrar el ID de tu tabla"
+
+#: includes/contact-form-properties.php:224
+msgid "Table ID"
+msgstr "ID de la tabla"
+
+#: includes/contact-form-properties.php:205
+msgid "Choose a base"
+msgstr "Selecciona una base de datos"
+
+#: includes/contact-form-properties.php:195
+msgid "Select the target database from the options below"
+msgstr "Selecciona la base de datos de destino entre las siguientes opciones"
+
+#: includes/contact-form-properties.php:193
+msgid "Base name"
+msgstr "Nombre de la base de datos"
+
+#: includes/contact-form-properties.php:177
+msgid "Use the Table lookup field above or visit the link below to find your Base ID"
+msgstr "Utiliza el campo de búsqueda de tabla arriba o visita el enlace a continuación para encontrar el ID de la base de datos"
+
+#: includes/contact-form-properties.php:175
+msgid "Base ID"
+msgstr "ID de la base de datos"
+
+#: includes/contact-form-properties.php:159
+msgid "Paste full Airtable table URL, it will populate the Base ID and Table ID fields."
+msgstr "Pega la URL completa de la tabla Airtable, se completarán los campos ID base e ID de tabla."
+
+#: includes/contact-form-properties.php:158
+msgid "Table lookup"
+msgstr "Consulta de la tabla"
+
+#: includes/contact-form-properties.php:143
+msgid "Add form submissions to your table"
+msgstr "Añade envíos de formularios a tu tabla"
+
+#. translators: %s: html link
+#: includes/contact-form-properties.php:98
+msgid "You can set up the Airtable integration here. For details, see %s."
+msgstr "Puedes configurar la integración de Airtable aquí. Para más detalles, consulta %s."
+
+#: includes/classes/class-wpcf7-field-mapper.php:96
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/classes/class-wpcf7-field-mapper.php:95
+msgid "URL"
+msgstr "URL"
+
+#: includes/classes/class-wpcf7-field-mapper.php:94
+msgid "Phone number"
+msgstr "Número de teléfono"
+
+#: includes/classes/class-wpcf7-field-mapper.php:93
+msgid "Attachment"
+msgstr "Adjunto"
+
+#: includes/classes/class-wpcf7-field-mapper.php:92
+msgid "Long text"
+msgstr "Texto largo"
+
+#: includes/classes/class-wpcf7-field-mapper.php:91
+msgid "Checkbox"
+msgstr "Casilla de verificación"
+
+#: includes/classes/class-wpcf7-field-mapper.php:90
+msgid "Number"
+msgstr "Número"
+
+#: includes/classes/class-wpcf7-field-mapper.php:89
+msgid "Multiple select"
+msgstr "Selección múltiple"
+
+#: includes/classes/class-wpcf7-field-mapper.php:88
+msgid "Single select"
+msgstr "Selección individual"
+
+#: includes/classes/class-wpcf7-field-mapper.php:87
+msgid "Single line text"
+msgstr "Texto de una sola línea"
+
+#: includes/classes/class-wpcf7-field-mapper.php:86
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/classes/class-wpcf7-airtable-service.php:414
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: includes/classes/class-wpcf7-airtable-service.php:409
+msgctxt "API keys"
+msgid "Remove key"
+msgstr "Eliminar la clave"
+
+#: includes/classes/class-wpcf7-airtable-service.php:386
+msgid "Access tokens should at least be given the <code>data.records:write</code> and <code>schema.bases:read</code> scopes."
+msgstr "Los tokens de acceso deben tener al menos <code>data.records:write</code> y <code>schema.bases:read</code>."
+
+#. Translators: %s = Airtable account URL;
+#: includes/classes/class-wpcf7-airtable-service.php:356
+msgid "Visit the <a href=\"%s\" target=\"_blank\">Account Overview</a> page in your Airtable account to generate an Access token."
+msgstr "Visita la página <a href=\"%s\" target=\"_blank\">Descripción general de la cuenta</a> en tu cuenta de Airtable para generar un token de acceso."
+
+#: includes/classes/class-wpcf7-airtable-service.php:352
+msgid "Airtable Access token"
+msgstr "Token de acceso a Airtable"
+
+#. Translators: %1$s = Access token URL; %2$s = Contact Form 7 Airtable
+#. settings page URL
+#: includes/classes/class-wpcf7-airtable-service.php:328
+#: includes/classes/class-wpcf7-airtable-service.php:399
+msgid "<strong>Contact Form 7 Airtable Add-On:</strong> Airtable API Keys will be deprecated by the end of January 2024. To ensure the security of your data and access all the features of our add-on, we recommend that you replace your API key with a personal access token. You can generate a new access token by <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferer\">following this link</a>, and then update your <a href=\"%2$s\">Contact Form 7 Airtable settings</a> with the new token."
+msgstr "<strong>Extensión Contact Form 7 Airtable:</strong> Las claves API de Airtable quedarán obsoletas a finales de enero de 2024. Para garantizar la seguridad de tus datos y acceder a todas las características de nuestra extensión, te recomendamos que reemplaces tu clave API con un token de acceso personal. Puedes generar un nuevo token de acceso <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferer\">siguiendo este enlace</a> y luego actualizar tus <a href=\"%2$s\">ajustes de Contact Form 7 Airtable</a> con el nuevo token."
+
+#: includes/classes/class-wpcf7-airtable-service.php:303
+msgid "Setup integration"
+msgstr "Configurar la integración"
+
+#: includes/classes/class-wpcf7-airtable-service.php:293
+msgid " Contact Forms ➜ Edit ➜ Airtable tab"
+msgstr " Contact Forms ➜ Editar ➜ Pestaña Airtable"
+
+#: includes/classes/class-wpcf7-airtable-service.php:292
+msgid "Creating a connection: "
+msgstr "Creando una conexión: "
+
+#: includes/classes/class-wpcf7-airtable-service.php:288
+msgid "Airtable is active on this site."
+msgstr "Airtable está activo en este sitio."
+
+#: includes/classes/class-wpcf7-airtable-service.php:279
+#: includes/contact-form-properties.php:104
+msgid "Airtable integration"
+msgstr "Integración con Airtable"
+
+#: includes/classes/class-wpcf7-airtable-service.php:278
+#: includes/contact-form-properties.php:103
+msgid "https://wordpress.org/plugins/add-on-cf7-for-airtable/#installation"
+msgstr "https://wordpress.org/plugins/add-on-cf7-for-airtable/#installation"
+
+#. translators: %s: html link
+#: includes/classes/class-wpcf7-airtable-service.php:272
+msgid "Store form submissions in Airtable table. For details, see %s."
+msgstr "Almacena los envíos de formularios en la tabla Airtable. Para más detalles, consulta %s."
+
+#: includes/classes/class-wpcf7-airtable-service.php:258
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: includes/classes/class-wpcf7-airtable-service.php:243
+msgid "You have not been authenticated. Make sure the provided API key is correct."
+msgstr "No has sido identificado. Asegúrate de que es correcta la clave proporcionada para la API ."
+
+#: includes/classes/class-wpcf7-airtable-service.php:242
+#: includes/classes/class-wpcf7-airtable-service.php:250
+msgid "Error"
+msgstr "Error"
+
+#: includes/classes/class-wpcf7-airtable-service.php:199
+#: includes/classes/class-wpcf7-airtable-service.php:251
+msgid "Invalid key values."
+msgstr "Valores de clave no válidos."
+
+#: includes/classes/class-wpcf7-airtable-service.php:71
+#: includes/contact-form-properties.php:133
+#: includes/contact-form-properties.php:479
+msgid "Airtable"
+msgstr "Airtable"
+
+#: add-on-cf7-for-airtable.php:127
+msgid "Leave a review"
+msgstr "Deja una reseña"
+
+#: add-on-cf7-for-airtable.php:126
+msgid "Setup"
+msgstr "Configurar"
+
+#: add-on-cf7-for-airtable.php:82
+msgid "The \"Contact Form 7 to Airtable\" plugin is inactive because the minimal requirements are not met."
+msgstr "El plugin «Contact Form 7 to Airtable» está inactivo porque no se cumplen los requisitos mínimos."
+
+#. Author URI of the plugin
+#: add-on-cf7-for-airtable.php
+msgid "https://wpconnect.co/"
+msgstr "https://wpconnect.co/"
+
+#. Author of the plugin
+#: add-on-cf7-for-airtable.php
+msgid "WP connect"
+msgstr "WP connect"
+
+#. Description of the plugin
+#: add-on-cf7-for-airtable.php
+msgid "Send the entries of your Contact Form 7 forms to your Airtable databases."
+msgstr "TEST ! - Envía las entradas de tus formularios Contact Form 7 a tus bases de datos de Airtable."
+
+#. Plugin Name of the plugin
+#: add-on-cf7-for-airtable.php
+msgid "CF7 to Airtable"
+msgstr "CF7 to Airtable"

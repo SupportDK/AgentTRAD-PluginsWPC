@@ -1,0 +1,365 @@
+# Translation of WP connect - addon_gf-odoo in Spanish (Spain)
+# This file is distributed under the same license as the WP connect - addon_gf-odoo package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: es\n"
+"Project-Id-Version: WP connect - addon_gf-odoo\n"
+
+#: wpconnect-gf-odoo.php:100
+msgid "The \"Gravity Forms Odoo Add-On\" plugin is inactive because the minimal requirements are not met."
+msgstr "El plugin \"Gravity Forms Odoo Add-On\" está inactivo porque no se cumplen los requisitos mínimos."
+
+#: includes/hooks.php:268
+msgid "Retry"
+msgstr "Reintentar"
+
+#: includes/hooks.php:248
+msgid "Record has been resubmitted to Odoo."
+msgstr "El registro ha sido reenviado a Odoo."
+
+#. Translators: %1$d = Object ID
+#: includes/hooks.php:226
+msgid "Object successfully created (ID %1$d)."
+msgstr "Objeto creado correctamente (ID %1$d)."
+
+#. Translators: %s = error message
+#: includes/hooks.php:211
+msgid "Error: %s"
+msgstr "Error: %s"
+
+#. Translators: %1$s = Feed ID
+#: includes/hooks.php:194
+msgid "Feed #%1$d"
+msgstr "Feed #%1$d"
+
+#: includes/hooks.php:183 includes/hooks.php:238
+msgid "No data."
+msgstr "Sin datos."
+
+#: includes/hooks.php:147
+msgid "Odoo"
+msgstr "Odoo"
+
+#. translators: %1$s model description, %2$s model id
+#: includes/helpers.php:118
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: includes/helpers.php:38
+msgid "Your license is inactive or invalid."
+msgstr "Tu licencia está inactiva o no es válida."
+
+#: includes/classes/class-plugin-updater.php:610
+msgid "Error"
+msgstr "Error"
+
+#: includes/classes/class-plugin-updater.php:610
+msgid "You do not have permission to install plugin updates"
+msgstr "No tienes permiso para instalar actualizaciones del plugin"
+
+#: includes/classes/class-plugin-updater.php:373
+msgid "Update now."
+msgstr "Actualizar ahora."
+
+#. Translators: %1$s = Opening <a> tag; %2$s = Version ; %3$s = closing </a>
+#. tag ; %4$s = Opening <a> tag; %5$s = Closing </a> tag
+#: includes/classes/class-plugin-updater.php:353
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sVer versión %2$s detalles%3$s o %4$sactualizar ahora%5$s."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin
+#. version 3. closing anchor tag, do not translate.
+#: includes/classes/class-plugin-updater.php:335
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$s Ver versión %2$s detalles %3$s."
+
+#: includes/classes/class-plugin-updater.php:329
+msgid "Contact your network administrator to install the update."
+msgstr "Ponte en contacto con tu administrador de red para instalar la actualización."
+
+#. translators: the plugin name.
+#: includes/classes/class-plugin-updater.php:323
+msgid "There is a new version of %1$s available."
+msgstr "Hay una nueva versión de %1$s disponible."
+
+#. Translators: %1$s = Access token URL; %2$s = Gravity Forms Odoo settings
+#. page URL
+#: includes/classes/class-plugin-updater.php:176
+msgid "To enable updates, please enter your license key on the <a href=\"%1$s\">Add-On Settings page</a>. If you don't have a licence key, please visit <a href=\"%2$s\">the add-on page on WPconnect.co</a>."
+msgstr "Para habilitar las actualizaciones, introduce tu clave de licencia en la <a href=\"%1$s\">página de ajustes del complemento</a>. Si no tienes una clave de licencia, visita <a href=\"%2$s\">la página del complemento en WPconnect.co</a>."
+
+#. translators: %1$s model’s field name, %2$s model’s field type
+#: includes/classes/class-gf-addon.php:814
+msgctxt "model’s field name and type"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: includes/classes/class-gf-addon.php:762
+#: includes/classes/class-gf-addon.php:775
+msgid "Choose a model"
+msgstr "Elegir un modelo"
+
+#: includes/classes/class-gf-addon.php:758
+msgid "Choose a database"
+msgstr "Elegir una base de datos"
+
+#: includes/classes/class-gf-addon.php:712
+msgid "Enable conditional processing"
+msgstr "Activar procesamiento condicional"
+
+#: includes/classes/class-gf-addon.php:711
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: includes/classes/class-gf-addon.php:706
+msgid "Conditional logic"
+msgstr "Lógica condicional"
+
+#: includes/classes/class-gf-addon.php:702
+msgid "Integration with Odoo"
+msgstr "Integración con Odoo"
+
+#: includes/classes/class-gf-addon.php:692
+msgid "Cache successfully emptied."
+msgstr "Caché vaciada correctamente."
+
+#: includes/classes/class-gf-addon.php:689
+msgid "Empty cache"
+msgstr "Vaciar caché"
+
+#: includes/classes/class-gf-addon.php:685
+msgid "This plugin uses a caching system."
+msgstr "Este plugin utiliza un sistema de caché."
+
+#: includes/classes/class-gf-addon.php:681
+msgid "To troubleshoot the issue, please go the entry detail page and check the \"Odoo\" block.<br>It will display any error encountered while creating records."
+msgstr "Para solucionar el problema, ve a la página de detalles del registro y comprueba el bloque \"Odoo\".<br>Mostrará cualquier error encontrado al crear registros."
+
+#: includes/classes/class-gf-addon.php:679
+msgid "Odoo records are not creating?"
+msgstr "¿Los registros de Odoo no se están creando?"
+
+#: includes/classes/class-gf-addon.php:675
+msgid "Add and select the form fields, then choose the Odoo column where to send each piece of data to."
+msgstr "Añade y selecciona los campos del formulario, luego elige la columna de Odoo a la que enviar cada dato."
+
+#: includes/classes/class-gf-addon.php:668
+msgid "Odoo Field Name"
+msgstr "Nombre del campo Odoo"
+
+#: includes/classes/class-gf-addon.php:665
+msgid "Form field"
+msgstr "Campo del formulario"
+
+#: includes/classes/class-gf-addon.php:661
+msgid "Fields Mapping"
+msgstr "Mapeo de campos"
+
+#: includes/classes/class-gf-addon.php:656
+msgid "Please save these settings before mapping your fields."
+msgstr "Por favor, guarda estos ajustes antes de mapear tus campos."
+
+#: includes/classes/class-gf-addon.php:638
+msgid "Enter a feed name to uniquely identify it."
+msgstr "Introduce un nombre de feed para identificarlo de forma única."
+
+#: includes/classes/class-gf-addon.php:613
+msgid "Select the target model from the options below."
+msgstr "Selecciona el modelo de destino de las opciones a continuación."
+
+#: includes/classes/class-gf-addon.php:612
+msgid "Model name"
+msgstr "Nombre del modelo"
+
+#: includes/classes/class-gf-addon.php:597
+msgid "API key missing or invalid"
+msgstr "Clave API faltante o no válida"
+
+#. Translators: %1$s = Gravity Forms Odoo settings page URL
+#: includes/classes/class-gf-addon.php:590
+msgid "Please visit the <a href=\"%1$s\">plugin settings page</a> and enter a valid Odoo API key."
+msgstr "Por favor, visita la <a href=\"%1$s\">página de ajustes del plugin</a> e introduce una clave API de Odoo válida."
+
+#. Translators: %1$s = Opening <a> tag; %2$s = Closing <a> tag
+#: includes/classes/class-gf-addon.php:575
+msgid "You must add an Odoo API Key to your settings before creating a feed. Let's %1$sadd it%2$s!"
+msgstr "¡Debes añadir una clave API de Odoo en tus ajustes antes de crear un feed. ¡Vamos a %1$sañadirla%2$s!"
+
+#: includes/classes/class-gf-addon.php:483
+msgid "Condition(s)"
+msgstr "Condición(es)"
+
+#: includes/classes/class-gf-addon.php:482
+msgid "Odoo Model"
+msgstr "Modelo Odoo"
+
+#: includes/classes/class-gf-addon.php:481
+#: includes/classes/class-gf-addon.php:634
+msgid "Feed Name"
+msgstr "Nombre del feed"
+
+#: includes/classes/class-gf-addon.php:434
+msgid "No API key provided. Please enter an API key."
+msgstr "No se ha proporcionado ninguna clave API. Por favor, introduce una clave API."
+
+#. Translators: %d = User id
+#: includes/classes/class-gf-addon.php:387
+msgid "Authentication is successful (User id: %d)."
+msgstr "Autenticación correcta (ID de usuario: %d)."
+
+#: includes/classes/class-gf-addon.php:379
+msgid "Odoo credentials are invalid."
+msgstr "Las credenciales de Odoo no son válidas."
+
+#: includes/classes/class-gf-addon.php:371
+msgid "One or more required fields to test the authentification are missing."
+msgstr "Faltan uno o más campos obligatorios para probar la autenticación."
+
+#: includes/classes/class-gf-addon.php:343
+msgid "License de-activated."
+msgstr "Licencia desactivada."
+
+#: includes/classes/class-gf-addon.php:339
+msgid "License successfully activated."
+msgstr "¡Licencia activada correctamente."
+
+#: includes/classes/class-gf-addon.php:327
+msgid "De-activate"
+msgstr "Desactivar"
+
+#: includes/classes/class-gf-addon.php:323
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/classes/class-gf-addon.php:317
+msgid "License Key"
+msgstr "Clave de licencia"
+
+#: includes/classes/class-gf-addon.php:266
+msgid "Authentification test"
+msgstr "Prueba de autenticación"
+
+#: includes/classes/class-gf-addon.php:260
+msgid "Odoo User’s Email"
+msgstr "Correo electrónico del usuario Odoo"
+
+#: includes/classes/class-gf-addon.php:259
+msgid "The user’s email linked to the Api key."
+msgstr "El correo electrónico del usuario vinculado a la clave API."
+
+#: includes/classes/class-gf-addon.php:252
+msgid "Odoo API key"
+msgstr "Clave API de Odoo"
+
+#: includes/classes/class-gf-addon.php:251
+msgid "API key inherits user rights, so choose a user with enough permissions to update the model you will use."
+msgstr "La clave API hereda los derechos del usuario, así que elige un usuario con permisos suficientes para actualizar el modelo que usarás."
+
+#: includes/classes/class-gf-addon.php:250
+msgid "Visit the Account Security section in your Odoo \"My Preferences\" page to generate an API key."
+msgstr "Visita la sección Seguridad de la cuenta en tu página \"Mis preferencias\" de Odoo para generar una clave API."
+
+#: includes/classes/class-gf-addon.php:244
+msgid "Odoo Database"
+msgstr "Base de datos Odoo"
+
+#: includes/classes/class-gf-addon.php:243
+msgid "The database name where your form data will be saved."
+msgstr "El nombre de la base de datos donde se guardarán los datos del formulario."
+
+#: includes/classes/class-gf-addon.php:242
+msgid "Visit https://www.odoo.com/my/databases to find out the database name."
+msgstr "Visita https://www.odoo.com/my/databases para conocer el nombre de la base de datos."
+
+#: includes/classes/class-gf-addon.php:235
+msgid "Odoo Port"
+msgstr "Puerto Odoo"
+
+#: includes/classes/class-gf-addon.php:234
+msgid "80 is the default port for odoo.com"
+msgstr "80 es el puerto por defecto para odoo.com"
+
+#: includes/classes/class-gf-addon.php:228
+msgid "Odoo Host"
+msgstr "Host Odoo"
+
+#: includes/classes/class-gf-addon.php:227
+msgid "e.g my-database.odoo.com"
+msgstr "p.ej. mi-base-de-datos.odoo.com"
+
+#: includes/classes/class-gf-addon.php:222
+msgid "License Activation"
+msgstr "Activación de licencia"
+
+#: includes/classes/class-gf-addon.php:218
+msgid "Odoo Add-On Settings"
+msgstr "Ajustes del complemento Odoo"
+
+#. Translators: %1$s = Gravity Forms Odoo settings page URL
+#: includes/classes/class-gf-addon.php:157
+msgid "<strong>Gravity Forms Odoo Add-On:</strong> No API key provided. Please enter an API key."
+msgstr "<strong>Gravity Forms Odoo Add-On:</strong> No se ha proporcionado ninguna clave API. Por favor, introduce una clave API."
+
+#: includes/classes/class-api-licensing.php:187
+#: includes/classes/class-api-licensing.php:195
+#: includes/classes/class-api-licensing.php:251
+msgid "An error occurred, please try again."
+msgstr "Ha ocurrido un error, por favor inténtalo de nuevo."
+
+#: includes/classes/class-api-licensing.php:184
+msgid "Your license key has reached its activation limit."
+msgstr "Tu clave de licencia ha alcanzado su límite de activaciones."
+
+#: includes/classes/class-api-licensing.php:181
+msgid "Your license is not active for this URL."
+msgstr "Tu licencia no está activa para esta URL."
+
+#: includes/classes/class-api-licensing.php:177
+msgid "Invalid license."
+msgstr "Licencia no válida."
+
+#: includes/classes/class-api-licensing.php:174
+msgid "Your license key has been disabled."
+msgstr "Tu clave de licencia ha sido deshabilitada."
+
+#. translators: the license key expiration date
+#: includes/classes/class-api-licensing.php:168
+msgid "Your license key expired on %s."
+msgstr "Tu clave de licencia expiró el %s."
+
+#. translators: the HTTP response code
+#: includes/classes/class-api-licensing.php:149
+#: includes/classes/class-api-licensing.php:234
+msgid "WP connect server returned an HTTP error, code: %s"
+msgstr "El servidor WP connect ha devuelto un error HTTP, código: %s"
+
+#. Author URI of the plugin
+#: wpconnect-gf-odoo.php
+msgid "https://wpconnect.co"
+msgstr "https://wpconnect.co"
+
+#. Author of the plugin
+#: wpconnect-gf-odoo.php
+msgid "WP connect"
+msgstr "WP connect"
+
+#. Description of the plugin
+#: wpconnect-gf-odoo.php
+msgid "Connect Gravity Forms to Odoo, linking form fields to your Odoo modules. Automatically add form data to selected fields upon submission."
+msgstr "Conecta Gravity Forms con Odoo, vinculando los campos del formulario a tus módulos de Odoo. Añade automáticamente los datos del formulario a los campos seleccionados al enviar."
+
+#. Plugin URI of the plugin
+#: wpconnect-gf-odoo.php
+msgid "https://wpconnect.co/gravity-forms-odoo-add-on/"
+msgstr "https://wpconnect.co/gravity-forms-odoo-add-on/"
+
+#. Plugin Name of the plugin
+#: wpconnect-gf-odoo.php
+msgid "Gravity Forms Odoo Add-On"
+msgstr "Gravity Forms Odoo Add-On"
